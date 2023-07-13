@@ -1,0 +1,29 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .servicios.animate {
+    animation: fadeInUp 2s;
+  }
+  @media (max-width: 1024px) {
+    .servicios .MuiTypography-h2 {
+      font-size: 36px !important;
+    }
+  
+    .servicios .MuiGrid-spacing-xs-4 > .MuiGrid-item {
+      padding: 8px !important;
+    }
+  
+    .servicios .MuiGrid-container {
+      padding: 8px !important;
+    }
+  }
+  
