@@ -1,6 +1,6 @@
-import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
+import { Box, Card, CardContent, CardMedia,  Grid, Typography } from "@mui/material";
 import React, { useEffect, useRef } from "react";
-import "./About.css";
+
 
 function About() {
   const leftCardRef = useRef(null);

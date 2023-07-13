@@ -1,17 +1,24 @@
 
+
 import About from './Body/About';
-import LegalResources from './Body/LegalResources';
-import Ubicanos from './Body/Ubicanos';
+import ButtonDial from './Body/ButtonDial';
+import Servicios from './Body/Servicios';
+import Ubicanos from './Body/Ubicanos'
+import Contactanos from './Body/Contactanos';
+import Introduccion from './Body/Introduccion';
+import Consulta from './Body/Consulta';
+
 
 
 function App() {
   
   return (
     <div >
-     
-     <About/>
-     <LegalResources/>
-     <Ubicanos/>
+          <Servicios/>
+          <Ubicanos/>
+          <Contactanos/>
+    <Introduccion/>
+  <Consulta/>
     </div>
   );
 }
