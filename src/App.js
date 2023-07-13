@@ -6,7 +6,8 @@ import Servicios from './Body/Servicios';
 import Ubicanos from './Body/Ubicanos'
 import Contactanos from './Body/Contactanos';
 import Introduccion from './Body/Introduccion';
-import Consulta from './Body/Consulta';
+import ComponenteConsulta from './Body/Consulta'
+import LegalResources from './Body/RecursosLegales';
 
 
 
@@ -14,11 +15,9 @@ function App() {
   
   return (
     <div >
-          <Servicios/>
-          <Ubicanos/>
-          <Contactanos/>
-    <Introduccion/>
-  <Consulta/>
+ 
+  <ComponenteConsulta/>
+
     </div>
   );
 }
