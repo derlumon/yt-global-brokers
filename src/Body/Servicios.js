@@ -7,11 +7,11 @@ export default function Servicios() {
 
   return (
     <div  className="servicios" align="center" >
-      <Typography variant="h2" sx={{ fontSize: { xs: "24px", sm: "32px", md: "48px" } ,py:"40px"}}>
-        <b> Our Practive Area</b>
+      <Typography variant="h2" sx={{ fontSize: { xs: "24px", sm: "32px", md: "48px" } ,py:{xs:"7%",md:"3%"},fontWeight:600}}>
+        Areas Practica
       </Typography>
 
-      <Grid container spacing={{ xs: 4, md: -35 }} sx={{ padding: "12px", ml:{xs:"-15px"} }}>
+      <Grid container sx={{paddingX:{xs:"5%",md:"10%"},paddingY:"5%"}}>
         <Grid item xs={12} sm={6} md={4}>
           <Button
             icon={<Languageicon />}

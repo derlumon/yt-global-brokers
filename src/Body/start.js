@@ -8,6 +8,10 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from "@mui/material/styles";
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
+
 
 let theme = createTheme({
   palette: {
@@ -22,6 +26,8 @@ let theme = createTheme({
 theme = responsiveFontSizes(theme);
 
 const Start = () => {
+  const { currentLanguage } = useContext(LanguageContext);
+
   return (
     <ThemeProvider theme={theme}>
       <div className="image-overlay-container">
@@ -42,7 +48,7 @@ const Start = () => {
               color={"white"}
               fontWeight={700}
             >
-              OPCIONES LEGALES EN MEXICO
+              {languages[currentLanguage].hero.titleHero}
             </Typography>
             <Typography
               variant="h5"
@@ -51,10 +57,7 @@ const Start = () => {
               fontWeight={500}
               paddingBottom="1.5rem"
             >
-              A lo largo de los años, hemos adquirido la experiencia necesaria
-              para que este proceso sea lo más sencillo posible. Estableceremos
-              sus objetivos y ajustaremos las expectativas. Contáctenos si tiene
-              alguna duda.
+              {languages[currentLanguage].hero.subtitleHero}
             </Typography>
             <Button
               size="large"
@@ -62,7 +65,7 @@ const Start = () => {
               variant="outlined"
               sx={{ fontWeight: 600, borderWidth: "2.5px" }}
             >
-              CONTACTANOS
+              {languages[currentLanguage].navbar.contactUs}
             </Button>
           </Box>
         </Box>

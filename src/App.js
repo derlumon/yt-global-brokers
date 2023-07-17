@@ -5,26 +5,30 @@ import Navbar from "./Body/navbar";
 import Start from "./Body/start";
 import { responsiveFontSizes } from "@mui/material";
 
-
-import About from './Body/About';
-import ButtonDial from './Body/ButtonDial';
-import Servicios from './Body/Servicios';
-import Ubicanos from './Body/Ubicanos'
-import Contactanos from './Body/Contactanos';
-import Introduccion from './Body/Introduccion';
-import ComponenteConsulta from './Body/Consulta'
-import LegalResources from './Body/RecursosLegales';
-
-
+import ButtonDial from "./Body/ButtonDial";
+import Servicios from "./Body/Servicios";
+import Ubicanos from "./Body/Ubicanos";
+import Contactanos from "./Body/Contactanos";
+import Introduccion from "./Body/Introduccion";
+import ComponenteConsulta from "./Body/Consulta";
+import LegalResources from "./Body/RecursosLegales";
+import Footer from "./Body/Footer";
+import { LanguageProvider } from "./Context/LanguageContext";
 
 function App() {
-  
   return (
-    <ThemeProvider theme={theme}>
-       <Navbar position="static"/>
-       <Start position="absolute"/>
-       <ComponenteConsulta/>
-    </ThemeProvider>
+    <LanguageProvider>
+      <ThemeProvider theme={theme}>
+        <Navbar position="static" />
+        <Start position="absolute" />
+        <Introduccion />
+        <ButtonDial />
+        <Servicios />
+        <Contactanos />
+        <Ubicanos />
+        <Footer />
+      </ThemeProvider>
+    </LanguageProvider>
   );
 }
 

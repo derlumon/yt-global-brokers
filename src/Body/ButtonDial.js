@@ -18,11 +18,12 @@ const actions = [
 export default function ButtonDial() {
   return (
     <div style={{ position: 'fixed', bottom: 16, right: 16 }}>
-      <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}>
+      <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1 }}  >
         <SpeedDial
           ariaLabel="SpeedDial openIcon example"
           FabProps={{ style: { backgroundColor: 'green' } }}
           icon={<MessageIcon />}
+          sx={{ position: 'absolute', bottom: 16, right: 16 }}
         >
           {actions.map((action) => (
             <SpeedDialAction

@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import { Box, Button, Menu, MenuItem } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 
 const DropdownMenu = () => {
+  const { currentLanguage } = useContext(LanguageContext);
+ 
   const [anchorEl, setAnchorEl] = useState(null);
 
   const handleOpenMenu = (event) => {
@@ -30,7 +34,7 @@ const DropdownMenu = () => {
         onMouseEnter={handleOpenMenu}
         color="inherit"
       >
-        Abrir Menú
+        {languages[currentLanguage].navbar.practiceArea}
       </Button>
 
       <Menu

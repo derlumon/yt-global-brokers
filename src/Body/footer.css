@@ -1,0 +1,38 @@
+.app-footer-container {
+    font-family: "Rubik";
+    background-color: #1B2432;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    color: gray;
+  }
