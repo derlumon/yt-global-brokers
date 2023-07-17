@@ -1,51 +1,125 @@
-import React from 'react';
-import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
-import './ComponenteConsulta.css';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import ButtonBase from '@mui/material/ButtonBase';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
 
-const ComponenteConsulta = () => {
+const images = [
+  {
+    url: 'https://www.gruporedes.com.mx/wp-content/uploads/2018/07/4-abogado.jpg',
+    title: 'Consultation for Legal Entities Formation in China',
+    width: '30%',
+  },
+  {
+    url: 'https://img.freepik.com/fotos-premium/despacho-juridico-abogados-procuradora_488220-37719.jpg',
+    title: 'Legal Consultation for International Trade Issues',
+    width: '30%',
+  },
+  {
+    url: 'https://cdn.forbes.com.mx/2019/07/Abogados-640x360.jpg',
+    title: 'Legal Consultation for International Trade Issues',
+    width: '30%',
+  },
+];
+
+const ImageButton = styled(ButtonBase)(({ theme }) => ({
+  position: 'relative',
+  height: 200,
+  [theme.breakpoints.down('sm')]: {
+    width: '100% !important',
+    height: 150,
+    maxWidth: '100%',
+  },
+  '&:hover, &.Mui-focusVisible': {
+    zIndex: 1,
+    '& .MuiImageBackdrop-root': {
+      opacity: 0.15,
+    },
+    '& .MuiImageMarked-root': {
+      opacity: 0,
+    },
+    '& .MuiTypography-root': {
+      border: '2px solid currentColor',
+    },
+  },
+}));
+
+const ImageSrc = styled('span')({
+  position: 'absolute',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center 40%',
+});
+
+const Image = styled('span')(({ theme }) => ({
+  position: 'absolute',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  color: theme.palette.common.white,
+}));
+
+const ImageBackdrop = styled('span')(({ theme }) => ({
+  position: 'absolute',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  backgroundColor: theme.palette.common.black,
+  opacity: 0.4,
+  transition: theme.transitions.create('opacity'),
+}));
+
+const ImageMarked = styled('span')(({ theme }) => ({
+  height: 3,
+  width: 18,
+  backgroundColor: theme.palette.common.white,
+  position: 'absolute',
+  bottom: -2,
+  left: 'calc(50% - 9px)',
+  transition: theme.transitions.create('opacity'),
+}));
+
+export default function ButtonBaseDemo() {
   return (
-    <Box className="componente-consulta">
-      <div className="columna animate">
-        <img
-          src="https://static.wixstatic.com/media/72c81fa1cf5c343bb7b80ea53eac2eb9.jpg/v1/fill/w_461,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/72c81fa1cf5c343bb7b80ea53eac2eb9.jpg"
-          alt="Imagen izquierda arriba"
-          className="imagen"
-        />
-        <Card className="card" style={{ backgroundColor: '#343434' }}>
-          <CardContent>
-            <Typography variant="h4" className="card-title" style={{ margin: '15px' }}>
-              Consultation for Legal Entities Formation in China
-            </Typography>
-            <Typography variant="body1" className="card-contact-us" style={{ marginTop: '60px', marginLeft: '15px' }}>
-              Contact Us
-            </Typography>
-          </CardContent>
-        </Card>
-      </div>
-      <div className="columna animate">
-        <Card className="card" style={{ backgroundColor: '#535353' }}>
-          <CardContent>
-            <Typography variant="h4" className="card-title" style={{ margin: '15px' }}>
-              Legal Consultation for International Trade Issues
-            </Typography>
-            <Typography variant="body1" className="card-contact-us" style={{ marginTop: '90px', marginLeft: '15px' }}>
-              Contact Us
-            </Typography>
-          </CardContent>
-        </Card>
-        <img
-          src="https://static.wixstatic.com/media/28d63b431eff4c7b82da1b3913cab749.jpg/v1/fill/w_461,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/28d63b431eff4c7b82da1b3913cab749.jpg"
-          alt="Imagen derecha abajo"
-          className="imagen"
-        />
-      </div>
-      <img
-        src="https://static.wixstatic.com/media/b4ab2e3cb4704a6b8d16f28e49bd2b01.jpg/v1/fill/w_722,h_440,fp_0.36_0.33,q_80,usm_0.66_1.00_0.01,enc_auto/b4ab2e3cb4704a6b8d16f28e49bd2b01.jpg"
-        alt="Imagen derecha"
-        className="imagen-ocultar-en-tablet"
-      />
-    </Box>
+    <Grid container justifyContent="center" alignItems="center " >
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
+        {images.map((image) => (
+          <ImageButton
+            focusRipple
+            key={image.title}
+            style={{
+              width: image.width,
+            }}
+          >
+            <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
+            <ImageBackdrop className="MuiImageBackdrop-root" />
+            <Image>
+              <Typography
+                component="span"
+                variant="subtitle1"
+                color="inherit"
+                sx={{
+                  position: 'relative',
+                  p: 4,
+                  pt: 2,
+                  pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                }}
+              >
+                {image.title}
+                <ImageMarked className="MuiImageMarked-root" />
+              </Typography>
+            </Image>
+          </ImageButton>
+        ))}
+      </Box>
+    </Grid>
   );
-};
-
-export default ComponenteConsulta;
+}
