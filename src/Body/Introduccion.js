@@ -31,12 +31,12 @@ export default function Introduccion() {
       >
         Despacho contable, jurídico y administrativo
       </Typography>
-      <Grid container spacing={16}>
+      <Grid container spacing={8}>
         <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
           <Typography
             variant="h5"
             align="justify"
-            fontFamjustifyily={"Rubik"}
+            fontFamily={"Rubik"}
           >
             Proporcionamos servicios profesionales en administración, auditorias, derecho fiscal, laboral, contabilidad para personas físicas o morales  a clientes en la Republica mexicana desde 2010. Somos un despacho contable, legal fiscal, que en base a la investigación y la planeación estratégica damos soluciones satisfactorias. 
           </Typography>

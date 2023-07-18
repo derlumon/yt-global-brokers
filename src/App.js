@@ -29,6 +29,7 @@ function App() {
           <Contactanos/>
           <Ubicanos/>
           <ButtonDial/>
+          <Footer/>
         </Box>
         
 
