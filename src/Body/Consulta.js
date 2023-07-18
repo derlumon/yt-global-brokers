@@ -7,18 +7,18 @@ import Grid from '@mui/material/Grid';
 const images = [
   {
     url: 'https://www.gruporedes.com.mx/wp-content/uploads/2018/07/4-abogado.jpg',
-    title: 'Consultation for Legal Entities Formation in China',
-    width: '30%',
+    title: 'Opciones Legales en Mexico',
+    width: '33.33%',
   },
   {
     url: 'https://img.freepik.com/fotos-premium/despacho-juridico-abogados-procuradora_488220-37719.jpg',
-    title: 'Legal Consultation for International Trade Issues',
-    width: '30%',
+    title: 'Opciones Contables en Mexico',
+    width: '33.33%',
   },
   {
     url: 'https://cdn.forbes.com.mx/2019/07/Abogados-640x360.jpg',
-    title: 'Legal Consultation for International Trade Issues',
-    width: '30%',
+    title: 'Opciones Admnistracion Inmobiliaria en Mexico',
+    width: '33.33%',
   },
 ];
 
@@ -78,19 +78,16 @@ const ImageBackdrop = styled('span')(({ theme }) => ({
 }));
 
 const ImageMarked = styled('span')(({ theme }) => ({
-  height: 3,
-  width: 18,
+  
   backgroundColor: theme.palette.common.white,
-  position: 'absolute',
-  bottom: -2,
-  left: 'calc(50% - 9px)',
+
   transition: theme.transitions.create('opacity'),
 }));
 
 export default function ButtonBaseDemo() {
   return (
-    <Grid container justifyContent="center" alignItems="center " >
-      <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
+    <Box display={"flex"} justifyContent="center" alignItems="center " sx={{width:"100%"}}>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', width: '100%' ,alignItems:"center",justifyContent:"center"}}>
         {images.map((image) => (
           <ImageButton
             focusRipple
@@ -108,8 +105,7 @@ export default function ButtonBaseDemo() {
                 color="inherit"
                 sx={{
                   position: 'relative',
-                  p: 4,
-                  pt: 2,
+                  paddingX: "1rem",
                   pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
                 }}
               >
@@ -120,6 +116,6 @@ export default function ButtonBaseDemo() {
           </ImageButton>
         ))}
       </Box>
-    </Grid>
+    </Box>
   );
 }

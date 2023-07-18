@@ -12,7 +12,7 @@
 
 .image-overlay-container {
     position: relative;
-    width: 100vw;
+    width: 'fullWidth';
     height: 100vh;
   }
   

@@ -7,8 +7,8 @@ export default function Servicios() {
 
   return (
     <div  className="servicios" align="center" >
-      <Typography variant="h2" sx={{ fontSize: { xs: "24px", sm: "32px", md: "48px" } ,py:{xs:"7%",md:"3%"},fontWeight:600}}>
-        Areas Practica
+      <Typography variant="h2" sx={{ fontSize: { xs: "24px", sm: "32px", md: "48px" } ,paddingTop:"5%",fontWeight:500}} fontFamily={"Rubik"}>
+        Areas De Practica
       </Typography>
 
       <Grid container sx={{paddingX:{xs:"5%",md:"10%"},paddingY:"5%"}}>

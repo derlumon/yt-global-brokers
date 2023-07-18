@@ -31,9 +31,9 @@ const Start = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="image-overlay-container">
-        <img className="background-image" src={Fondo} alt="Image 1" />
-        <img className="foreground-image" src={Logo1} alt="Image 2" />
         <Box sx={{ width: "100%", height: "100%" }} position="relative">
+          <img className="background-image" src={Fondo} alt="Image 1" />
+          <img className="foreground-image" src={Logo1} alt="Image 2" />
           <Box
             sx={{
               top: "35%",

@@ -20,11 +20,11 @@ export default function Ubicanos() {
           allowFullScreen
         ></iframe>
         <Typography
-        variant="h3"
+        variant="h4"
         style={{ color: "#000000" }}
         sx={{
           marginTop:"1.5rem",
-          fontSize: { xs: "1.5rem", sm: "2rem", md: "2.5rem" },
+          fontSize: { xs: "1rem", sm: "1.5rem", md: "2rem" },
         }}
       >
         Plaza Carso, Lago Zurich 219 piso 12, Ampliación Granada, Miguel

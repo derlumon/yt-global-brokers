@@ -51,7 +51,7 @@ const ContactForm = () => {
       </Box>
       <Box sx={{paddingX:{xs:"5%",md:"10%"},paddingY:"5%"}}>
         <Typography variant="h4" align="center" gutterBottom>
-          Contact Us
+          Contactanos
         </Typography>
 
         <form onSubmit={handleSubmit}>
@@ -118,7 +118,7 @@ const ContactForm = () => {
             >
               {/* Placeholder Grid item to occupy the space on larger screens */}
             </Grid>
-            <Grid item xs={12} position={"initial"}>
+            <Grid item xs={12} >
               <Button
                 type="submit"
                 variant="contained"
