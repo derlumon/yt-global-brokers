@@ -8,6 +8,7 @@ import Contactanos from './Body/Contactanos';
 import Introduccion from './Body/Introduccion';
 import ComponenteConsulta from './Body/Consulta'
 import LegalResources from './Body/RecursosLegales';
+import Footer from './Body/Footer/footer';
 
 
 
@@ -16,7 +17,9 @@ function App() {
   return (
     <div >
  
-  <ComponenteConsulta/>
+ 
+  <Footer/>
+  <ButtonDial/>
 
     </div>
   );
