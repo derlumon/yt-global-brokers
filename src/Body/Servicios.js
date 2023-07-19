@@ -14,7 +14,7 @@ export default function Servicios() {
         Areas De Practica
       </Typography>
 
-      <Grid container sx={{paddingX:{xs:"5%",md:"10%"},paddingY:"5%"}}>
+      <Grid container sx={{paddingX:{xs:"5%",sm:"5%",md:"10%"},paddingY:"5%"}}>
         <Grid item xs={12} sm={6} md={4}>
           <Button
             icon={<PiPenThin />}
