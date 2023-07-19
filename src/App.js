@@ -14,6 +14,7 @@ import LegalResources from "./Body/RecursosLegales";
 import Footer from "./Body/Footer";
 import { LanguageProvider } from "./Context/LanguageContext";
 import ButtonBaseDemo from "./Body/Consulta";
+import AboutUs from "./Body/aboutUs/aboutUs"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Navbar position="static" />
         <Start position="absolute" />
         <Box width={"100%"}>
+      
           <Introduccion/>
           <ButtonBaseDemo/>
           <Servicios/>

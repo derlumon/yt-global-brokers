@@ -5,7 +5,7 @@ import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 
-const DropdownMenu = () => {
+const DropdownMenu = (props) => {
   const { currentLanguage } = useContext(LanguageContext);
  
   const [anchorEl, setAnchorEl] = useState(null);
@@ -29,10 +29,11 @@ const DropdownMenu = () => {
       display={"flex"}
     >
       <Button
-        sx={{ fontSize: ".8rem" }}
+        sx={{ fontSize: props.size ,paddingLeft:0}}
         endIcon={<KeyboardArrowDownIcon />}
         onMouseEnter={handleOpenMenu}
         color="inherit"
+        
       >
         {languages[currentLanguage].navbar.practiceArea}
       </Button>

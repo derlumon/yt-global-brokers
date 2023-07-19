@@ -9,7 +9,7 @@ import WeChatIcon from '@mui/icons-material/Chat';
 import CallIcon from '@mui/icons-material/Call';
 
 const actions = [
-  { icon: <WeChatIcon />, name: 'WeChat', link: '/wechat' },
+  { icon: <WeChatIcon />, name: 'WeChat', link: 'https://u.wechat.com/MEGrx3B1puu_dHtFWvYfb8Y=wc' },
   { icon: <EmailIcon />, name: 'Email', link: 'mailto:contacto@yt-global-brokers.com' }, // Agrega la acción de correo electrónico con la dirección de correo deseada
   { icon: <CallIcon />, name: 'Telefono', link: 'tel:+5255641240055' },
   { icon: <WhatsAppIcon />, name: 'WhatsApp', link: 'https://api.whatsapp.com/send?phone=+525569857670&text=Hola%2C+Buenas+Tardes' },

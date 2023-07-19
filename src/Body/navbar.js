@@ -50,6 +50,7 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
   },
 }));
 
+
 const Navbar = () => {
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
 
