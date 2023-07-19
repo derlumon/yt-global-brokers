@@ -1,8 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Grid, Typography } from "@mui/material";
 import { Language as Languageicon } from "@mui/icons-material";
 import Button from "./Button";
+import  {GoLaw } from "react-icons/go";
+import { FiDollarSign, FiHome } from "react-icons/fi";
 import './servicios.css'
+import { PiBooksThin, PiChartLineUpThin,PiWarehouseThin,PiScalesThin, PiStorefrontThin,PiPenThin } from "react-icons/pi";
 export default function Servicios() {
 
   return (
@@ -14,7 +17,7 @@ export default function Servicios() {
       <Grid container sx={{paddingX:{xs:"5%",md:"10%"},paddingY:"5%"}}>
         <Grid item xs={12} sm={6} md={4}>
           <Button
-            icon={<Languageicon />}
+            icon={<PiPenThin />}
             title="Contract Drafting & Review"
             lista1="Sales & Purchase Agreement (SPA)"
             lista2="Non-Disclosure Agreement (NDA)"
@@ -24,7 +27,7 @@ export default function Servicios() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Button
-            icon={<Languageicon />}
+            icon={<PiScalesThin />}
             title="Contract Drafting & Review"
             lista1="Sales & Purchase Agreement (SPA)"
             lista2="Non-Disclosure Agreement (NDA)"
@@ -34,7 +37,7 @@ export default function Servicios() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Button
-            icon={<Languageicon />}
+            icon={<PiChartLineUpThin />}
             title="Contract Drafting & Review"
             lista1="Sales & Purchase Agreement (SPA)"
             lista2="Non-Disclosure Agreement (NDA)"
@@ -44,7 +47,7 @@ export default function Servicios() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Button
-            icon={<Languageicon />}
+            icon={<PiBooksThin />}
             title="Contract Drafting & Review"
             lista1="Sales & Purchase Agreement (SPA)"
             lista2="Non-Disclosure Agreement (NDA)"
@@ -54,7 +57,7 @@ export default function Servicios() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Button
-            icon={<Languageicon />}
+            icon={< PiWarehouseThin />}
             title="Contract Drafting & Review"
             lista1="Sales & Purchase Agreement (SPA)"
             lista2="Non-Disclosure Agreement (NDA)"
@@ -64,7 +67,7 @@ export default function Servicios() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Button
-            icon={<Languageicon />}
+            icon={<PiStorefrontThin />}
             title="Contract Drafting & Review"
             lista1="Sales & Purchase Agreement (SPA)"
             lista2="Non-Disclosure Agreement (NDA)"

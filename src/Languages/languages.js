@@ -16,6 +16,13 @@ export const languages = {
       titleHero: "LEGAL OPTIONS IN MEXICO",
       subtitleHero: "Over the years, we have gained the experience necessary to make this process as easy as possible. We will set your goals and adjust expectations. Contact us if you have any questions.",
     },
+    practiceArea:{
+      legal_options:"Legal Options",
+      Real_Estate_Administrative_Options:"Real Estate Administrative Options",
+      accounting_options :"accounting options",
+
+    },
+    
   },
   es: {
     lenguage:{
