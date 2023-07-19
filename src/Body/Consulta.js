@@ -11,12 +11,12 @@ const images = [
     width: '33.33%',
   },
   {
-    url: 'https://img.freepik.com/fotos-premium/despacho-juridico-abogados-procuradora_488220-37719.jpg',
+    url: 'https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_640.jpg',
     title: 'Opciones Contables en Mexico',
     width: '33.33%',
   },
   {
-    url: 'https://cdn.forbes.com.mx/2019/07/Abogados-640x360.jpg',
+    url: 'https://www.activa.cl/wp-content/uploads/2020/11/Administracion-de-propiedades.jpg',
     title: 'Opciones Admnistracion Inmobiliaria en Mexico',
     width: '33.33%',
   },
