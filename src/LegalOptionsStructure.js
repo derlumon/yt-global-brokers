@@ -9,6 +9,9 @@ import {
   PiIdentificationCardThin,
   PiUsersThin,
   PiHandshakeThin,
+  PiCurrencyCircleDollarThin,
+  PiGearSixThin,
+  PiNotebookThin
 } from "react-icons/pi";
 import Servicios from "./Body/Servicios";
 import Contactanos from "./Body/Contactanos";
@@ -18,9 +21,8 @@ import Fondo1 from "./img/Hero8.png";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
-import {LiaFileInvoiceDollarSolid,} from "react-icons/lia";
-import { CiSun,CiCoins1 } from "react-icons/ci";
-import { TfiWrite } from "react-icons/tfi";
+import { CiCoins1 } from "react-icons/ci";
+
 
 function LegalOptionsEstructure() {
   const { currentLanguage } = useContext(LanguageContext);
@@ -45,7 +47,7 @@ function LegalOptionsEstructure() {
     
     },
     {
-      icon: <CiSun />,
+      icon: <PiGearSixThin />,
       title: languages[currentLanguage].legalOptionStructure.ButtonTitle4,
     
     },
@@ -55,7 +57,7 @@ function LegalOptionsEstructure() {
     
     },
     {
-      icon: <LiaFileInvoiceDollarSolid />,
+      icon: <PiCurrencyCircleDollarThin />,
       title: languages[currentLanguage].legalOptionStructure.ButtonTitle6,
     
     },
@@ -120,7 +122,7 @@ function LegalOptionsEstructure() {
         ],
       },
       {
-        icon: <TfiWrite />,
+        icon: <PiNotebookThin />,
         title: languages[currentLanguage].legalOptionStructure.ButtonTitle13,
         lists: [
           "Sales & Purchase Agreement (SPA)",
