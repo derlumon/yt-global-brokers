@@ -3,7 +3,7 @@ import { Grid, Typography } from "@mui/material";
 import Button from "./Button";
 import "./servicios.css";
 
-export default function Servicios({ buttons }) {
+export default function Servicios({ buttons, title }) {
   return (
     <div className="servicios" align="center">
       <Typography
@@ -15,7 +15,7 @@ export default function Servicios({ buttons }) {
         }}
         fontFamily={"Rubik"}
       >
-        Areas De Practica
+        {title}
       </Typography>
 
       <Grid container sx={{ paddingX: { xs: "5%", md: "10%" }, paddingY: "5%" }}>

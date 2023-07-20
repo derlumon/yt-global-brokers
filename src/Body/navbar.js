@@ -17,6 +17,7 @@ import Avatar from "@mui/material/Avatar";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { languages } from "../Languages/languages";
+import { Link } from "react-router-dom";
 
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
   transition: theme.transitions.create(
@@ -37,9 +38,9 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
     elevation: 1,
   },
 
-  fontFamily: "Rubik",
+  fontFamily: "Sweet Sans Pro",
   Button: {
-    fontFamily: "Rubik",
+    fontFamily: "Sweet Sans Pro",
     fontSize: ".8rem",
     color: "inherit",
   },
@@ -47,9 +48,15 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
     MenuItem: {
       fontWeight: 500,
     },
+    Link: {
+      Button: {
+        fontFamily: "Sweet Sans Pro",
+        fontSize: ".8rem",
+        color: "inherit",
+      },
+    },
   },
 }));
-
 
 const Navbar = () => {
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
@@ -57,7 +64,7 @@ const Navbar = () => {
   const [isTransparent, setIsTransparent] = useState(true);
   const [logo, setLogo] = useState(Logo1);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const [lenguage,setLenguage]=useState(mexico);
+  const [lenguage, setLenguage] = useState(mexico);
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -132,11 +139,43 @@ const Navbar = () => {
                 gap: ".5rem",
               }}
             >
-              <Button>{languages[currentLanguage].navbar.home}</Button>
-              <Button>{languages[currentLanguage].navbar.aboutUs}</Button>
-              <DropdownMenu />
-              <Button>{languages[currentLanguage].navbar.contactUs}</Button>
-              <Button>{languages[currentLanguage].navbar.legalResources}</Button>
+              <Button
+                component={Link}
+                to="/"
+                sx={{
+                  fontFamily: "Sweet Sans Pro",
+                  fontSize: ".8rem",
+                  color: "inherit",
+                }}
+              >
+                {languages[currentLanguage].navbar.home}
+              </Button>
+              <Button
+                sx={{
+                  fontFamily: "Sweet Sans Pro",
+                  fontSize: ".8rem",
+                  color: "inherit",
+                }}
+                component={Link}
+                to="/about"
+              >
+                {languages[currentLanguage].navbar.aboutUs}
+              </Button>
+              <DropdownMenu size=".8rem"/>
+              <Button
+                sx={{
+                  fontFamily: "Sweet Sans Pro",
+                  fontSize: ".8rem",
+                  color: "inherit",
+                }}
+                component={Link}
+                to="/contact"
+              >
+                {languages[currentLanguage].navbar.contactUs}
+              </Button>
+              <Button >
+                {languages[currentLanguage].navbar.legalResources}
+              </Button>
               <Box>
                 <Tooltip title="Open settings">
                   <IconButton onClick={handleOpenUserMenu}>
@@ -159,34 +198,46 @@ const Navbar = () => {
                   open={Boolean(anchorElUser)}
                   onClose={handleCloseUserMenu}
                 >
-                  <MenuItem onClick={()=>{handleCloseUserMenu(); setLenguage(china); handleLanguageChange('chi')}}>
-                    <IconButton
-                      sx={{ padding: "0", paddingRight:"20px" }}
-                    >
+                  <MenuItem
+                    onClick={() => {
+                      handleCloseUserMenu();
+                      setLenguage(china);
+                      handleLanguageChange("chi");
+                    }}
+                  >
+                    <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={china} />
                     </IconButton>
                     <Typography textAlign="center" fontFamily={"Rubik"}>
                       {languages[currentLanguage].lenguage.chinese}
                     </Typography>
                   </MenuItem>
-                  <MenuItem onClick={()=>{handleCloseUserMenu(); setLenguage(eua); handleLanguageChange('en')}}>
-                    <IconButton
-                      sx={{ padding: "0", paddingRight:"20px" }}
-                    >
+                  <MenuItem
+                    onClick={() => {
+                      handleCloseUserMenu();
+                      setLenguage(eua);
+                      handleLanguageChange("en");
+                    }}
+                  >
+                    <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={eua} />
                     </IconButton>
                     <Typography textAlign="center" fontFamily={"Rubik"}>
-                     {languages[currentLanguage].lenguage.english}
+                      {languages[currentLanguage].lenguage.english}
                     </Typography>
                   </MenuItem>
-                  <MenuItem onClick={()=>{handleCloseUserMenu(); setLenguage(mexico); handleLanguageChange('es')}}>
-                    <IconButton
-                      sx={{ padding: "0", paddingRight:"20px" }}
-                    >
-                      <Avatar alt="Remy Sharp" src={mexico}/>
+                  <MenuItem
+                    onClick={() => {
+                      handleCloseUserMenu();
+                      setLenguage(mexico);
+                      handleLanguageChange("es");
+                    }}
+                  >
+                    <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
+                      <Avatar alt="Remy Sharp" src={mexico} />
                     </IconButton>
                     <Typography textAlign="center" fontFamily={"Rubik"}>
-                    {languages[currentLanguage].lenguage.spanish}
+                      {languages[currentLanguage].lenguage.spanish}
                     </Typography>
                   </MenuItem>
                 </Menu>

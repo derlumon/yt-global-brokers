@@ -5,7 +5,7 @@ export default function Ubicanos() {
   return (
     <Box sx={{ textAlign: "center", width: "100%",gap:"30rem" }}>
       <Box
-        sx={{ paddingX: { xs: "5%", md: "10%" },paddingBottom:"5%" }}
+        sx={{ paddingX: { xs: "5%", md: "10%" },paddingBottom:"5%",paddingTop:"5%" }}
       >
         <Typography variant="h4" style={{ color: "#000000" }} gutterBottom>
           Ubicanos

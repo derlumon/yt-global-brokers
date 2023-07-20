@@ -28,10 +28,9 @@ import DropdownMenu from "./menu";
 
 const theme = createTheme({
   components: {
-    fontFamily: "Rubik",
-    // Name of the component ⚛️
-    MuiListItemText: {
-      fontFamily: "Rubik",
+    fontFamily: "Sweet Sans Pro",
+    MuiListItemButton: {
+      fontFamily: "Sweet Sans Pro",
       fontWeight: 500,
     },
   },
@@ -56,7 +55,6 @@ export default function SwipeableTemporaryDrawer() {
 
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const [lenguage, setLenguage] = useState(mexico);
 
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
@@ -96,7 +94,7 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <BookIcon />
               </ListItemIcon>
-              <DropdownMenu size=".96rem"/>
+              <ListItemText primary={languages[currentLanguage].navbar.practiceArea} />
             </ListItemButton>
           </ListItem>
           <ListItem key={"Contact"} disablePadding>

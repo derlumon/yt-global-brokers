@@ -12,12 +12,20 @@ export const languages = {
       contactUs: "CONTACT US",
       legalResources: "LEGAL RESOURCES",
     },
+    introduccion:{
+      title:"",
+      subtitle:"",
+      body1:"",
+      body2:"",
+    },
     hero: {
       titleHero: "LEGAL OPTIONS IN MEXICO",
       subtitleHero:
         "Over the years, we have gained the experience necessary to make this process as easy as possible. We will set your goals and adjust expectations. Contact us if you have any questions.",
     },
     practiceArea: {
+      title:"PRACTICE AREA",
+      subtitle:"We understand that each client is different and requires tailor-made solutions hard-headed legal advice. Our practice area covers from business-related requests to international trade disputes.",
       legal_options: {
         title: "Legal Options",
         description:
@@ -25,6 +33,14 @@ export const languages = {
       },
       Real_Estate_Administrative_Options: "Real Estate Administrative Options",
       accounting_options: "accounting options",
+    },
+    aboutUs:{
+      title:"ABOUT US",
+      subtitle:"We offer professional accounting, administrative and legal support in any activity in which you as a natural or legal person will develop. Our accounting, administrative, legal and immigration areas offer confidence and security with which you will be protected in any legal or fiscal case.",
+    },
+    contactUs:{
+      title:"CONTACT US",
+      subtitle:"If you have any questions or inquiries, feel free to get in touch with us using the contact information provided below. We value your feedback and look forward to hearing from you!",
     },
     service: {
       Advisor: {
@@ -107,10 +123,35 @@ export const languages = {
       contactUs: "CONTACTANOS",
       legalResources: "RECURSOS LEGALES",
     },
+    introduccion:{
+      title:"Quienes somos",
+      subtitle:"Despacho contable, jurídico y administrativo",
+      body1:"Proporcionamos servicios profesionales en administración, auditorias, derecho fiscal, laboral, contabilidad para personas físicas o morales  a clientes en la Republica mexicana desde 2010. Somos un despacho contable, legal fiscal, que en base a la investigación y la planeación estratégica damos soluciones satisfactorias. ",
+      body2:"Nuestro objetivo es siempre el construir una relación eficiente basada en resultados positivos y tangibles. Trabajando nuestras áreas en conjunto para crear un plan de acción personalizado para usted o su organización. Póngase en contacto para saber más de nuestra visión de servicio y enfoque de nuestros productos y servicios.",
+    },
     hero: {
       titleHero: "OPCIONES LEGALES EN MEXICO",
       subtitleHero:
         "A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda.",
+    },
+    practiceArea: {
+      title:"AREA DE PRACTICA",
+      subtitle:"Entendemos que cada cliente es diferente y requiere soluciones a la medida y un asesoramiento legal obstinado. Nuestra área de práctica abarca desde solicitudes relacionadas con negocios hasta disputas comerciales internacionales.",
+      legal_options: {
+        title: "Legal Options",
+        description:
+          "The culture of legality is not reduced to the result dictated by the courts but to the set of daily behaviors that allow people and communities to coexist in favor of their values and interests.Each advice or proposal is tailored to each of the interested parties and depends on the opening of the client.",
+      },
+      Real_Estate_Administrative_Options: "Real Estate Administrative Options",
+      accounting_options: "accounting options",
+    },
+    aboutUs:{
+      title:"SOBRE NOSOTROS",
+      subtitle:"Ofrecemos el respaldo profesional contable, administrativo y jurídico necesarios en cualquier actividad en la cual usted como persona física o moral se desarrolle. Nuestras áreas contables, administrativas, jurídico fiscales y migratorias ofrecen confianza y seguridad con la cual  estará en cualquier caso legal o fiscal protegido. ",
+    },
+    contactUs:{
+      title:"CONTACTANOS",
+      subtitle:"Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros utilizando la información de contacto proporcionada a continuación. ¡Valoramos tus comentarios y esperamos saber de ti!",
     },
     service: {
       Advisor: {
@@ -193,10 +234,35 @@ export const languages = {
       contactUs: "联系我们",
       legalResources: "法律资源",
     },
+    introduccion:{
+      title:"",
+      subtitle:"",
+      body1:"",
+      body2:"",
+    },
     hero: {
       titleHero: "墨西哥的法律选择",
       subtitleHero:
         "多年来，我们已经获得了使这一过程尽可能简单的必要经验。我们将设定您的目标并调整期望。如有任何问题，请联系我们。",
+    },
+    practiceArea: {
+      title:"实践领域",
+      subtitle:"我们了解每个客户都是不同的，需要量身定制的解决方案和强有力的法律建议。我们的业务领域涵盖从业务相关请求到国际商业纠纷。",
+      legal_options: {
+        title: "Legal Options",
+        description:
+          "The culture of legality is not reduced to the result dictated by the courts but to the set of daily behaviors that allow people and communities to coexist in favor of their values and interests.Each advice or proposal is tailored to each of the interested parties and depends on the opening of the client.",
+      },
+      Real_Estate_Administrative_Options: "Real Estate Administrative Options",
+      accounting_options: "accounting options",
+    },
+    aboutUs:{
+      title:"关于我们",
+      subtitle:"我们为您作为自然人或法人开展的任何活动提供专业的会计、行政和法律支持。我们的会计、行政、法律和移民领域为您提供信心和安全感，让您在任何法律或财务案件中都受到保护",
+    },
+    contactUs:{
+      title:"联系我们",
+      subtitle:"如果您有任何问题或查询，请随时使用下方提供的联系信息与我们取得联系。我们重视您的反馈，期待您的来信！",
     },
     service: {
       Advisor: {

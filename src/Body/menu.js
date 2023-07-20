@@ -4,7 +4,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-
+import { Link } from "react-router-dom";
 const DropdownMenu = (props) => {
   const { currentLanguage } = useContext(LanguageContext);
  
@@ -29,11 +29,12 @@ const DropdownMenu = (props) => {
       display={"flex"}
     >
       <Button
-        sx={{ fontSize: props.size ,paddingLeft:0}}
+        sx={{ fontSize: props.size ,paddingLeft:0,fontFamily:"Sweet Sans Pro"}}
         endIcon={<KeyboardArrowDownIcon />}
-        onMouseEnter={handleOpenMenu}
+        onClick={handleOpenMenu}
         color="inherit"
-        
+        component={Link}
+        to="/practiceArea"
       >
         {languages[currentLanguage].navbar.practiceArea}
       </Button>
@@ -47,9 +48,9 @@ const DropdownMenu = (props) => {
             onMouseLeave:handleCloseMenu
         }}
       >
-        <MenuItem onClick={handleCloseMenu}>Opciónes Legales</MenuItem>
-        <MenuItem onClick={handleCloseMenu}>Opciónes Contables</MenuItem>
-        <MenuItem onClick={handleCloseMenu}>Opciónes Administracion Inmobiliaria</MenuItem>
+        <MenuItem onClick={handleCloseMenu} >Opciónes Legales</MenuItem>
+        <MenuItem onClick={handleCloseMenu} >Opciónes Contables</MenuItem>
+        <MenuItem onClick={handleCloseMenu} >Opciónes Administracion Inmobiliaria</MenuItem>
       </Menu>
     </Box>
   );

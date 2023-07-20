@@ -25,14 +25,14 @@ let theme = createTheme({
 });
 theme = responsiveFontSizes(theme);
 
-const Start = () => {
+const Start = (props) => {
   const { currentLanguage } = useContext(LanguageContext);
 
   return (
     <ThemeProvider theme={theme}>
       <div className="image-overlay-container">
         <Box sx={{ width: "100%", height: "100%" }} position="relative">
-          <img className="background-image" src={Fondo} alt="Image 1" />
+          <img className="background-image" src={props.Fondo} alt="Image 1" />
           <img className="foreground-image" src={Logo1} alt="Image 2" />
           <Box
             sx={{
@@ -48,7 +48,7 @@ const Start = () => {
               color={"white"}
               fontWeight={700}
             >
-              {languages[currentLanguage].hero.titleHero}
+              {props.title}
             </Typography>
             <Typography
               variant="h5"
@@ -57,7 +57,7 @@ const Start = () => {
               fontWeight={500}
               paddingBottom="1.5rem"
             >
-              {languages[currentLanguage].hero.subtitleHero}
+              {props.subtitle}
             </Typography>
             <Button
               size="large"

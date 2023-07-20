@@ -1,8 +1,12 @@
 import { Grid, Typography, Box } from "@mui/material";
 import React from "react";
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 
 export default function Introduccion() {
-  return (
+   const { currentLanguage } = useContext(LanguageContext);
+   return (
     <Box
       sx={{
         backgroundColor: "#DFDFDF",
@@ -20,7 +24,7 @@ export default function Introduccion() {
         fontWeight={500}
         sx={{ fontSize: { xs: "35px", sm: "35px", md: "40px" } }}
       >
-        Quienes somos
+        {languages[currentLanguage].introduccion.title}
       </Typography>
       <Typography
         variant="h4"
@@ -29,7 +33,7 @@ export default function Introduccion() {
         sx={{ marginBottom: "30px" }}
         fontFamily={"Rubik"}
       >
-        Despacho contable, jurídico y administrativo
+        {languages[currentLanguage].introduccion.subtitle}
       </Typography>
       <Grid container spacing={8}>
         <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
@@ -38,7 +42,7 @@ export default function Introduccion() {
             align="justify"
             fontFamily={"Rubik"}
           >
-            Proporcionamos servicios profesionales en administración, auditorias, derecho fiscal, laboral, contabilidad para personas físicas o morales  a clientes en la Republica mexicana desde 2010. Somos un despacho contable, legal fiscal, que en base a la investigación y la planeación estratégica damos soluciones satisfactorias. 
+            {languages[currentLanguage].introduccion.body1}
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
@@ -47,7 +51,7 @@ export default function Introduccion() {
             align="justify"
             fontFamily={"Rubik"}
           >
-            Nuestro objetivo es siempre el construir una relación eficiente basada en resultados positivos y tangibles. Trabajando nuestras áreas en conjunto para crear un plan de acción personalizado para usted o su organización. Póngase en contacto para saber más de nuestra visión de servicio y enfoque de nuestros productos y servicios.
+            {languages[currentLanguage].introduccion.body2}
           </Typography>
         </Grid>
       </Grid>
