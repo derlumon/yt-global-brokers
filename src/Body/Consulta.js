@@ -3,22 +3,26 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import { Link } from "react-router-dom";
 
 const images = [
   {
     url: 'https://www.gruporedes.com.mx/wp-content/uploads/2018/07/4-abogado.jpg',
     title: 'Opciones Legales en Mexico',
     width: '33.33%',
+    to:"/practiceArea/legalOptions"
   },
   {
     url: 'https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_640.jpg',
     title: 'Opciones Contables en Mexico',
     width: '33.33%',
+    to:"/practiceArea/accountingOptions"
   },
   {
     url: 'https://www.activa.cl/wp-content/uploads/2020/11/Administracion-de-propiedades.jpg',
     title: 'Opciones Admnistracion Inmobiliaria en Mexico',
     width: '33.33%',
+    to:"/practiceArea/administrativeOptions"
   },
 ];
 
@@ -90,6 +94,8 @@ export default function ButtonBaseDemo() {
       <Box sx={{ display: 'flex', flexWrap: 'wrap', width: '100%' ,alignItems:"center",justifyContent:"center"}}>
         {images.map((image) => (
           <ImageButton
+            component={Link}
+            to={image.to} 
             focusRipple
             key={image.title}
             style={{
@@ -101,8 +107,10 @@ export default function ButtonBaseDemo() {
             <Image>
               <Typography
                 component="span"
-                variant="subtitle1"
+                variant="h4"
+                align='center'
                 color="inherit"
+                alignItems={"center"}
                 sx={{
                   position: 'relative',
                   paddingX: "1rem",

@@ -29,7 +29,7 @@ const DropdownMenu = (props) => {
       display={"flex"}
     >
       <Button
-        sx={{ fontSize: props.size ,paddingLeft:0,fontFamily:"Sweet Sans Pro"}}
+        sx={{ fontSize: props.size, fontFamily:"Sweet Sans Pro"}}
         endIcon={<KeyboardArrowDownIcon />}
         onClick={handleOpenMenu}
         color="inherit"
@@ -48,9 +48,9 @@ const DropdownMenu = (props) => {
             onMouseLeave:handleCloseMenu
         }}
       >
-        <MenuItem onClick={handleCloseMenu} >Opciónes Legales</MenuItem>
-        <MenuItem onClick={handleCloseMenu} >Opciónes Contables</MenuItem>
-        <MenuItem onClick={handleCloseMenu} >Opciónes Administracion Inmobiliaria</MenuItem>
+        <MenuItem onClick={handleCloseMenu} component={Link} to="/practiceArea/legalOptions">Opciónes Legales</MenuItem>
+        <MenuItem onClick={handleCloseMenu} component={Link} to="/practiceArea/accountingOptions">Opciónes Contables</MenuItem>
+        <MenuItem onClick={handleCloseMenu} component={Link} to="/practiceArea/administrativeOptions">Opciónes Administracion Inmobiliaria</MenuItem>
       </Menu>
     </Box>
   );

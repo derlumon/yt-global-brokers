@@ -23,6 +23,7 @@ export default function Button(props) {
         sx={{
           m: { xs: "6px", sm: "6px" },
           width: { md: "350px", xs: "330px" },
+          height: { md: "290px", xs: "270px" },
         }}
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
@@ -55,7 +56,7 @@ export default function Button(props) {
             sx={{
               fontSize: "1rem",
               marginLeft: "-150px",
-              marginBottom: "-10px",
+            
               marginTop: "-30px",
             }}
             variant="body2"
