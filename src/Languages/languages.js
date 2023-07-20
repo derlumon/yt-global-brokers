@@ -29,7 +29,7 @@ export const languages = {
       title:"Contact us now and learn more about our services",
       subtitle:"Contact us",
       name:"name",
-      direction:"direction",
+      direction:"Direction",
       email:"Email",
       numberphone:"Phone Number",
       description:"Description of the legal problem",
@@ -66,8 +66,29 @@ export const languages = {
       wechatE:"WeChat(Spanish)",
       email:"Email",
       telefono:"Phone",
+      learn:"Learn more"
     },
-    
+    legalOptionStructure:{
+      title:"Subject Matter Experts",
+      subtitle:"Over the years, we have gained the experience necessary to make this process as easy as possible. We will set your goals and adjust expectations. Contact us if you have any questions.",
+      serviceTitle:"Legal Options",
+      ButtonTitle1:"Personalized Services",
+      ButtonTitle2:"Engage in negotiation or mediation.",
+      ButtonTitle3:"Court and Litigation Services",
+      ButtonTitle4:"Administrative Agencies",
+      ButtonTitle5:"Migration",
+      ButtonTitle6:"Taxes and Contributions",
+      ButtonTitle7:"Internal Organizational Control Plans",
+      ButtonTitle8:"Your Compliance Officer",
+      ButtonTitle9:"Form your company in Mexico",
+      ButtonTitle10:"Small and medium businesses",
+      ButtonTitle11:"Representation",
+      ButtonTitle12:"Contract drafting",
+      ButtonTitle13:"Review and Interpretation of Contracts",
+
+      
+      
+    },
     hero: {
       titleHero: "LEGAL OPTIONS IN MEXICO",
       subtitleHero:
@@ -219,6 +240,27 @@ export const languages = {
       wechatE:"WeChat(Espanol)",
       email:"Email",
       telefono:"Telefono",
+      learn:"Ver mas"
+    },
+    legalOptionStructure:{
+      title:"Expertos en el Tema",
+      subtitle:"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda.",
+      serviceTitle:"Opciones Legales",
+      ButtonTitle1:"Servicios Personalizados",
+      ButtonTitle2:"Entabla una negociación o mediación.",
+      ButtonTitle3:"Servicios en Corte y litigación",
+      ButtonTitle4:"Gestorías Administrativas",
+      ButtonTitle5:"Migracion",
+      ButtonTitle6:"Impuestos y Contribuciones",
+      ButtonTitle7:"Planes Internos de Control Organizacional",
+      ButtonTitle8:"Tú Oficial de Cumplimiento",
+      ButtonTitle9:"Forma tú Empresa en México",
+      ButtonTitle10:"Pequeñas y Medianas Empresas",
+      ButtonTitle11:"Representación",
+      ButtonTitle12:"Redacción de Contratos",
+      ButtonTitle13:"Revisión e Interpretación de Contratos",
+
+
     },
     hero: {
       titleHero: "OPCIONES LEGALES EN MEXICO",
@@ -374,6 +416,27 @@ export const languages = {
       wechatE:"微信(西班牙语)",
       email:"电子邮件",
       telefono:"电话",
+      learn:"查看更多"
+    },
+    legalOptionStructure:{
+      title:"主题专家",
+      subtitle:"多年来，我们已经获得了使这一过程尽可能简单的必要经验。我们将设定您的目标并调整期望。如有任何问题，请联系我们。",
+      serviceTitle:"法律选择",
+      ButtonTitle1:"定制服务",
+      ButtonTitle2:"进行谈判或调解。",
+      ButtonTitle3:"法庭和诉讼服务",
+      ButtonTitle4:"行政机构",
+      ButtonTitle5:"移民",
+      ButtonTitle6:"税收和缴款",
+      ButtonTitle7:"内部组织控制计划",
+      ButtonTitle8:"您的合规官",
+      ButtonTitle9:"在墨西哥成立您的公司",
+      ButtonTitle10:"中小型企业",
+      ButtonTitle11:"表示",
+      ButtonTitle12:"合同起草",
+      ButtonTitle13:"合同的审查和解释",
+
+
     },
     hero: {
       titleHero: "墨西哥的法律选择",

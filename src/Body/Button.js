@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography } from "@mui/material";
 import "./button.css";
-
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 export default function Button(props) {
   const [showMore, setShowMore] = useState(false);
+  const { currentLanguage } = useContext(LanguageContext);
 
   const handleMouseOver = () => {
     setShowMore(true);
@@ -62,7 +65,7 @@ export default function Button(props) {
             variant="body2"
             className={`show-more-text ${showMore ? "show-more" : ""}`}
           >
-            <b>Learn more -{">"}</b>
+            <b> {languages[currentLanguage].buttonDial.learn} -{">"}</b>
           </Typography>
         </CardContent>
       </Card>

@@ -18,10 +18,11 @@ import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
 
 function LegalOptionsEstructure() {
+  const { currentLanguage } = useContext(LanguageContext);
   const buttons = [
     {
       icon: <PiPenThin />,
-      title: "Servicios Personalizados",
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle1,
       lists: [
         "Sales & Purchase Agreement (SPA)",
         "Non-Disclosure Agreement (NDA)",
@@ -31,7 +32,7 @@ function LegalOptionsEstructure() {
     },
     {
       icon: <PiScalesThin />,
-      title: "Entabla una negociación o mediación. ",
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle2,
       lists: [
         "Sales & Purchase Agreement (SPA)",
         "Non-Disclosure Agreement (NDA)",
@@ -41,7 +42,7 @@ function LegalOptionsEstructure() {
     },
     {
       icon: <PiChartLineUpThin />,
-      title: "Servicios en Corte y litigación",
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle3,
       lists: [
         "Sales & Purchase Agreement (SPA)",
         "Non-Disclosure Agreement (NDA)",
@@ -51,7 +52,7 @@ function LegalOptionsEstructure() {
     },
     {
       icon: <PiBooksThin />,
-      title: "Gestorías Administrativas",
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle4,
       lists: [
         "Sales & Purchase Agreement (SPA)",
         "Non-Disclosure Agreement (NDA)",
@@ -61,7 +62,7 @@ function LegalOptionsEstructure() {
     },
     {
       icon: <PiWarehouseThin />,
-      title: "Migración",
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle5,
       lists: [
         "Sales & Purchase Agreement (SPA)",
         "Non-Disclosure Agreement (NDA)",
@@ -71,7 +72,7 @@ function LegalOptionsEstructure() {
     },
     {
       icon: <PiStorefrontThin />,
-      title: "Impuestos y Contribuciones",
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle6,
       lists: [
         "Sales & Purchase Agreement (SPA)",
         "Non-Disclosure Agreement (NDA)",
@@ -81,7 +82,7 @@ function LegalOptionsEstructure() {
     },
     {
         icon: <PiStorefrontThin />,
-        title: "Planes Internos de Control Organizacional",
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle7,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -91,7 +92,7 @@ function LegalOptionsEstructure() {
       },
       {
         icon: <PiStorefrontThin />,
-        title: "Tú Oficial de Cumplimiento",
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle8,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -101,7 +102,7 @@ function LegalOptionsEstructure() {
       },
       {
         icon: <PiStorefrontThin />,
-        title: "Forma tú Empresa en México",
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle9,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -111,7 +112,7 @@ function LegalOptionsEstructure() {
       },
       {
         icon: <PiStorefrontThin />,
-        title: "Pequeñas y Medianas Empresas",
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle10,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -121,7 +122,7 @@ function LegalOptionsEstructure() {
       },
       {
         icon: <PiStorefrontThin />,
-        title: "Representación ",
+        title:languages[currentLanguage].legalOptionStructure.ButtonTitle11,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -131,7 +132,7 @@ function LegalOptionsEstructure() {
       },
       {
         icon: <PiStorefrontThin />,
-        title: "Redacción de Contratos",
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle12,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -141,7 +142,7 @@ function LegalOptionsEstructure() {
       },
       {
         icon: <PiStorefrontThin />,
-        title: "Revisión e Interpretación de Contratos",
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle13,
         lists: [
           "Sales & Purchase Agreement (SPA)",
           "Non-Disclosure Agreement (NDA)",
@@ -150,13 +151,13 @@ function LegalOptionsEstructure() {
         ],
       },
   ];
-  const { currentLanguage } = useContext(LanguageContext);
+
   return (
     <>
       <Start Fondo={Fondo1} title={languages[currentLanguage].hero.titleHero} subtitle={languages[currentLanguage].hero.subtitleHero}/>
-      <PracticeArea title={"Expertos en el Tema"} subtitle={"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda."}/>
+      <PracticeArea title={languages[currentLanguage].legalOptionStructure.title} subtitle={languages[currentLanguage].legalOptionStructure.subtitle}/>
       <ButtonBaseDemo/>
-      <Servicios buttons={buttons} title={"Opciones Legales"}/>
+      <Servicios buttons={buttons} title={languages[currentLanguage].legalOptionStructure.serviceTitle}/>
       <Contactanos/>
     </>
   );
