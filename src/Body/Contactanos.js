@@ -1,7 +1,10 @@
 import { Box, Button, Grid, TextField, Typography } from "@mui/material";
 import React, { useState } from "react";
-
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 const ContactForm = () => {
+  const { currentLanguage } = useContext(LanguageContext);
   const [formData, setFormData] = useState({
     name: "",
     address: "",
@@ -46,12 +49,12 @@ const ContactForm = () => {
         }}
       >
         <Typography variant="h4" gutterBottom color="white" fontFamily="Rubik "alignContent="center" sx={{padding:{md:"3rem",xs:"2rem"}}}>
-        ¡Contáctenos ahora y conozca más de nuestros servicios!
+        {languages[currentLanguage].contactanos.title}
         </Typography>
       </Box>
       <Box sx={{paddingX:{xs:"5%",md:"10%"},paddingY:"5%"}}>
         <Typography variant="h4" align="center" gutterBottom>
-          Contactanos
+        {languages[currentLanguage].contactanos.subtitle}
         </Typography>
 
         <form onSubmit={handleSubmit}>
@@ -59,7 +62,7 @@ const ContactForm = () => {
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
-                label="Nombre"
+                label={languages[currentLanguage].contactanos.name}
                 name="name"
                 value={formData.name}
                 onChange={handleInputChange}
@@ -69,7 +72,7 @@ const ContactForm = () => {
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
-                label="Dirección"
+                label={languages[currentLanguage].contactanos.direction}
                 name="address"
                 value={formData.address}
                 onChange={handleInputChange}
@@ -79,7 +82,7 @@ const ContactForm = () => {
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
-                label="Email"
+                label={languages[currentLanguage].contactanos.email}
                 name="email"
                 type="email"
                 value={formData.email}
@@ -90,7 +93,7 @@ const ContactForm = () => {
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
-                label="Número de teléfono"
+                label={languages[currentLanguage].contactanos.numberphone}
                 name="phoneNumber"
                 value={formData.phoneNumber}
                 onChange={handleInputChange}
@@ -100,7 +103,7 @@ const ContactForm = () => {
             <Grid item xs={12}>
               <TextField
                 fullWidth
-                label="Descripción del problema legal"
+                label={languages[currentLanguage].contactanos.description}
                 name="legalProblem"
                 multiline
                 rows={4}
@@ -125,7 +128,7 @@ const ContactForm = () => {
                 color="inherit"
                 fullWidth
               >
-                Enviar
+                {languages[currentLanguage].contactanos.send}
               </Button>
             </Grid>
           </Grid>

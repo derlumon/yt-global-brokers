@@ -1,8 +1,11 @@
 import React from 'react';
 import { Container, Grid, Typography, Link } from '@mui/material';
 import logo from '../img/Logo/YTBrokersLogoGrisClaro.png'
-
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 export default function Footer() {
+  const { currentLanguage } = useContext(LanguageContext);
   const footerStyle = {
     backgroundColor: '#000',
     color: '#D3D3D3',
@@ -28,39 +31,39 @@ export default function Footer() {
           </Grid>
           <Grid item xs={6} sm={6} md={3}>
             <Typography variant="h6" component="h6" sx={{ mb: 2 }}>
-              SERVICIOS
+            {languages[currentLanguage].footer.service}
             </Typography>
             <Typography variant="body2" color="inherit">
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
-                Opciones Legales
+              {languages[currentLanguage].footer.legal_options}
               </Link>
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
-                Opciones contables
+              {languages[currentLanguage].footer.Accounting_options}
               </Link>
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
-                Opciones administrativa
+              {languages[currentLanguage].footer.Administrative_options}
               </Link>
             </Typography>
           </Grid>
           <Grid item xs={6} sm={6} md={3}>
             <Typography variant="h6" component="h6" sx={{ mb: 2 }}>
-              lINKS
+            {languages[currentLanguage].footer.links}
             </Typography>
             <Typography variant="body2" color="inherit">
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
-                Inicio
+              {languages[currentLanguage].footer.home}
               </Link>
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
-                Servicios Legales
+              {languages[currentLanguage].footer.legal_service}
               </Link>
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
-                Areas de practica
+              {languages[currentLanguage].footer.practice_area}
               </Link>
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
             <Typography variant="h6" component="h6" sx={{ mb: 2 }}>
-              CONTACTO
+            {languages[currentLanguage].footer.contact}
             </Typography>
             <Typography variant="body2" color="inherit">
               <Typography component="span" variant="body2" color="inherit" sx={{ display: 'block' }}>

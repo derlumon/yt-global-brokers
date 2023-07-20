@@ -11,13 +11,63 @@ export const languages = {
       practiceArea: "PRACTICE AREA",
       contactUs: "CONTACT US",
       legalResources: "LEGAL RESOURCES",
+      legal_options:"Legal Options",
+      Accounting_Options:" Accounting Options",
+      Real_Estate_Management_Options:"Real Estate Management Options"
+
+      
+
     },
     introduccion:{
-      title:"",
-      subtitle:"",
-      body1:"",
-      body2:"",
+      title:"About us",
+      subtitle:"Legal and administrative accounting firm",
+      body1:"We provide professional services in administration, audits, tax law, labor law, accounting for individuals or corporations to clients in the Mexican Republic since 2010. We are an accounting, tax legal firm, which based on research and strategic planning we provide satisfactory solutions.",
+      body2:"Our goal is always to build an efficient relationship based on positive and tangible results. Working our areas together to create a personalized action plan for you or your organization. Get in touch to learn more about our service vision and approach to our products and services.",
+      locate:"Locate us"
     },
+    contactanos:{
+      title:"Contact us now and learn more about our services",
+      subtitle:"Contact us",
+      name:"name",
+      direction:"direction",
+      email:"Email",
+      numberphone:"Phone Number",
+      description:"Description of the legal problem",
+      send:"send"
+      
+
+    },
+    consulta:{
+      image1:"Legal Options in Mexico",
+      image2:"Accounting Options in Mexico",
+      image3:"Real Estate Management Options in Mexico"
+
+    },
+    ubicanos:{
+      locate:"Locate us"
+    },
+    footer:{
+      service:"SERVICE",
+      legal_options:"legal options",
+      Accounting_options:"Accounting Options",
+      Administrative_options:"Administrative Options",
+      links:"LINKS",
+      home:"Home",
+      legal_service:"Legal Service",
+      practice_area:"Practice Area",
+      contact:"CONTACT"
+
+
+      
+
+    },
+    buttonDial:{
+      wechatC:"WeChat(Chinese)",
+      wechatE:"WeChat(Spanish)",
+      email:"Email",
+      telefono:"Phone",
+    },
+    
     hero: {
       titleHero: "LEGAL OPTIONS IN MEXICO",
       subtitleHero:
@@ -122,12 +172,53 @@ export const languages = {
       practiceArea: "AREAS DE PRACTICA",
       contactUs: "CONTACTANOS",
       legalResources: "RECURSOS LEGALES",
+      locate_us:"Ubicanos",
+      legal_options:"Opciónes Legales ",
+      Accounting_Options:" Opciónes Contable",
+      Real_Estate_Management_Options:"Opciónes Administracion Inmobiliaria"
+    },
+    contactanos:{
+      title:"¡Contáctenos ahora y conozca más de nuestros servicios!",
+      subtitle:"Contactanos",
+      name:"Nombre",
+      direction:"Dirección",
+      email:"Email",
+      numberphone:"Número de teléfono",
+      description:"Descripción del problema legal",
+      send:"enviar"
+
+    },
+    ubicanos:{
+      locate:"ubicanos"
     },
     introduccion:{
       title:"Quienes somos",
       subtitle:"Despacho contable, jurídico y administrativo",
       body1:"Proporcionamos servicios profesionales en administración, auditorias, derecho fiscal, laboral, contabilidad para personas físicas o morales  a clientes en la Republica mexicana desde 2010. Somos un despacho contable, legal fiscal, que en base a la investigación y la planeación estratégica damos soluciones satisfactorias. ",
       body2:"Nuestro objetivo es siempre el construir una relación eficiente basada en resultados positivos y tangibles. Trabajando nuestras áreas en conjunto para crear un plan de acción personalizado para usted o su organización. Póngase en contacto para saber más de nuestra visión de servicio y enfoque de nuestros productos y servicios.",
+    },
+    footer:{
+      service:"SERVICIOS",
+      legal_options:"  Opciones Legales",
+      Accounting_options:"Opciones contables",
+      Administrative_options:"Opciones administrativa",
+      links:"LINKS",
+      home:"Inicio",
+      legal_service:" Servicios Legales",
+      practice_area:"Areas de practica",
+      contact:"CONTACTO"
+    },
+    consulta:{
+      image1:"Opciones Legales en Mexico",
+      image2:"Opciones Contables en Mexico",
+      image3:"Opciones Admnistracion Inmobiliaria en Mexico"
+
+    },
+    buttonDial:{
+      wechatC:"WeChat(Chino)",
+      wechatE:"WeChat(Espanol)",
+      email:"Email",
+      telefono:"Telefono",
     },
     hero: {
       titleHero: "OPCIONES LEGALES EN MEXICO",
@@ -233,12 +324,56 @@ export const languages = {
       practiceArea: "实践领域",
       contactUs: "联系我们",
       legalResources: "法律资源",
+      legal_options:"法律选择",
+      Accounting_Options:" 会计选项",
+      Real_Estate_Management_Options:"房地产管理选项"
+    },
+    contactanos:{
+      title:"立即联系我们，了解更多有关我们服务的信息！",
+      subtitle:"关于我们",
+      name:"姓名",
+      direction:"地址",
+      email:"电子邮件",
+      numberphone:"电话号码",
+      description:"法律问题的描述",
+      send:"发送"
+
+    },
+    ubicanos:{
+      locate:"找到我们"
+    },
+    footer:{
+      service:"服务",
+      legal_options:" 法律选择",
+      Accounting_options:"会计选项",
+      Administrative_options:"行政选项",
+      links:"关联",
+      home:"开始",
+      legal_service:" 法律服务",
+      practice_area:"执业领域",
+      contact:"接触"
+
+
+      
+
     },
     introduccion:{
-      title:"",
-      subtitle:"",
-      body1:"",
-      body2:"",
+      title:"关于我们",
+      subtitle:"法律及行政会计师事务所",
+      body1:"“自 2010 年以来，我们为墨西哥共和国的客户提供行政、审计、税法、劳动法、会计等方面的专业服务。我们是一家会计、税务律师事务所，基于研究和战略规划，我们提供令人满意的解决方案。",
+      body2:"我们的目标始终是建立基于积极和切实成果的高效关系。我们共同努力，为您或您的组织制定个性化的行动计划。请联系我们，详细了解我们的服务愿景以及产品和服务的方法。",
+    },
+    consulta:{
+      image1:"墨西哥的法律选择",
+      image2:"墨西哥的会计选项",
+      image3:"墨西哥的房地产管理选项"
+
+    },
+    buttonDial:{
+      wechatC:"微信(中国人)",
+      wechatE:"微信(西班牙语)",
+      email:"电子邮件",
+      telefono:"电话",
     },
     hero: {
       titleHero: "墨西哥的法律选择",
@@ -259,11 +394,13 @@ export const languages = {
     aboutUs:{
       title:"关于我们",
       subtitle:"我们为您作为自然人或法人开展的任何活动提供专业的会计、行政和法律支持。我们的会计、行政、法律和移民领域为您提供信心和安全感，让您在任何法律或财务案件中都受到保护",
+      
     },
     contactUs:{
       title:"联系我们",
       subtitle:"如果您有任何问题或查询，请随时使用下方提供的联系信息与我们取得联系。我们重视您的反馈，期待您的来信！",
     },
+    
     service: {
       Advisor: {
         title: "顾问",
