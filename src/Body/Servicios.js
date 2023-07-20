@@ -24,6 +24,8 @@ export default function Servicios({ buttons, title }) {
               icon={button.icon}
               title={button.title}
               lists={button.lists}
+              additionaltitle={button.additionaltitle}
+              additionalInfo={button.additionalInfo}
             />
           </Grid>
         ))}
