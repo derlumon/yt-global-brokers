@@ -1,4 +1,4 @@
-import { Grid, Typography, Box } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import "./servicios.css";
 

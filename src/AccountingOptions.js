@@ -9,7 +9,6 @@ import {
   PiPiggyBankThin
 } from "react-icons/pi";
 import Servicios from "./Body/Servicios";
-import Ubicanos from "./Body/Ubicanos";
 import Contactanos from "./Body/Contactanos";
 import PracticeArea from "./Body/PracticeArea";
 import ButtonBaseDemo from "./Body/Consulta";

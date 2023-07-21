@@ -1,12 +1,6 @@
 import Start from "./Body/start";
 import {
-  PiBriefcaseMetalThin,
-  PiPersonArmsSpreadThin,
-  PiBankThin,
   PiPenThin,
-  PiCalculatorThin,
-  PiMoneyLight,
-  PiPiggyBankThin,
 PiHouseLight,
 PiWarehouseDuotone,
 PiMedal,
@@ -20,7 +14,7 @@ import Fondo1 from "./img/Hero11.png";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
-import {TbHomeSearch} from "react-icons/tb"
+
 
 function AdminOptions() {
     const { currentLanguage } = useContext(LanguageContext);
