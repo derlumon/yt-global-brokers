@@ -1,16 +1,5 @@
 import Start from "./Body/start";
-import {
-  PiPenThin,
-  PiScalesThin,
-  PiChartLineUpThin,
-  PiBooksThin,
-  PiWarehouseThin,
-  PiStorefrontThin,
-} from "react-icons/pi";
-import Servicios from "./Body/Servicios";
-import Ubicanos from "./Body/Ubicanos";
 import Contactanos from "./Body/Contactanos";
-import Introduccion from "./Body/Introduccion";
 import ButtonBaseDemo from "./Body/Consulta";
 import Fondo from "./img/Hero6.png";
 import { languages } from "./Languages/languages";

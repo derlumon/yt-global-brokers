@@ -1,14 +1,19 @@
 import Start from "./Body/start";
 import {
-  PiPenThin,
+  PiNotePencilThin,
   PiScalesThin,
-  PiChartLineUpThin,
-  PiBooksThin,
-  PiWarehouseThin,
+  PiSignatureThin,
   PiStorefrontThin,
+  PiAirplaneLandingThin,
+  PiChartBarThin,
+  PiIdentificationCardThin,
+  PiUsersThin,
+  PiHandshakeThin,
+  PiCurrencyCircleDollarThin,
+  PiGearSixThin,
+  PiNotebookThin
 } from "react-icons/pi";
 import Servicios from "./Body/Servicios";
-import Ubicanos from "./Body/Ubicanos";
 import Contactanos from "./Body/Contactanos";
 import PracticeArea from "./Body/PracticeArea";
 import ButtonBaseDemo from "./Body/Consulta";
@@ -16,109 +21,104 @@ import Fondo1 from "./img/Hero8.png";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
+import { CiCoins1 } from "react-icons/ci";
 
-function LegalOptionsEstructure(props) {
-    const { currentLanguage } = useContext(LanguageContext);
-    const buttons = [
+
+function LegalOptionsEstructure() {
+  const { currentLanguage } = useContext(LanguageContext);
+  const buttons = [
     {
-      icon: <PiPenThin />,
-      title: languages[currentLanguage].service.Advisor.title,
-      lists: [
-        languages[currentLanguage].service.Advisor.miniDescription,
-      ],
+      icon: <PiNotePencilThin />,
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle1,
+      additionaltitle:"title",
+      additionalInfo:"This is additional information for the button." ,
+    },
+    {
+      icon: <PiHandshakeThin />,
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle2,
+      additionaltitle:"title",
+      additionalInfo:"This is additional information for the button."
     },
     {
       icon: <PiScalesThin />,
-      title: languages[currentLanguage].service.Enter_into_negotiation_or_mediation.title,
-      lists: [
-        languages[currentLanguage].service.Enter_into_negotiation_or_mediation.miniDescription,
-      ],
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle3,
+    
     },
     {
-      icon: <PiChartLineUpThin />,
-      title: languages[currentLanguage].service.Court_and_itigation_services.title,
-      lists: [
-        languages[currentLanguage].service.Court_and_itigation_services.miniDescription,
-      ],
+      icon: <PiGearSixThin />,
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle4,
+    
     },
     {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Administrative_Agencies.title,
+      icon: <PiAirplaneLandingThin />,
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle5,
+    
+    },
+    {
+      icon: <PiCurrencyCircleDollarThin />,
+      title: languages[currentLanguage].legalOptionStructure.ButtonTitle6,
+    
+    },
+    {
+        icon: <PiChartBarThin />,
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle7,
         lists: [
-          languages[currentLanguage].service.Administrative_Agencies.miniDescription,
+          "Sales & Purchase Agreement (SPA)",
+          "Non-Disclosure Agreement (NDA)",
+          "Manufacturing Agreement (NNN)",
+          "Supplier OEM Agreement (OEM)",
         ],
-    },
-    {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Migration.title,
-        lists: [
-          languages[currentLanguage].service.Migration.miniDescription,
-        ],
-    },
-    {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Taxes_and_Contributions.title,
-        lists: [
-          languages[currentLanguage].service.Taxes_and_Contributions.miniDescription,
-        ],
-    },
-    {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Internal_Organizational_Control_Plans.title,
+      },
+      {
+        icon: <PiIdentificationCardThin />,
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle8,
         lists: [
           languages[currentLanguage].service.Internal_Organizational_Control_Plans.miniDescription,
         ],
       },
       {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Your_Compliance_Officer.title,
+        icon: <PiStorefrontThin />,
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle9,
         lists: [
           languages[currentLanguage].service.Your_Compliance_Officer.miniDescription,
         ],
       },
       {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Form_your_Company_in_Mexico.title,
+        icon: <CiCoins1 />,
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle10,
         lists: [
           languages[currentLanguage].service.Form_your_Company_in_Mexico.miniDescription,
         ],
       },
       {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Small_and_medium_businesses.title,
+        icon: <PiUsersThin />,
+        title:languages[currentLanguage].legalOptionStructure.ButtonTitle11,
         lists: [
           languages[currentLanguage].service.Small_and_medium_businesses.miniDescription,
         ],
       },
       {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Representation.title,
+        icon: <PiSignatureThin />,
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle12,
         lists: [
           languages[currentLanguage].service.Representation.miniDescription,
         ],
       },
       {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Contract_drafting.title,
-        lists: [
-          languages[currentLanguage].service.Contract_drafting.miniDescription,
-        ],
-      },
-      {
-        icon: <PiChartLineUpThin />,
-        title: languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.title,
+        icon: <PiNotebookThin />,
+        title: languages[currentLanguage].legalOptionStructure.ButtonTitle13,
         lists: [
           languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.miniDescription,
         ],
       },
   ];
-  
+
   return (
     <>
-      <Start Fondo={Fondo1} title={props.title} subtitle={props.subtitle}/>
-      <PracticeArea title={props.body1} subtitle={props.body2}/>
+      <Start Fondo={Fondo1} title={languages[currentLanguage].hero.titleHero} subtitle={languages[currentLanguage].hero.subtitleHero}/>
+      <PracticeArea title={languages[currentLanguage].legalOptionStructure.title} subtitle={languages[currentLanguage].legalOptionStructure.subtitle}/>
       <ButtonBaseDemo/>
-      <Servicios buttons={buttons} title={props.title2}/>
+      <Servicios buttons={buttons} title={languages[currentLanguage].legalOptionStructure.serviceTitle}/>
       <Contactanos/>
     </>
   );
