@@ -40,6 +40,7 @@ export default function Button(props) {
         className={`highlighted-card ${showMore ? "show-more" : ""}`}
         elevation={showMore ? 3 : 1}
         onClick={handleClick}
+        
       >
         <CardContent>
 
@@ -48,7 +49,7 @@ export default function Button(props) {
               className: `icon ${showMore ? "show-more" : ""} ${
                 showMore ? "fade-out" : ""
               }`,
-              style: { fontSize: "3rem", marginLeft: "-210px" },
+              style: { fontSize: "3rem", marginLeft: "-210px" ,color:"black"},
             })}
      
 
@@ -63,6 +64,7 @@ export default function Button(props) {
 
           <Typography
             sx={{
+             
               fontSize: "1rem",
               marginLeft: "-150px",
             
