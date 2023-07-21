@@ -11,7 +11,7 @@ import {
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-
+import { Link } from "react-router-dom";
 
 let theme = createTheme({
   palette: {
@@ -63,6 +63,8 @@ const Start = (props) => {
               size="large"
               color="primary"
               variant="outlined"
+              component={Link}
+              to="/contact"
               sx={{ fontWeight: 600, borderWidth: "2.5px" }}
             >
               {languages[currentLanguage].navbar.contactUs}
