@@ -11,7 +11,6 @@ import {
   PiHandshakeThin,
   PiCurrencyCircleDollarThin,
   PiGearSixThin,
-  PiNotebookThin
 } from "react-icons/pi";
 import Servicios from "./Body/Servicios";
 import Contactanos from "./Body/Contactanos";

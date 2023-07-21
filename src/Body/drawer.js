@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import List from "@mui/material/List";
@@ -18,13 +18,9 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import china from "../img/language/china.png";
 import eua from "../img/language/eua.png";
 import mexico from "../img/language/mexico.png";
-import MenuItem from "@mui/material/MenuItem";
-import Menu from "@mui/material/Menu";
-import Tooltip from "@mui/material/Tooltip";
 import Avatar from "@mui/material/Avatar";
 import { LanguageContext } from "../Context/LanguageContext";
 import { languages } from "../Languages/languages";
-import DropdownMenu from "./menu";
 import { Link } from "react-router-dom";
 
 const theme = createTheme({
@@ -55,11 +51,8 @@ export default function SwipeableTemporaryDrawer() {
   };
 
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [ setAnchorElUser] = React.useState(null);
 
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);

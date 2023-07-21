@@ -1,6 +1,5 @@
 import React from "react";
 import "./Start.css";
-import Fondo from "../img/Hero1.png";
 import Logo1 from "../img/Logo/YTBrokersLogoSuperiorDerechaNegro.png";
 import { Box, Typography, Button } from "@mui/material";
 import {
@@ -32,8 +31,8 @@ const Start = (props) => {
     <ThemeProvider theme={theme}>
       <div className="image-overlay-container">
         <Box sx={{ width: "100%", height: "100%" }} position="relative">
-          <img className="background-image" src={props.Fondo} alt="Image 1" />
-          <img className="foreground-image" src={Logo1} alt="Image 2" />
+          <img className="background-image" src={props.Fondo} alt="Image1" />
+          <img className="foreground-image" src={Logo1} alt="Image2" />
           <Box
             sx={{
               top: "35%",

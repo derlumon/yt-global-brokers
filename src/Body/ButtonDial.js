@@ -10,29 +10,6 @@ import CallIcon from "@mui/icons-material/Call";
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-const actions = [
-  {
-    icon: <WeChatIcon />,
-    name: "WeChat(Espanol)",
-    link: "https://u.wechat.com/MEGrx3B1puu_dHtFWvYfb8Y=wc",
-  },
-  {
-    icon: <EmailIcon />,
-    name: "Email",
-    link: "mailto:contacto@yt-global-brokers.com",
-  },
-  {
-    icon: <WeChatIcon />,
-    name: "WeChat(Chino)",
-    link: "https://u.wechat.com/MEGrx3B1puu_dHtFWvYfb8Y=wc",
-  },
-  { icon: <CallIcon />, name: "Telefono", link: "tel:+5255641240055" },
-  {
-    icon: <WhatsAppIcon />,
-    name: "WhatsApp",
-    link: "https://api.whatsapp.com/send?phone=+525569857670&text=Hola%2C+Buenas+Tardes",
-  },
-];
 
 export default function ButtonDial() {
   const { currentLanguage } = useContext(LanguageContext);

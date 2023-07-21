@@ -1,7 +1,6 @@
 import Start from "./Body/start";
 import Contactanos from "./Body/Contactanos";
 import ButtonBaseDemo from "./Body/Consulta";
-import AboutUs from "./Body/aboutUs/aboutUs";
 import Fondo from "./img/Hero2.png";
 import Ubicanos from "./Body/Ubicanos";
 import { languages } from "./Languages/languages";

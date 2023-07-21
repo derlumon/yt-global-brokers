@@ -24,7 +24,7 @@ const AboutUs = () => {
           width={"100%"}
           height={"100%"}
         >
-          <img style={{ width: "100%",height:"80%", borderRadius: "2rem" }} src={hero} />
+          <img style={{ width: "100%",height:"80%", borderRadius: "2rem" }} src={hero} alt=""/>
         </Box>
       </Grid>
       <Grid
