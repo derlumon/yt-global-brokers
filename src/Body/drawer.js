@@ -51,12 +51,8 @@ export default function SwipeableTemporaryDrawer() {
   };
 
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
-  const [ setAnchorElUser] = React.useState(null);
 
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
 
   const list = (anchor) => (
     <ThemeProvider theme={theme}>
@@ -120,10 +116,9 @@ export default function SwipeableTemporaryDrawer() {
         <List>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={() => {
-              handleCloseUserMenu();
-              handleLanguageChange("es");
-            }}
+            onClick={
+              handleLanguageChange("es")
+            }
           >
             <ListItemIcon>
               <IconButton>
@@ -136,26 +131,24 @@ export default function SwipeableTemporaryDrawer() {
           </ListItemButton>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={() => {
-              handleCloseUserMenu();
-              handleLanguageChange("en");
-            }}
+            onClick={
+              handleLanguageChange("en")
+            }
           >
             <ListItemIcon>
               <IconButton>
                 <Avatar alt="Remy Sharp" src={eua} />
               </IconButton>
             </ListItemIcon>
-            <ListItemText
+            <ListItemText 
               primary={languages[currentLanguage].lenguage.english}
             />
           </ListItemButton>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={() => {
-              handleCloseUserMenu();
-              handleLanguageChange("chi");
-            }}
+            onClick={
+              handleLanguageChange("chi")
+            }
           >
             <ListItemIcon>
               <IconButton>
