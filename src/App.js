@@ -13,6 +13,8 @@ import AccountingOptions from "./AccountingOptions";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
+import AdminOptions from "./AdminOptions";
+
 
 function App() {
   const { currentLanguage } = useContext(LanguageContext);
@@ -39,23 +41,12 @@ function App() {
             }
           />
           <Route
-            path="/practiceArea/legalOptions/Consigliere"
-            element={
-              <LegalOptionsEstructure
-                title={languages[currentLanguage].service.Advisor.title}
-                subtitle={languages[currentLanguage].legal.subtitle}
-                body1={languages[currentLanguage].service.Advisor.title}
-                body2={languages[currentLanguage].service.Advisor.description}
-                title2={languages[currentLanguage].legal.title}
-              />}
-          />
-          <Route
             path="/practiceArea/accountingOptions"
             element={<AccountingOptions />}
           />
           <Route
             path="/practiceArea/administrativeOptions"
-            element={<PracticeAreaStructure />}
+            element={<AdminOptions/>}
           />
           <Route path="/legalResources" element={<ContactUsStructure />} />
         </Routes>

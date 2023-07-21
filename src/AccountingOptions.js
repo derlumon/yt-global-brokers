@@ -1,11 +1,12 @@
 import Start from "./Body/start";
 import {
+  PiBriefcaseMetalThin,
+  PiPersonArmsSpreadThin,
+  PiBankThin,
   PiPenThin,
-  PiScalesThin,
-  PiChartLineUpThin,
-  PiBooksThin,
-  PiWarehouseThin,
-  PiStorefrontThin,
+  PiCalculatorThin,
+  PiMoneyLight,
+  PiPiggyBankThin
 } from "react-icons/pi";
 import Servicios from "./Body/Servicios";
 import Ubicanos from "./Body/Ubicanos";
@@ -18,86 +19,62 @@ import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
 
 function AccountingOptions() {
+    const { currentLanguage } = useContext(LanguageContext);
   const buttons = [
     {
-      icon: <PiPenThin />,
-      title: "Contabilidad Empresarial",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiScalesThin />,
-      title: "Contabilidad Personal",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiChartLineUpThin />,
-      title: "Facturacion",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiBooksThin />,
-      title: "Declaraciones",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiWarehouseThin />,
-      title: "Auditorias",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiStorefrontThin />,
-      title: "Tramites ante Hacienda",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-        icon: <PiStorefrontThin />,
-        title: "Deducciones y Acreditamientos",
-        lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
-        ],
+        icon: <PiBriefcaseMetalThin />,
+        title: languages[currentLanguage].AccountingOptions.business_accounting.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.business_accounting.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.business_accounting.description ,
       },
+      {
+        icon: <PiPersonArmsSpreadThin />,
+        title: languages[currentLanguage].AccountingOptions.personal_Accounting.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.personal_Accounting.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.personal_Accounting.description ,
+      },
+      {
+        icon: <PiBankThin />,
+        title: languages[currentLanguage].AccountingOptions.billing.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.billing.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.billing.description ,
+      },
+      {
+        icon: <PiPenThin />,
+        title: languages[currentLanguage].AccountingOptions.statement.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.statement.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.statement.description ,
       
+      },
+      {
+        icon: <PiCalculatorThin />,
+        title: languages[currentLanguage].AccountingOptions.audit.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.audit.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.audit.description ,
+      
+      },
+      {
+        icon: <PiPiggyBankThin/>,
+        title: languages[currentLanguage].AccountingOptions.procedures_before_the_treasury.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.procedures_before_the_treasury.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.procedures_before_the_treasury.description ,
+      
+      },
+      {
+        icon: <PiMoneyLight />,
+        title: languages[currentLanguage].AccountingOptions.deductions_and_accreditation.title,
+        additionaltitle: languages[currentLanguage].AccountingOptions.deductions_and_accreditation.title,
+        additionalInfo: languages[currentLanguage].AccountingOptions.deductions_and_accreditation.description ,
+      
+      },
   ];
-  const { currentLanguage } = useContext(LanguageContext);
+
   return (
     <>
-      <Start Fondo={Fondo1} title={"OPCIONES CONTABLES EN MEXICO"} subtitle={languages[currentLanguage].hero.subtitleHero}/>
-      <PracticeArea title={"Expertos en el Tema"} subtitle={"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda."}/>
+      <Start Fondo={Fondo1} title={languages[currentLanguage].consulta.image2} subtitle={languages[currentLanguage].hero.subtitleHero}/>
+      <PracticeArea title={languages[currentLanguage].legalOptionStructure.title} subtitle={languages[currentLanguage].legalOptionStructure.subtitle}/>
       <ButtonBaseDemo/>
-      <Servicios buttons={buttons} title={"Opciones Contables"}/>
+      <Servicios buttons={buttons} title={languages[currentLanguage].navbar.Accounting_Options}/>
       <Contactanos/>
     </>
   );
