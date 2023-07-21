@@ -12,7 +12,7 @@ function PracticeAreaStructure() {
   return (
     <>
       <Start Fondo={Fondo} title={languages[currentLanguage].practiceArea.title} subtitle={languages[currentLanguage].practiceArea.subtitle}/>
-      <PracticeArea title={"Expertos en el Tema"} subtitle={"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda."}/>
+      <PracticeArea title={languages[currentLanguage].legalOptionStructure.title} subtitle={languages[currentLanguage].legalOptionStructure.subtitle}/>
       <ButtonBaseDemo/>
       <Contactanos/>
     </>

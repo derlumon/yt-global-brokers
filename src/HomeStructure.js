@@ -68,7 +68,7 @@ function HomeStructure() {
       <Start Fondo={Fondo1} title={languages[currentLanguage].hero.titleHero} subtitle={languages[currentLanguage].hero.subtitleHero}/>
       <Introduccion/>
       <ButtonBaseDemo/>
-      <Servicios buttons={buttons} title={"Areas De Practica"}/>
+      <Servicios buttons={buttons} title={languages[currentLanguage].navbar.practiceArea}/>
       <Contactanos/>
       <Ubicanos/>
     </>
