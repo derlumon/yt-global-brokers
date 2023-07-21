@@ -121,7 +121,7 @@ export const languages = {
       Advisor: {
         title: "Advisor",
         description:
-          "Advice before celebrating any act is a neurological point in the world of the Laws of man.Mexico is a democratic nation that stays away from operations between individuals, but it does guarantee and provide protection as broad as all business conducts  ",
+          "Advice before celebrating any act is a neurological point in the world of the Laws of man.\n\nMexico is a democratic nation that stays away from operations between individuals, but it does guarantee and provide protection as broad as all business conducts  ",
       },
       Enter_into_negotiation_or_mediation: {
         title: "Enter into negotiation or mediation. ",
@@ -187,53 +187,53 @@ export const languages = {
     AccountingOptions:{
       business_accounting:{
         title:"Business Accounting",
-        decription:"Business accounting plays a fundamental role in the financial management of a company. We understand the importance of having reliable and timely financial information to make strategic decisions and comply with legal and tax requirements. \n\n Our Business Accounting services cover a wide range of areas, including accounting book management, preparation of financial statements, tax reporting, cost and budget analysis, and advice on accounting and financial issues."
+        description:"Business accounting plays a fundamental role in the financial management of a company. We understand the importance of having reliable and timely financial information to make strategic decisions and comply with legal and tax requirements. \n\n Our Business Accounting services cover a wide range of areas, including accounting book management, preparation of financial statements, tax reporting, cost and budget analysis, and advice on accounting and financial issues."
       },
       personal_Accounting:{
         title:"Personal Accounting",
-        decription:"Personal bookkeeping is essential for maintaining financial balance and making informed decisions about how to manage your financial resources. We understand the importance of sound financial management and we are here to provide you with the necessary guidance. \n\n  Our Personal Accounting services cover a wide range of areas, including tracking and categorizing income and expenses, personal budgeting, advice on savings and investment strategies, retirement planning, debt management and optimization of your personal tax situation. "
+        description:"Personal bookkeeping is essential for maintaining financial balance and making informed decisions about how to manage your financial resources. We understand the importance of sound financial management and we are here to provide you with the necessary guidance. \n\n  Our Personal Accounting services cover a wide range of areas, including tracking and categorizing income and expenses, personal budgeting, advice on savings and investment strategies, retirement planning, debt management and optimization of your personal tax situation. "
       },
       billing:{
         title:"Billing",
-        decription:"Billing is a fundamental component of the financial management of any business. We understand the importance of having an efficient and reliable billing system, which guarantees the proper generation of fiscal documents and the accurate tracking of the income generated./n/nOur Billing services cover a wide range of areas, including the configuration and management of electronic invoicing systems, the preparation and sending of invoices to clients, the recording and monitoring of payments, the management of accounts receivable and the generation of financial reports. related to billing."
+        description:"Billing is a fundamental component of the financial management of any business. We understand the importance of having an efficient and reliable billing system, which guarantees the proper generation of fiscal documents and the accurate tracking of the income generated./n/nOur Billing services cover a wide range of areas, including the configuration and management of electronic invoicing systems, the preparation and sending of invoices to clients, the recording and monitoring of payments, the management of accounts receivable and the generation of financial reports. related to billing."
       },
       statement:{
         title:"Statement",
-        decription:"Filing tax returns is a complex and crucial process for any entity or individual. We understand the importance of complying with tax obligations and ensuring that they are carried out correctly and in a timely manner.\n\nOur Declaration services cover a wide range of areas, including the preparation and presentation of income tax returns, VAT, local taxes and other applicable taxes according to current tax legislation."
+        description:"Filing tax returns is a complex and crucial process for any entity or individual. We understand the importance of complying with tax obligations and ensuring that they are carried out correctly and in a timely manner.\n\nOur Declaration services cover a wide range of areas, including the preparation and presentation of income tax returns, VAT, local taxes and other applicable taxes according to current tax legislation."
       },
       audit:{
         title:"Audit",
-        decription:"Auditing is a critical process for evaluating the financial health of a company and providing objective assurance about the accuracy and reliability of its financial statements. We understand the importance of an independent audit and are committed to providing a rigorous, best-practice approach.\n\nOur Audit services cover a wide range of areas, including the review of financial statements, the evaluation of internal controls, the detection of fraud and errors, and the issuance of independent reports."
+        description:"Auditing is a critical process for evaluating the financial health of a company and providing objective assurance about the accuracy and reliability of its financial statements. We understand the importance of an independent audit and are committed to providing a rigorous, best-practice approach.\n\nOur Audit services cover a wide range of areas, including the review of financial statements, the evaluation of internal controls, the detection of fraud and errors, and the issuance of independent reports."
       },
       procedures_before_the_treasury:{
         title:"Procedures before the treasury",
-        decription:"Procedures before the Treasury can be complex and require detailed knowledge of tax laws and regulations. We understand that meeting these obligations is critical to avoiding penalties and ensuring regulatory compliance.\n\nOur Tax Procedures services include filing tax returns, obtaining tax certificates and authorizations, managing payments and refunds, resolving tax requirements or discrepancies, and representation before the tax authority."
+        description:"Procedures before the Treasury can be complex and require detailed knowledge of tax laws and regulations. We understand that meeting these obligations is critical to avoiding penalties and ensuring regulatory compliance.\n\nOur Tax Procedures services include filing tax returns, obtaining tax certificates and authorizations, managing payments and refunds, resolving tax requirements or discrepancies, and representation before the tax authority."
       },
       deductions_and_accreditation:{
         title:"Deductions and accreditation",
-        decription:"ax deductions and credits are legal mechanisms that allow the amount of taxes to be paid to be reduced. We understand the importance of knowing and correctly applying these options to optimize your tax situation and properly comply with your tax obligations.\n\nOur Deductions and Crediting services cover a wide range of areas, including the identification of deductions and credits applicable to your specific situation, the analysis of current tax regulations, and advice regarding the requirements and procedures to request and apply these advantages. prosecutors."
+        description:"ax deductions and credits are legal mechanisms that allow the amount of taxes to be paid to be reduced. We understand the importance of knowing and correctly applying these options to optimize your tax situation and properly comply with your tax obligations.\n\nOur Deductions and Crediting services cover a wide range of areas, including the identification of deductions and credits applicable to your specific situation, the analysis of current tax regulations, and advice regarding the requirements and procedures to request and apply these advantages. prosecutors."
       },
     },
     AdministrativeOptions:{
       search_for_commercial:{
         title:"Search for commercial and industrial real estate",
-        decription:"Searching for commercial and industrial real estate can be a complex and demanding process, especially when looking for a space that meets the specific needs of a company. We understand the challenges involved in finding the right location, with the right features, dimensions and conditions for the success of your business.\n\nOur Commercial and Industrial Property Search services include the analysis of your requirements and objectives, the identification of potential options in the market, the conduct of visits and evaluations of properties, and the negotiation of lease or purchase-sale contracts."
+        description:"Searching for commercial and industrial real estate can be a complex and demanding process, especially when looking for a space that meets the specific needs of a company. We understand the challenges involved in finding the right location, with the right features, dimensions and conditions for the success of your business.\n\nOur Commercial and Industrial Property Search services include the analysis of your requirements and objectives, the identification of potential options in the market, the conduct of visits and evaluations of properties, and the negotiation of lease or purchase-sale contracts."
       },
       search_for_residential:{
         title:"Search for residential properties",
-        decription:"Searching for a home can be an exciting process, but it can also be overwhelming due to the variety of options available on the market. We understand that finding the right home takes time, research, and experience in the real estate market, and we're here to make that process easier and more successful.\n\nOur Housing Real Estate Search services include the evaluation of your needs and preferences, the identification of housing options that meet your criteria, the scheduling of visits and advice on the negotiation of lease or purchase-sale contracts."
+        description:"Searching for a home can be an exciting process, but it can also be overwhelming due to the variety of options available on the market. We understand that finding the right home takes time, research, and experience in the real estate market, and we're here to make that process easier and more successful.\n\nOur Housing Real Estate Search services include the evaluation of your needs and preferences, the identification of housing options that meet your criteria, the scheduling of visits and advice on the negotiation of lease or purchase-sale contracts."
       },
       orientation_as_a_leasing:{
         title:"Orientation as a leasing",
-        decription:"Renting a property can involve a series of challenges and important decisions. We understand that finding the right place to live or establish your business is a crucial task, and we are here to help you navigate the rental process effectively.\n\nOur Tenant Orientation services include the evaluation of your needs and preferences, the search for properties that meet your criteria, the review of lease agreements, advice on the negotiation of terms and conditions, and the resolution of any concerns or problems. that may arise during the rental process."
+        description:"Renting a property can involve a series of challenges and important decisions. We understand that finding the right place to live or establish your business is a crucial task, and we are here to help you navigate the rental process effectively.\n\nOur Tenant Orientation services include the evaluation of your needs and preferences, the search for properties that meet your criteria, the review of lease agreements, advice on the negotiation of terms and conditions, and the resolution of any concerns or problems. that may arise during the rental process."
       },
       areas_of_interest:{
         title:"Areas of interest",
-        decription:"The areas of interest may vary according to your particular goals and needs. We understand that finding the right location is essential to the success of your projects and activities. We are here to help you assess the areas that interest you and provide relevant information about them.\n\nOur Area of Interest Guidance services include research and analysis of specific geographic areas, infrastructure assessment, access to services, demographics, real estate market trends and other key factors that may influence your decision."
+        description:"The areas of interest may vary according to your particular goals and needs. We understand that finding the right location is essential to the success of your projects and activities. We are here to help you assess the areas that interest you and provide relevant information about them.\n\nOur Area of Interest Guidance services include research and analysis of specific geographic areas, infrastructure assessment, access to services, demographics, real estate market trends and other key factors that may influence your decision."
       },
       natural_covenants:{
         title:"Natural Covenants",
-        decription:"Natural covenants seek to find solutions that enable economic and social development, while protecting and conserving the environment. We understand the importance of finding a balance point to ensure a sustainable future for present and future generations.\n\nOur Natural Agreements services include the identification of opportunities for collaboration between different stakeholders, the design and facilitation of negotiation processes, and the development of agreements that promote the sustainability and conservation of natural resources."
+        description:"Natural covenants seek to find solutions that enable economic and social development, while protecting and conserving the environment. We understand the importance of finding a balance point to ensure a sustainable future for present and future generations.\n\nOur Natural Agreements services include the identification of opportunities for collaboration between different stakeholders, the design and facilitation of negotiation processes, and the development of agreements that promote the sustainability and conservation of natural resources."
       },
     },
   },
@@ -251,7 +251,7 @@ export const languages = {
       legalResources: "RECURSOS LEGALES",
       locate_us:"Ubicanos",
       legal_options:"Opciónes Legales ",
-      Accounting_Options:" Opciónes Contable",
+      Accounting_Options:" Opciónes Contables",
       Real_Estate_Management_Options:"Opciónes Administracion Inmobiliaria"
     },
     contactanos:{
@@ -435,53 +435,53 @@ export const languages = {
     AccountingOptions:{
       business_accounting:{
         title:"Contabilidad Empresarial",
-        decription:"La contabilidad empresarial desempeña un papel fundamental en la gestión financiera de una empresa. Comprendemos la importancia de contar con información financiera confiable y oportuna para tomar decisiones estratégicas y cumplir con los requisitos legales y fiscales. \n\n Nuestros servicios de Contabilidad Empresarial abarcan una amplia gama de áreas, incluyendo la gestión de libros contables, la elaboración de estados financieros, la presentación de informes fiscales, el análisis de costos y presupuestos, y la asesoría en temas contables y financieros."
+        description:"La contabilidad empresarial desempeña un papel fundamental en la gestión financiera de una empresa. Comprendemos la importancia de contar con información financiera confiable y oportuna para tomar decisiones estratégicas y cumplir con los requisitos legales y fiscales. \n\n Nuestros servicios de Contabilidad Empresarial abarcan una amplia gama de áreas, incluyendo la gestión de libros contables, la elaboración de estados financieros, la presentación de informes fiscales, el análisis de costos y presupuestos, y la asesoría en temas contables y financieros."
       },
       personal_Accounting:{
         title:"Contabilidad Personal",
-        decription:"La contabilidad personal es esencial para mantener un equilibrio financiero y tomar decisiones informadas sobre cómo manejar sus recursos económicos. Comprendemos la importancia de una gestión financiera sólida y estamos aquí para brindarle la orientación necesaria. \n\n Nuestros servicios de Contabilidad Personal abarcan una amplia gama de áreas, incluyendo el seguimiento y categorización de ingresos y gastos, la elaboración de presupuestos personales, el asesoramiento en estrategias de ahorro e inversión, la planificación de jubilación, la gestión de deudas y la optimización de su situación fiscal personal."
+        description:"La contabilidad personal es esencial para mantener un equilibrio financiero y tomar decisiones informadas sobre cómo manejar sus recursos económicos. Comprendemos la importancia de una gestión financiera sólida y estamos aquí para brindarle la orientación necesaria. \n\n Nuestros servicios de Contabilidad Personal abarcan una amplia gama de áreas, incluyendo el seguimiento y categorización de ingresos y gastos, la elaboración de presupuestos personales, el asesoramiento en estrategias de ahorro e inversión, la planificación de jubilación, la gestión de deudas y la optimización de su situación fiscal personal."
       },
       billing:{
         title:"Facturacion",
-        decription:"La facturación es un componente fundamental de la gestión financiera de cualquier negocio. Comprendemos la importancia de contar con un sistema de facturación eficiente y confiable, que garantice la generación adecuada de documentos fiscales y el seguimiento preciso de los ingresos generados. \n\n Nuestros servicios de Facturación abarcan una amplia gama de áreas, incluyendo la configuración y gestión de sistemas de facturación electrónica, la elaboración y envío de facturas a clientes, el registro y seguimiento de pagos, la gestión de cuentas por cobrar y la generación de informes financieros relacionados con la facturación."
+        description:"La facturación es un componente fundamental de la gestión financiera de cualquier negocio. Comprendemos la importancia de contar con un sistema de facturación eficiente y confiable, que garantice la generación adecuada de documentos fiscales y el seguimiento preciso de los ingresos generados. \n\n Nuestros servicios de Facturación abarcan una amplia gama de áreas, incluyendo la configuración y gestión de sistemas de facturación electrónica, la elaboración y envío de facturas a clientes, el registro y seguimiento de pagos, la gestión de cuentas por cobrar y la generación de informes financieros relacionados con la facturación."
       },
       statement:{
         title:"Declaracion",
-        decription:"La presentación de declaraciones fiscales es un proceso complejo y crucial para cualquier entidad o individuo. Comprendemos la importancia de cumplir con las obligaciones tributarias y asegurar que se realicen de manera correcta y oportuna.\n\nNuestros servicios de Declaración abarcan una amplia gama de áreas, incluyendo la preparación y presentación de declaraciones de impuestos sobre la renta, el IVA, los impuestos locales y otros impuestos aplicables según la legislación fiscal vigente."
+        description:"La presentación de declaraciones fiscales es un proceso complejo y crucial para cualquier entidad o individuo. Comprendemos la importancia de cumplir con las obligaciones tributarias y asegurar que se realicen de manera correcta y oportuna.\n\nNuestros servicios de Declaración abarcan una amplia gama de áreas, incluyendo la preparación y presentación de declaraciones de impuestos sobre la renta, el IVA, los impuestos locales y otros impuestos aplicables según la legislación fiscal vigente."
       },
       audit:{
         title:"Auditoria",
-        decription:"La auditoría es un proceso crítico para evaluar la salud financiera de una empresa y proporcionar una garantía objetiva sobre la exactitud y confiabilidad de sus estados financieros. Comprendemos la importancia de una auditoría independiente y estamos comprometidos en brindar un enfoque riguroso y basado en las mejores prácticas.\n\nNuestros servicios de Auditoría cubren una amplia gama de áreas, incluyendo la revisión de estados financieros, la evaluación de los controles internos, la detección de fraudes y errores, y la emisión de informes independientes."
+        description:"La auditoría es un proceso crítico para evaluar la salud financiera de una empresa y proporcionar una garantía objetiva sobre la exactitud y confiabilidad de sus estados financieros. Comprendemos la importancia de una auditoría independiente y estamos comprometidos en brindar un enfoque riguroso y basado en las mejores prácticas.\n\nNuestros servicios de Auditoría cubren una amplia gama de áreas, incluyendo la revisión de estados financieros, la evaluación de los controles internos, la detección de fraudes y errores, y la emisión de informes independientes."
       },
       procedures_before_the_treasury:{
         title:"Tramites ante hacienda ",
-        decription:"Los trámites ante Hacienda pueden resultar complejos y requerir un conocimiento detallado de las leyes y regulaciones fiscales. Comprendemos que cumplir con estas obligaciones es fundamental para evitar sanciones y asegurar el cumplimiento normativo.\n\nNuestros servicios de Trámites ante Hacienda incluyen la presentación de declaraciones fiscales, la obtención de certificados y autorizaciones fiscales, la gestión de pagos y devoluciones, la resolución de requerimientos o discrepancias fiscales, y la representación ante la autoridad tributaria."
+        description:"Los trámites ante Hacienda pueden resultar complejos y requerir un conocimiento detallado de las leyes y regulaciones fiscales. Comprendemos que cumplir con estas obligaciones es fundamental para evitar sanciones y asegurar el cumplimiento normativo.\n\nNuestros servicios de Trámites ante Hacienda incluyen la presentación de declaraciones fiscales, la obtención de certificados y autorizaciones fiscales, la gestión de pagos y devoluciones, la resolución de requerimientos o discrepancias fiscales, y la representación ante la autoridad tributaria."
       },
       deductions_and_accreditation:{
         title:"Deducciones y acreditamiento",
-        decription:"Las deducciones y acreditamientos fiscales son mecanismos legales que permiten reducir el monto de impuestos a pagar. Comprendemos la importancia de conocer y aplicar correctamente estas opciones para optimizar su situación fiscal y cumplir con sus obligaciones tributarias de manera adecuada.\n\nNuestros servicios de Deducciones y Acreditamiento abarcan una amplia gama de áreas, incluyendo la identificación de deducciones y acreditamientos aplicables a su situación específica, el análisis de la normativa fiscal vigente, y la asesoría en cuanto a los requisitos y procedimientos para solicitar y aplicar estas ventajas fiscales."
+        description:"Las deducciones y acreditamientos fiscales son mecanismos legales que permiten reducir el monto de impuestos a pagar. Comprendemos la importancia de conocer y aplicar correctamente estas opciones para optimizar su situación fiscal y cumplir con sus obligaciones tributarias de manera adecuada.\n\nNuestros servicios de Deducciones y Acreditamiento abarcan una amplia gama de áreas, incluyendo la identificación de deducciones y acreditamientos aplicables a su situación específica, el análisis de la normativa fiscal vigente, y la asesoría en cuanto a los requisitos y procedimientos para solicitar y aplicar estas ventajas fiscales."
       },
     },
     AdministrativeOptions:{
       search_for_commercial:{
         title:"Búsqueda de inmuebles comerciales e industriales  ",
-        decription:"La búsqueda de inmuebles comerciales e industriales puede ser un proceso complejo y exigente, especialmente cuando se busca un espacio que se ajuste a las necesidades específicas de una empresa. Comprendemos los desafíos que implica encontrar la ubicación adecuada, con las características, dimensiones y condiciones adecuadas para el éxito de su negocio.\n\nNuestros servicios de Búsqueda de Inmuebles Comerciales e Industriales incluyen el análisis de sus requerimientos y objetivos, la identificación de opciones potenciales en el mercado, la realización de visitas y evaluaciones de propiedades, y la negociación de contratos de arrendamiento o compra-venta."
+        description:"La búsqueda de inmuebles comerciales e industriales puede ser un proceso complejo y exigente, especialmente cuando se busca un espacio que se ajuste a las necesidades específicas de una empresa. Comprendemos los desafíos que implica encontrar la ubicación adecuada, con las características, dimensiones y condiciones adecuadas para el éxito de su negocio.\n\nNuestros servicios de Búsqueda de Inmuebles Comerciales e Industriales incluyen el análisis de sus requerimientos y objetivos, la identificación de opciones potenciales en el mercado, la realización de visitas y evaluaciones de propiedades, y la negociación de contratos de arrendamiento o compra-venta."
       },
       search_for_residential:{
         title:"Busqueda de inmuebles habitacionales ",
-        decription:"La búsqueda de un inmueble habitacional puede ser un proceso emocionante, pero también puede resultar abrumador debido a la variedad de opciones disponibles en el mercado. Comprendemos que encontrar el hogar adecuado requiere tiempo, investigación y experiencia en el mercado inmobiliario, y estamos aquí para hacer que ese proceso sea más fácil y exitoso.\n\nNuestros servicios de Búsqueda de Inmuebles Habitacionales incluyen la evaluación de sus necesidades y preferencias, la identificación de opciones de vivienda que cumplan con sus criterios, la programación de visitas y la asesoría en la negociación de contratos de arrendamiento o compra-venta."
+        description:"La búsqueda de un inmueble habitacional puede ser un proceso emocionante, pero también puede resultar abrumador debido a la variedad de opciones disponibles en el mercado. Comprendemos que encontrar el hogar adecuado requiere tiempo, investigación y experiencia en el mercado inmobiliario, y estamos aquí para hacer que ese proceso sea más fácil y exitoso.\n\nNuestros servicios de Búsqueda de Inmuebles Habitacionales incluyen la evaluación de sus necesidades y preferencias, la identificación de opciones de vivienda que cumplan con sus criterios, la programación de visitas y la asesoría en la negociación de contratos de arrendamiento o compra-venta."
       },
       orientation_as_a_leasing:{
         title:"Orientacion como Arrendatorio ",
-        decription:"Alquilar una propiedad puede implicar una serie de desafíos y decisiones importantes. Comprendemos que encontrar el lugar adecuado para vivir o establecer su negocio es una tarea crucial, y estamos aquí para ayudarlo a navegar por el proceso de alquiler de manera efectiva.\n\nNuestros servicios de Orientación como Arrendatario incluyen la evaluación de sus necesidades y preferencias, la búsqueda de propiedades que cumplan con sus criterios, la revisión de contratos de arrendamiento, la asesoría en la negociación de términos y condiciones, y la resolución de cualquier inquietud o problema que pueda surgir durante el proceso de alquiler."
+        description:"Alquilar una propiedad puede implicar una serie de desafíos y decisiones importantes. Comprendemos que encontrar el lugar adecuado para vivir o establecer su negocio es una tarea crucial, y estamos aquí para ayudarlo a navegar por el proceso de alquiler de manera efectiva.\n\nNuestros servicios de Orientación como Arrendatario incluyen la evaluación de sus necesidades y preferencias, la búsqueda de propiedades que cumplan con sus criterios, la revisión de contratos de arrendamiento, la asesoría en la negociación de términos y condiciones, y la resolución de cualquier inquietud o problema que pueda surgir durante el proceso de alquiler."
       },
       areas_of_interest:{
         title:"Zonas de interés",
-        decription:"Las zonas de interés pueden variar según sus objetivos y necesidades particulares. Comprendemos que encontrar la ubicación adecuada es esencial para el éxito de sus proyectos y actividades. Estamos aquí para ayudarlo a evaluar las zonas que le interesan y proporcionarle información relevante sobre ellas.\n\nNuestros servicios de Orientación en Zonas de Interés incluyen la investigación y el análisis de áreas geográficas específicas, la evaluación de la infraestructura, el acceso a servicios, la demografía, las tendencias del mercado inmobiliario y otros factores clave que puedan influir en su decisión."
+        description:"Las zonas de interés pueden variar según sus objetivos y necesidades particulares. Comprendemos que encontrar la ubicación adecuada es esencial para el éxito de sus proyectos y actividades. Estamos aquí para ayudarlo a evaluar las zonas que le interesan y proporcionarle información relevante sobre ellas.\n\nNuestros servicios de Orientación en Zonas de Interés incluyen la investigación y el análisis de áreas geográficas específicas, la evaluación de la infraestructura, el acceso a servicios, la demografía, las tendencias del mercado inmobiliario y otros factores clave que puedan influir en su decisión."
       },
       natural_covenants:{
         title:"Convenios naturales",
-        decription:"Los convenios naturales buscan encontrar soluciones que permitan el desarrollo económico y social, al tiempo que se protege y se conserva el medio ambiente. Comprendemos la importancia de encontrar un punto de equilibrio para garantizar un futuro sostenible para las generaciones presentes y futuras.\n\nNuestros servicios de Convenios Naturales incluyen la identificación de oportunidades de colaboración entre diferentes partes interesadas, el diseño y la facilitación de procesos de negociación y la elaboración de convenios que promuevan la sostenibilidad y la conservación de los recursos naturales."
+        description:"Los convenios naturales buscan encontrar soluciones que permitan el desarrollo económico y social, al tiempo que se protege y se conserva el medio ambiente. Comprendemos la importancia de encontrar un punto de equilibrio para garantizar un futuro sostenible para las generaciones presentes y futuras.\n\nNuestros servicios de Convenios Naturales incluyen la identificación de oportunidades de colaboración entre diferentes partes interesadas, el diseño y la facilitación de procesos de negociación y la elaboración de convenios que promuevan la sostenibilidad y la conservación de los recursos naturales."
       },
     },
   },
@@ -669,53 +669,53 @@ export const languages = {
     AccountingOptions:{
       business_accounting:{
         title:"商业会计",
-        decription:"商业会计在公司的财务管理中发挥着基础性作用。我们了解拥有可靠且及时的财务信息对于做出战略决策并遵守法律和税务要求的重要性。\n\n 我们的企业会计服务涵盖广泛的领域，包括会计账簿管理、财务报表编制、税务报告、成本和预算分析以及会计和财务问题的建议。"
+        description:"商业会计在公司的财务管理中发挥着基础性作用。我们了解拥有可靠且及时的财务信息对于做出战略决策并遵守法律和税务要求的重要性。\n\n 我们的企业会计服务涵盖广泛的领域，包括会计账簿管理、财务报表编制、税务报告、成本和预算分析以及会计和财务问题的建议。"
       },
       personal_Accounting:{
         title:"个人会计",
-        decription:"我们的个人会计服务涵盖广泛的领域，包括跟踪和分类收入和支出、个人预算、储蓄和投资策略建议、退休计划、债务管理和优化您的个人税务状况。\n\n 我们将与您密切合作，了解您的财务目标，并设计适合您的需求和生活方式的个性化计划。我们将帮助您组织并保留财务交易的准确记录，为您提供定期报告，以便您评估进度并做出明智的决策。"
+        description:"我们的个人会计服务涵盖广泛的领域，包括跟踪和分类收入和支出、个人预算、储蓄和投资策略建议、退休计划、债务管理和优化您的个人税务状况。\n\n 我们将与您密切合作，了解您的财务目标，并设计适合您的需求和生活方式的个性化计划。我们将帮助您组织并保留财务交易的准确记录，为您提供定期报告，以便您评估进度并做出明智的决策。"
       },
       billing:{
         title:"计费",
-        decription:"计费是任何企业财务管理的基本组成部分。我们了解拥有高效可靠的计费系统的重要性，该系统可保证正确生成财务文件并准确跟踪所产生的收入。\n\n 我们的计费服务涵盖广泛的领域，包括电子发票系统的配置和管理、发票的准备和发送给客户、付款的记录和监控、应收账款的管理以及财务报告的生成。计费。"
+        description:"计费是任何企业财务管理的基本组成部分。我们了解拥有高效可靠的计费系统的重要性，该系统可保证正确生成财务文件并准确跟踪所产生的收入。\n\n 我们的计费服务涵盖广泛的领域，包括电子发票系统的配置和管理、发票的准备和发送给客户、付款的记录和监控、应收账款的管理以及财务报告的生成。计费。"
       },
       statement:{
         title:"陈述",
-        decription:"对于任何实体或个人来说，提交纳税申报表都是一个复杂而关键的过程。我们了解遵守纳税义务并确保正确及时履行纳税义务的重要性。\n\n我们的申报服务涵盖广泛的领域，包括根据现行税法准备和提交所得税申报表、增值税、地方税和其他适用税费。"
+        description:"对于任何实体或个人来说，提交纳税申报表都是一个复杂而关键的过程。我们了解遵守纳税义务并确保正确及时履行纳税义务的重要性。\n\n我们的申报服务涵盖广泛的领域，包括根据现行税法准备和提交所得税申报表、增值税、地方税和其他适用税费。"
       },
       audit:{
         title:"审计",
-        decription:"审计是评估公司财务状况并为其财务报表的准确性和可靠性提供客观保证的关键过程。我们了解独立审计的重要性，并致力于提供严格、最佳实践的方法。\n\n我们的审计服务涵盖广泛的领域，包括审查财务报表、评估内部控制、发现欺诈和错误以及发布独立报告。"
+        description:"审计是评估公司财务状况并为其财务报表的准确性和可靠性提供客观保证的关键过程。我们了解独立审计的重要性，并致力于提供严格、最佳实践的方法。\n\n我们的审计服务涵盖广泛的领域，包括审查财务报表、评估内部控制、发现欺诈和错误以及发布独立报告。"
       },
       procedures_before_the_treasury:{
         title:"财政部的程序",
-        decription:"财政部的程序可能很复杂，需要详细了解税法和法规。我们知道，履行这些义务对于避免处罚和确保遵守法规至关重要。\n\n我们的税务程序服务包括提交纳税申报表、获取税务证书和授权、管理付款和退款、解决税务要求或差异以及在税务机关面前代理。"
+        description:"财政部的程序可能很复杂，需要详细了解税法和法规。我们知道，履行这些义务对于避免处罚和确保遵守法规至关重要。\n\n我们的税务程序服务包括提交纳税申报表、获取税务证书和授权、管理付款和退款、解决税务要求或差异以及在税务机关面前代理。"
       },
       deductions_and_accreditation:{
         title:"扣除额和信用额",
-        decription:"税收减免和抵免是允许减少缴纳税款的法律机制。我们了解了解并正确应用这些选项对于优化您的税务状况并正确遵守您的纳税义务的重要性。\n\n我们的扣除和抵免服务涵盖广泛的领域，包括确定适用于您具体情况的扣除和抵免、分析现行税务法规以及有关申请和应用这些优势的要求和程序的建议。"
+        description:"税收减免和抵免是允许减少缴纳税款的法律机制。我们了解了解并正确应用这些选项对于优化您的税务状况并正确遵守您的纳税义务的重要性。\n\n我们的扣除和抵免服务涵盖广泛的领域，包括确定适用于您具体情况的扣除和抵免、分析现行税务法规以及有关申请和应用这些优势的要求和程序的建议。"
       },
     },
     AdministrativeOptions:{
       search_for_commercial:{
         title:"寻找商业和工业房地产",
-        decription:"寻找商业和工业房地产可能是一个复杂而艰巨的过程，尤其是在寻找满足公司特定需求的空间时。我们了解为您的业务成功寻找具有合适功能、规模和条件的合适地点所面临的挑战。\n\n我们的商业和工业产权搜索服务包括分析您的要求和目标、识别市场上的潜在选择、进行财产参观和评估以及租赁或买卖合同的谈判。"
+        description:"寻找商业和工业房地产可能是一个复杂而艰巨的过程，尤其是在寻找满足公司特定需求的空间时。我们了解为您的业务成功寻找具有合适功能、规模和条件的合适地点所面临的挑战。\n\n我们的商业和工业产权搜索服务包括分析您的要求和目标、识别市场上的潜在选择、进行财产参观和评估以及租赁或买卖合同的谈判。"
       },
       search_for_residential:{
         title:"搜寻住宅物业",
-        decription:"寻找房屋可能是一个令人兴奋的过程，但由于市场上有各种各样的选择，它也可能令人不知所措。我们知道，找到合适的房子需要时间、研究和房地产市场的经验，我们致力于让这个过程变得更容易、更成功。\n\n我们的住房房地产搜索服务包括评估您的需求和偏好、确定符合您标准的住房选择、安排访问以及就租赁或买卖合同谈判提供建议。"
+        description:"寻找房屋可能是一个令人兴奋的过程，但由于市场上有各种各样的选择，它也可能令人不知所措。我们知道，找到合适的房子需要时间、研究和房地产市场的经验，我们致力于让这个过程变得更容易、更成功。\n\n我们的住房房地产搜索服务包括评估您的需求和偏好、确定符合您标准的住房选择、安排访问以及就租赁或买卖合同谈判提供建议。"
       },
       orientation_as_a_leasing:{
         title:"作为租户的定位",
-        decription:"租赁房产可能涉及一系列挑战和重要决定。我们知道，找到合适的居住地点或开展业务是一项至关重要的任务，我们将随时帮助您有效地完成租赁流程。\n\n我们的租户导向服务包括评估您的需求和偏好、寻找符合您标准的房产、审查租赁协议、就条款和条件谈判提供建议以及解决租客期间可能出现的任何疑虑或问题。租赁过程。"
+        description:"租赁房产可能涉及一系列挑战和重要决定。我们知道，找到合适的居住地点或开展业务是一项至关重要的任务，我们将随时帮助您有效地完成租赁流程。\n\n我们的租户导向服务包括评估您的需求和偏好、寻找符合您标准的房产、审查租赁协议、就条款和条件谈判提供建议以及解决租客期间可能出现的任何疑虑或问题。租赁过程。"
       },
       areas_of_interest:{
         title:"兴趣范围",
-        decription:"感兴趣的领域可能会根据您的特定目标和需求而有所不同。我们知道，找到合适的地点对于您的项目和活动的成功至关重要。我们随时帮助您评估您感兴趣的领域并提供相关信息。\n\n我们的兴趣领域指导服务包括对特定地理区域的研究和分析、基础设施评估、服务获取、人口统计、房地产市场趋势以及其他可能影响您决策的关键因素。"
+        description:"感兴趣的领域可能会根据您的特定目标和需求而有所不同。我们知道，找到合适的地点对于您的项目和活动的成功至关重要。我们随时帮助您评估您感兴趣的领域并提供相关信息。\n\n我们的兴趣领域指导服务包括对特定地理区域的研究和分析、基础设施评估、服务获取、人口统计、房地产市场趋势以及其他可能影响您决策的关键因素。"
       },
       natural_covenants:{
         title:"自然契约",
-        decription:"自然契约寻求找到促进经济和社会发展的解决方案，同时保护和养护环境。我们深知找到平衡点以确保今世后代可持续未来的重要性。\n\n我们的自然协议服务包括确定不同利益相关者之间的合作机会、设计和促进谈判流程以及制定促进自然资源可持续性和保护的协议。"
+        description:"自然契约寻求找到促进经济和社会发展的解决方案，同时保护和养护环境。我们深知找到平衡点以确保今世后代可持续未来的重要性。\n\n我们的自然协议服务包括确定不同利益相关者之间的合作机会、设计和促进谈判流程以及制定促进自然资源可持续性和保护的协议。"
       },
     },
   },
