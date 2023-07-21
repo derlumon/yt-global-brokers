@@ -2,6 +2,7 @@ import { Grid, Typography, Box } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import "./servicios.css";
 
+
 export default function PracticeArea(props) {
   const [isVisible, setIsVisible] = useState(false);
 

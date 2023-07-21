@@ -3,7 +3,7 @@ import Logo1 from "../img/Logo/YTBrokersLogoGrisClaro.png";
 import Logo2 from "../img/Logo/YTBrokersLogoSinFondo.png";
 import DropdownMenu from "./menu";
 import SwipeableTemporaryDrawer from "./drawer";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AppBar, Toolbar, Typography, useScrollTrigger } from "@mui/material";
 import { ThemeProvider, createTheme, styled } from "@mui/material/styles";
 import china from "../img/language/china.png";
@@ -59,12 +59,29 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
 }));
 
 const Navbar = () => {
+ 
+
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
 
   const [isTransparent, setIsTransparent] = useState(true);
   const [logo, setLogo] = useState(Logo1);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [lenguage, setLenguage] = useState(mexico);
+
+ 
+
+
+
+  const theme = createTheme();
+
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
+  const animatedTextRef = useRef([]);
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -78,17 +95,18 @@ const Navbar = () => {
     } else {
       setLogo(Logo1);
     }
+
+    // Apply the appearance effect to Typography elements with the "animated-text" class
+    animatedTextRef.current.forEach((element) => {
+      element.style.opacity = "0"; // Start with opacity 0 to create the appearance effect
+      element.style.transform = "translateY(20px)"; // Start with some translateY to animate from below
+      element.style.transition = "opacity 0.5s ease, transform 0.5s ease"; // Add CSS transitions
+      setTimeout(() => {
+        element.style.opacity = "1"; // Set opacity to 1 after a small delay to trigger the animation
+        element.style.transform = "translateY(0)"; // Reset translateY to 0
+      }, 100);
+    });
   }, [trigger]);
-
-  const theme = createTheme();
-
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
   return (
     <ThemeProvider theme={theme}>
       <StyledAppBar position="fixed" className={isTransparent ? "solid" : ""}>
@@ -109,6 +127,8 @@ const Navbar = () => {
             >
               <img src={logo} style={{ width: "60px", height: "60px" }} />
               <Typography
+               ref={(el) => (animatedTextRef.current[0] = el)}
+               className="animated-text"
                 variant="h6"
                 color="inherit"
                 sx={{
@@ -117,6 +137,7 @@ const Navbar = () => {
                   fontFamily: "Sweet Sans Pro",
                   fontWeight: 500,
                   fontSize: { xs: "1rem", md: "1.3rem" },
+                  
                 }}
               >
                 YT, GLOBAL BROKER'S
@@ -208,7 +229,7 @@ const Navbar = () => {
                     <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={china} />
                     </IconButton>
-                    <Typography textAlign="center" fontFamily={"Rubik"}>
+                    <Typography    ref={(el) => (animatedTextRef.current[0] = el)}className="animated-text"textAlign="center" fontFamily={"Rubik"}>
                       {languages[currentLanguage].lenguage.chinese}
                     </Typography>
                   </MenuItem>
@@ -222,7 +243,7 @@ const Navbar = () => {
                     <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={eua} />
                     </IconButton>
-                    <Typography textAlign="center" fontFamily={"Rubik"}>
+                    <Typography  ref={(el) => (animatedTextRef.current[0] = el)}className="animated-text"textAlign="center" fontFamily={"Rubik"}>
                       {languages[currentLanguage].lenguage.english}
                     </Typography>
                   </MenuItem>
@@ -236,7 +257,7 @@ const Navbar = () => {
                     <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={mexico} />
                     </IconButton>
-                    <Typography textAlign="center" fontFamily={"Rubik"}>
+                    <Typography  ref={(el) => (animatedTextRef.current[0] = el)} className="animated-text"textAlign="center" fontFamily={"Rubik"}>
                       {languages[currentLanguage].lenguage.spanish}
                     </Typography>
                   </MenuItem>

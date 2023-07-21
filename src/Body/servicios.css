@@ -15,18 +15,8 @@
 }
 
 .servicios-visible {
-  animation: slideInFromRight 1s ease-out;
+  animation: slideInFromRight 3s ease-out;
   opacity: 1; /* Cuando el componente sea visible, restablecemos la opacidad a 1 */
 }
 /* servicios.css */
 
-.fade-element {
-  opacity: 1;
-  transform: translateY(20px);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-.fade-element.active {
-  opacity: 1;
-  transform: translateY(0);
-}

@@ -108,6 +108,10 @@ export const languages = {
     aboutUs:{
       title:"ABOUT US",
       subtitle:"We offer professional accounting, administrative and legal support in any activity in which you as a natural or legal person will develop. Our accounting, administrative, legal and immigration areas offer confidence and security with which you will be protected in any legal or fiscal case.",
+      about_the_office:"ABOUT THE OFFICE",
+      phrase:"TY GLOBAL BROKER'S has served Mexico, Spain Brazil, Colombia since the year 2000 with considerable success. We are proud of our tradition of excellence, which guarantees the highest quality service. We understand the challenges and pressure that each case brings, and we are here for you, standing by you every step of the way. Our team of legal professionals is distinguished by their professionalism and by providing a personal touch to their dealings with clients, in addition to always giving the attention that each case deserves. Contact us today."
+
+
     },
     contactUs:{
       title:"CONTACT US",
@@ -339,6 +343,10 @@ export const languages = {
     aboutUs:{
       title:"SOBRE NOSOTROS",
       subtitle:"Ofrecemos el respaldo profesional contable, administrativo y jurídico necesarios en cualquier actividad en la cual usted como persona física o moral se desarrolle. Nuestras áreas contables, administrativas, jurídico fiscales y migratorias ofrecen confianza y seguridad con la cual  estará en cualquier caso legal o fiscal protegido. ",
+      about_the_office:"SOBRE EL DESPACHO",
+      phrase:"TY GLOBAL BROKER'S ha prestado servicios en México, España Brasil,Colombia desde el año 2000 con un éxito considerable. Nosenorgullece nuestra tradición de excelencia, que garantiza unservicio de la más alta calidad. Entendemos los desafíos y lapresión que conlleva cada caso y estamos para usted, acompañándolo en cada paso del camino. Nuestro equipo de profesionales jurídicos se distingue por su profesionalismo y por aportar un toque personal a su trato con los clientes, además de dar siempre la atención que cada caso amerita. Contáctenos hoy mismo."
+
+
     },
     contactUs:{
       title:"CONTACTANOS",
@@ -572,9 +580,9 @@ export const languages = {
       title:"实践领域",
       subtitle:"我们了解每个客户都是不同的，需要量身定制的解决方案和强有力的法律建议。我们的业务领域涵盖从业务相关请求到国际商业纠纷。",
       legal_options: {
-        title: "Legal Options",
+        title: "法律选择",
         description:
-          "The culture of legality is not reduced to the result dictated by the courts but to the set of daily behaviors that allow people and communities to coexist in favor of their values and interests.Each advice or proposal is tailored to each of the interested parties and depends on the opening of the client.",
+          "合法性文化并不简化为法院所决定的结果，而是允许人们和社区以有利于其价值观和利益的方式共存的一系列日常行为。每项建议或建议都是针对每个利益相关方量身定制的，并取决于客户的开放。",
       },
       Real_Estate_Administrative_Options: "Real Estate Administrative Options",
       accounting_options: "accounting options",
@@ -582,6 +590,8 @@ export const languages = {
     aboutUs:{
       title:"关于我们",
       subtitle:"我们为您作为自然人或法人开展的任何活动提供专业的会计、行政和法律支持。我们的会计、行政、法律和移民领域为您提供信心和安全感，让您在任何法律或财务案件中都受到保护",
+      about_the_office:"关于办公室",
+      phrase:"TY GLOBAL BROKER'S 自 2000 年以来一直为墨西哥、西班牙、巴西、哥伦比亚提供服务，并取得了相当大的成功。我们为我们的卓越传统感到自豪，这保证了最优质的服务。我们了解每个案件带来的挑战和压力，我们随时为您服务，在您前进的每一步中为您提供支持。我们的法律专业团队以其专业精神和在与客户的交易中提供个人风格而著称，此外始终给予每个案件应有的关注。今天联系我们。"
       
     },
     contactUs:{
