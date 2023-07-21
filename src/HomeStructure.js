@@ -1,11 +1,11 @@
 import Start from "./Body/start";
 import {
-  PiPenThin,
-  PiScalesThin,
-  PiChartLineUpThin,
-  PiBooksThin,
-  PiWarehouseThin,
-  PiStorefrontThin,
+    PiHouseLight,
+    PiWarehouseDuotone,
+    PiMedal,
+    PiGearSixThin,
+    PiAirplaneLandingThin,
+    PiCurrencyCircleDollarThin,
 } from "react-icons/pi";
 import Servicios from "./Body/Servicios";
 import Ubicanos from "./Body/Ubicanos";
@@ -18,69 +18,51 @@ import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
 
 function HomeStructure() {
-  const buttons = [
+    const { currentLanguage } = useContext(LanguageContext);
+  
+    const buttons = [
     {
-      icon: <PiPenThin />,
-      title: "Contract Drafting & Review",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiScalesThin />,
-      title: "Contract Drafting & Review",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiChartLineUpThin />,
-      title: "Contract Drafting & Review",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiBooksThin />,
-      title: "Contract Drafting & Review",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiWarehouseThin />,
-      title: "Contract Drafting & Review",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-    {
-      icon: <PiStorefrontThin />,
-      title: "Contract Drafting & Review",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
-    },
-  ];
-  const { currentLanguage } = useContext(LanguageContext);
+        icon: <PiHouseLight />,
+        title: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
+        additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
+        additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_commercial.description ,
+      },
+      {
+        icon: <PiWarehouseDuotone />,
+        title: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
+        additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
+        additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_residential.description ,
+      },
+      {
+        icon: <PiMedal />,
+        title: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.title,
+        additionaltitle: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.title,
+        additionalInfo: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.description ,
+      },
+      {
+        icon: <PiGearSixThin />,
+        title: languages[currentLanguage].service.Administrative_Agencies.title,
+        additionaltitle: languages[currentLanguage].service.Administrative_Agencies.title,
+        additionalInfo: languages[currentLanguage].service.Administrative_Agencies.description ,
+      
+      },
+      {
+        icon: <PiAirplaneLandingThin />,
+        title: languages[currentLanguage].service.Migration.title,
+        additionaltitle: languages[currentLanguage].service.Migration.title,
+        additionalInfo: languages[currentLanguage].service.Migration.description ,
+      
+      },
+      {
+        icon: <PiCurrencyCircleDollarThin />,
+        title: languages[currentLanguage].service.Taxes_and_Contributions.title,
+        additionaltitle: languages[currentLanguage].service.Taxes_and_Contributions.title,
+        additionalInfo: languages[currentLanguage].service.Taxes_and_Contributions.description ,
+      },
+      
+    
+    ]
+
   return (
     <>
       <Start Fondo={Fondo1} title={languages[currentLanguage].hero.titleHero} subtitle={languages[currentLanguage].hero.subtitleHero}/>
