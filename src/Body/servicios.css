@@ -11,6 +11,7 @@
   }
   
   .servicios.animate {
+    
     animation: fadeInUp 2s;
   }
   @media (max-width: 1024px) {
