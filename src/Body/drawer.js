@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext,useEffect } from "react";
 import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import List from "@mui/material/List";
@@ -51,8 +51,10 @@ export default function SwipeableTemporaryDrawer() {
   };
 
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
-
-
+  useEffect(()=>{
+    console.log(currentLanguage)
+  },[currentLanguage])
+  
 
   const list = (anchor) => (
     <ThemeProvider theme={theme}>
@@ -116,29 +118,21 @@ export default function SwipeableTemporaryDrawer() {
         <List>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={
-              handleLanguageChange("es")
-            }
+            onClick={()=>{handleLanguageChange("es")}}
           >
             <ListItemIcon>
-              <IconButton>
                 <Avatar alt="Remy Sharp" src={mexico} />
-              </IconButton>
             </ListItemIcon>
-            <ListItemText
+            <ListItemText 
               primary={languages[currentLanguage].lenguage.spanish}
             />
           </ListItemButton>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={
-              handleLanguageChange("en")
-            }
+            onClick={()=>{handleLanguageChange("en")}}
           >
             <ListItemIcon>
-              <IconButton>
                 <Avatar alt="Remy Sharp" src={eua} />
-              </IconButton>
             </ListItemIcon>
             <ListItemText 
               primary={languages[currentLanguage].lenguage.english}
@@ -146,14 +140,10 @@ export default function SwipeableTemporaryDrawer() {
           </ListItemButton>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={
-              handleLanguageChange("chi")
-            }
+            onClick={()=>{handleLanguageChange("chi")}}
           >
-            <ListItemIcon>
-              <IconButton>
+            <ListItemIcon >
                 <Avatar alt="Remy Sharp" src={china} />
-              </IconButton>
             </ListItemIcon>
             <ListItemText
               primary={languages[currentLanguage].lenguage.chinese}
