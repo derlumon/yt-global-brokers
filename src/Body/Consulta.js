@@ -14,16 +14,19 @@ export default function ButtonBaseDemo() {
       url: 'https://www.gruporedes.com.mx/wp-content/uploads/2018/07/4-abogado.jpg',
       title: languages[currentLanguage].consulta.image1,
       width: '33.33%',
+      to:'/practiceArea/legalOptions'
     },
     {
       url: 'https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_640.jpg',
       title: languages[currentLanguage].consulta.image2,
       width: '33.33%',
+      to:'/practiceArea/accountingOptions'
     },
     {
       url: 'https://www.activa.cl/wp-content/uploads/2020/11/Administracion-de-propiedades.jpg',
       title: languages[currentLanguage].consulta.image3,
       width: '33.33%',
+      to:'/practiceArea/administrativeOptions'
     },
   ];
   

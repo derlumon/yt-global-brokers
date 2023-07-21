@@ -1,14 +1,15 @@
 import {
   Box,
-  Card,
-  CardContent,
-  CardMedia,
   Grid,
   Typography,
 } from "@mui/material";
 import hero from "../../img/aboutUs.jpg";
+import { useContext } from "react";
+import { LanguageContext } from "../../Context/LanguageContext";
+import { languages } from "../../Languages/languages";
 
 const AboutUs = () => {
+  const { currentLanguage } = useContext(LanguageContext);
   return (
     <Grid
       container
@@ -48,7 +49,7 @@ const AboutUs = () => {
             fontWeight={600}
             fontFamily={"Rubik"}
           >
-            SOBRE EL DESPACHO
+            {languages[currentLanguage].aboutUs.about_the_office}
           </Typography>
           <Typography
             textAlign={"center"}
@@ -57,15 +58,7 @@ const AboutUs = () => {
             fontWeight={500}
             fontFamily={"Rubik"}
           >
-            TY GLOBAL BROKER'S ha prestado servicios en México, España Brasil,
-            Colombia desde el año 2000 con un éxito considerable. Nos
-            enorgullece nuestra tradición de excelencia, que garantiza un
-            servicio de la más alta calidad. Entendemos los desafíos y la
-            presión que conlleva cada caso y estamos para usted, acompañándolo
-            en cada paso del camino. Nuestro equipo de profesionales jurídicos
-            se distingue por su profesionalismo y por aportar un toque personal
-            a su trato con los clientes, además de dar siempre la atención que
-            cada caso amerita. Contáctenos hoy mismo.
+      {languages[currentLanguage].aboutUs.phrase}
           </Typography>
         </Box>
       </Grid>

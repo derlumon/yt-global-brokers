@@ -25,6 +25,7 @@ import Avatar from "@mui/material/Avatar";
 import { LanguageContext } from "../Context/LanguageContext";
 import { languages } from "../Languages/languages";
 import DropdownMenu from "./menu";
+import { Link } from "react-router-dom";
 
 const theme = createTheme({
   components: {
@@ -74,7 +75,7 @@ export default function SwipeableTemporaryDrawer() {
       >
         <List>
           <ListItem key={"Home"} disablePadding>
-            <ListItemButton>
+            <ListItemButton component={Link} to="/">
               <ListItemIcon>
                 <HomeIcon />
               </ListItemIcon>
@@ -82,27 +83,33 @@ export default function SwipeableTemporaryDrawer() {
             </ListItemButton>
           </ListItem>
           <ListItem key={"AboutUs"} disablePadding>
-            <ListItemButton>
+            <ListItemButton component={Link} to="/about">
               <ListItemIcon>
                 <SupervisorAccountIcon />
               </ListItemIcon>
-              <ListItemText primary={languages[currentLanguage].navbar.aboutUs} />
+              <ListItemText
+                primary={languages[currentLanguage].navbar.aboutUs}
+              />
             </ListItemButton>
           </ListItem>
           <ListItem key={"PracticeArea"} disablePadding>
-            <ListItemButton>
+            <ListItemButton component={Link} to="/practiceArea">
               <ListItemIcon>
                 <BookIcon />
               </ListItemIcon>
-              <ListItemText primary={languages[currentLanguage].navbar.practiceArea} />
+              <ListItemText
+                primary={languages[currentLanguage].navbar.practiceArea}
+              />
             </ListItemButton>
           </ListItem>
           <ListItem key={"Contact"} disablePadding>
-            <ListItemButton>
+            <ListItemButton component={Link} to="/contact">
               <ListItemIcon>
                 <ChatIcon />
               </ListItemIcon>
-              <ListItemText primary={languages[currentLanguage].navbar.contactUs} />
+              <ListItemText
+                primary={languages[currentLanguage].navbar.contactUs}
+              />
             </ListItemButton>
           </ListItem>
           <ListItem key={"LegalResources"} disablePadding>
@@ -110,38 +117,63 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <DownloadIcon />
               </ListItemIcon>
-              <ListItemText primary={languages[currentLanguage].navbar.legalResources} />
+              <ListItemText
+                primary={languages[currentLanguage].navbar.legalResources}
+              />
             </ListItemButton>
           </ListItem>
         </List>
         <Divider />
         <List>
-          <ListItemButton sx={{gap:"20px"}} onClick={()=>{handleCloseUserMenu(); handleLanguageChange('es')}}>
+          <ListItemButton
+            sx={{ gap: "20px" }}
+            onClick={() => {
+              handleCloseUserMenu();
+              handleLanguageChange("es");
+            }}
+          >
             <ListItemIcon>
               <IconButton>
                 <Avatar alt="Remy Sharp" src={mexico} />
               </IconButton>
             </ListItemIcon>
-            <ListItemText primary={languages[currentLanguage].lenguage.spanish} />
+            <ListItemText
+              primary={languages[currentLanguage].lenguage.spanish}
+            />
           </ListItemButton>
-          <ListItemButton sx={{gap:"20px"}} onClick={()=>{handleCloseUserMenu(); handleLanguageChange('en')}}>
+          <ListItemButton
+            sx={{ gap: "20px" }}
+            onClick={() => {
+              handleCloseUserMenu();
+              handleLanguageChange("en");
+            }}
+          >
             <ListItemIcon>
               <IconButton>
                 <Avatar alt="Remy Sharp" src={eua} />
               </IconButton>
             </ListItemIcon>
-            <ListItemText primary={languages[currentLanguage].lenguage.english} />
+            <ListItemText
+              primary={languages[currentLanguage].lenguage.english}
+            />
           </ListItemButton>
-          <ListItemButton sx={{gap:"20px"}} onClick={()=>{handleCloseUserMenu(); handleLanguageChange('chi')}}>
+          <ListItemButton
+            sx={{ gap: "20px" }}
+            onClick={() => {
+              handleCloseUserMenu();
+              handleLanguageChange("chi");
+            }}
+          >
             <ListItemIcon>
               <IconButton>
                 <Avatar alt="Remy Sharp" src={china} />
               </IconButton>
             </ListItemIcon>
-            <ListItemText primary={languages[currentLanguage].lenguage.chinese} />
+            <ListItemText
+              primary={languages[currentLanguage].lenguage.chinese}
+            />
           </ListItemButton>
         </List>
-        
       </Box>
     </ThemeProvider>
   );
