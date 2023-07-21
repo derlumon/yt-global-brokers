@@ -8,6 +8,10 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from "@mui/material/styles";
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
+import { Link } from "react-router-dom";
 
 let theme = createTheme({
   palette: {
@@ -21,13 +25,15 @@ let theme = createTheme({
 });
 theme = responsiveFontSizes(theme);
 
-const Start = () => {
+const Start = (props) => {
+  const { currentLanguage } = useContext(LanguageContext);
+
   return (
     <ThemeProvider theme={theme}>
       <div className="image-overlay-container">
-        <img className="background-image" src={Fondo} alt="Image 1" />
-        <img className="foreground-image" src={Logo1} alt="Image 2" />
         <Box sx={{ width: "100%", height: "100%" }} position="relative">
+          <img className="background-image" src={props.Fondo} alt="Image 1" />
+          <img className="foreground-image" src={Logo1} alt="Image 2" />
           <Box
             sx={{
               top: "35%",
@@ -42,7 +48,7 @@ const Start = () => {
               color={"white"}
               fontWeight={700}
             >
-              OPCIONES LEGALES EN MEXICO
+              {props.title}
             </Typography>
             <Typography
               variant="h5"
@@ -51,18 +57,17 @@ const Start = () => {
               fontWeight={500}
               paddingBottom="1.5rem"
             >
-              A lo largo de los años, hemos adquirido la experiencia necesaria
-              para que este proceso sea lo más sencillo posible. Estableceremos
-              sus objetivos y ajustaremos las expectativas. Contáctenos si tiene
-              alguna duda.
+              {props.subtitle}
             </Typography>
             <Button
               size="large"
               color="primary"
               variant="outlined"
+              component={Link}
+              to="/contact"
               sx={{ fontWeight: 600, borderWidth: "2.5px" }}
             >
-              CONTACTANOS
+              {languages[currentLanguage].navbar.contactUs}
             </Button>
           </Box>
         </Box>

@@ -1,29 +1,58 @@
-import "./App.css";
 import { theme } from "./Theme";
 import { ThemeProvider } from "@emotion/react";
 import Navbar from "./Body/navbar";
-import Start from "./Body/start";
-import { responsiveFontSizes } from "@mui/material";
-
-
-import About from './Body/About';
-import ButtonDial from './Body/ButtonDial';
-import Servicios from './Body/Servicios';
-import Ubicanos from './Body/Ubicanos'
-import Contactanos from './Body/Contactanos';
-import Introduccion from './Body/Introduccion';
-import ComponenteConsulta from './Body/Consulta'
-import LegalResources from './Body/RecursosLegales';
-
+import ButtonDial from "./Body/ButtonDial";
+import Footer from "./Body/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomeStructure from "./HomeStructure";
+import AboutUsStructure from "./AboutUsStructure";
+import ContactUsStructure from "./ContactUsStructure";
+import PracticeAreaStructure from "./PracticeAreaEstructure";
+import LegalOptionsEstructure from "./LegalOptionsStructure";
+import AccountingOptions from "./AccountingOptions";
+import { languages } from "./Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "./Context/LanguageContext";
+import AdminOptions from "./AdminOptions";
 
 
 function App() {
-  
+  const { currentLanguage } = useContext(LanguageContext);
+
   return (
     <ThemeProvider theme={theme}>
-       <Navbar position="static"/>
-       <Start position="absolute"/>
-       <ComponenteConsulta/>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomeStructure />} />
+          <Route path="/about" element={<AboutUsStructure />} />
+          <Route path="/contact" element={<ContactUsStructure />} />
+          <Route path="/practiceArea" element={<PracticeAreaStructure />} />
+          <Route
+            path="/practiceArea/legalOptions"
+            element={
+              <LegalOptionsEstructure
+                title={languages[currentLanguage].legal.title}
+                subtitle={languages[currentLanguage].legal.subtitle}
+                body1={languages[currentLanguage].legal.body1}
+                body2={languages[currentLanguage].legal.body2}
+                title2={languages[currentLanguage].legal.title}
+              />
+            }
+          />
+          <Route
+            path="/practiceArea/accountingOptions"
+            element={<AccountingOptions />}
+          />
+          <Route
+            path="/practiceArea/administrativeOptions"
+            element={<AdminOptions/>}
+          />
+          <Route path="/legalResources" element={<ContactUsStructure />} />
+        </Routes>
+        <ButtonDial />
+        <Footer />
+      </Router>
     </ThemeProvider>
   );
 }

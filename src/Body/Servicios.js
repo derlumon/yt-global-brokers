@@ -1,77 +1,66 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Grid, Typography } from "@mui/material";
-import { Language as Languageicon } from "@mui/icons-material";
 import Button from "./Button";
-import './servicios.css'
-export default function Servicios() {
+import "./servicios.css";
+
+export default function Servicios({ buttons, title }) {
+  const serviciosRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0, 
+    };
+  
+    const handleIntersect = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("servicios-visible");
+        } else {
+          entry.target.classList.remove("servicios-visible");
+        }
+      });
+    };
+  
+    const serviciosElement = serviciosRef.current;
+  
+    if (serviciosElement) {
+      const observer = new IntersectionObserver(handleIntersect, options);
+      observer.observe(serviciosElement);
+  
+      return () => {
+        observer.unobserve(serviciosElement);
+      };
+    }
+  }, []);
+  
 
   return (
-    <div  className="servicios" align="center" >
-      <Typography variant="h2" sx={{ fontSize: { xs: "24px", sm: "32px", md: "48px" } ,py:"40px"}}>
-        <b> Our Practive Area</b>
+    <div  align="center">
+      <Typography
+        variant="h2"
+        sx={{
+          fontSize: { xs: "24px", sm: "32px", md: "48px" },
+          paddingTop: "5%",
+          fontWeight: 500,
+        }}
+        fontFamily={"Rubik"}
+      >
+        {title}
       </Typography>
-
-      <Grid container spacing={{ xs: 4, md: -35 }} sx={{ padding: "12px", ml:{xs:"-15px"} }}>
-        <Grid item xs={12} sm={6} md={4}>
-          <Button
-            icon={<Languageicon />}
-            title="Contract Drafting & Review"
-            lista1="Sales & Purchase Agreement (SPA)"
-            lista2="Non-Disclosure Agreement (NDA)"
-            lista3="Manufacturing Agreement (NNN)"
-            lista4="Supplier OEM Agreement (OEM)"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Button
-            icon={<Languageicon />}
-            title="Contract Drafting & Review"
-            lista1="Sales & Purchase Agreement (SPA)"
-            lista2="Non-Disclosure Agreement (NDA)"
-            lista3="Manufacturing Agreement (NNN)"
-            lista4="Supplier OEM Agreement (OEM)"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Button
-            icon={<Languageicon />}
-            title="Contract Drafting & Review"
-            lista1="Sales & Purchase Agreement (SPA)"
-            lista2="Non-Disclosure Agreement (NDA)"
-            lista3="Manufacturing Agreement (NNN)"
-            lista4="Supplier OEM Agreement (OEM)"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Button
-            icon={<Languageicon />}
-            title="Contract Drafting & Review"
-            lista1="Sales & Purchase Agreement (SPA)"
-            lista2="Non-Disclosure Agreement (NDA)"
-            lista3="Manufacturing Agreement (NNN)"
-            lista4="Supplier OEM Agreement (OEM)"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Button
-            icon={<Languageicon />}
-            title="Contract Drafting & Review"
-            lista1="Sales & Purchase Agreement (SPA)"
-            lista2="Non-Disclosure Agreement (NDA)"
-            lista3="Manufacturing Agreement (NNN)"
-            lista4="Supplier OEM Agreement (OEM)"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Button
-            icon={<Languageicon />}
-            title="Contract Drafting & Review"
-            lista1="Sales & Purchase Agreement (SPA)"
-            lista2="Non-Disclosure Agreement (NDA)"
-            lista3="Manufacturing Agreement (NNN)"
-            lista4="Supplier OEM Agreement (OEM)"
-          />
-        </Grid>
+      <Grid  ref={serviciosRef} className="servicios" container sx={{ paddingX: { xs: "5%",sm:"7%", md: "10%" }, paddingY: "5%" }}>
+        {buttons.map((button, index) => (
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Button
+              icon={button.icon}
+              title={button.title}
+              lists={button.lists}
+              additionaltitle={button.additionaltitle}
+              additionalInfo={button.additionalInfo}
+            />
+          </Grid>
+        ))}
       </Grid>
     </div>
   );

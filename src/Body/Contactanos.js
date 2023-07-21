@@ -1,13 +1,11 @@
-import {
-  Box,
-  Button,
-  Grid,
-  TextField,
-  Typography,
-} from "@mui/material";
-import React, { useState } from "react";
+import { Box, Button, Grid, TextField, Typography } from "@mui/material";
+import React, { useState, useEffect, useRef } from "react";
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 
 const ContactForm = () => {
+  const { currentLanguage } = useContext(LanguageContext);
   const [formData, setFormData] = useState({
     name: "",
     address: "",
@@ -42,83 +40,134 @@ const ContactForm = () => {
     )}`;
   };
 
+  const contactFormRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0, // The ratio of the element's visibility before triggering the animation
+    };
+
+    const handleIntersect = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fade-in");
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersect, options);
+    const elements = contactFormRef.current.querySelectorAll(".animate-fade-in");
+    elements.forEach((element) => {
+      observer.observe(element);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
-    <Box sx={{ width: { md: "80%" }, m: { xs: "25px" }, ml:{md:"150px"}, pt:'50px',textAlign: "center"}}>
-      <Typography variant="h4" align="center" gutterBottom>
-        <b>Contact Us</b>
-      </Typography>
-      
-      <form onSubmit={handleSubmit}>
-        <Grid container spacing={2}>
-          <Grid item xs={12} sm={6}>
-            <TextField
-              fullWidth
-              label="Nombre"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-            />
+    <Box sx={{ width: "100%", textAlign: "center" }} ref={contactFormRef}>
+      <Box
+        sx={{
+          backgroundColor: "#848688",
+          justifyContent: "center",
+          alignContent: "center",
+        }}
+        className="animate-fade-in"
+      >
+        <Typography
+          variant="h4"
+          gutterBottom
+          color="white"
+          fontFamily="Rubik "
+          alignContent="center"
+          sx={{ padding: { md: "3rem", xs: "2rem" } }}
+        >
+          {languages[currentLanguage].contactanos.title}
+        </Typography>
+      </Box>
+      <Box sx={{ paddingX: { xs: "5%", md: "10%" }, paddingY: "5%" }}>
+        <Typography variant="h4" align="center" gutterBottom className="animate-fade-in">
+          {languages[currentLanguage].contactanos.subtitle}
+        </Typography>
+
+        <form onSubmit={handleSubmit} className="animate-fade-in">
+          <Grid container spacing={2}>
+            <Grid item xs={12} sm={6} className="animate-fade-in">
+              <TextField
+                fullWidth
+                label={languages[currentLanguage].contactanos.name}
+                name="name"
+                value={formData.name}
+                onChange={handleInputChange}
+                required
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} className="animate-fade-in">
+              <TextField
+                fullWidth
+                label={languages[currentLanguage].contactanos.direction}
+                name="address"
+                value={formData.address}
+                onChange={handleInputChange}
+                required
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} className="animate-fade-in">
+              <TextField
+                fullWidth
+                label={languages[currentLanguage].contactanos.email}
+                name="email"
+                type="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                required
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} className="animate-fade-in">
+              <TextField
+                fullWidth
+                label={languages[currentLanguage].contactanos.numberphone}
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleInputChange}
+                required
+              />
+            </Grid>
+            <Grid item xs={12} className="animate-fade-in">
+              <TextField
+                fullWidth
+                label={languages[currentLanguage].contactanos.description}
+                name="legalProblem"
+                multiline
+                rows={4}
+                value={formData.legalProblem}
+                onChange={handleInputChange}
+                required
+              />
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={6}
+              md={6}
+              sx={{ display: { xs: "none", sm: "none", md: "block" } }}
+              className="animate-fade-in"
+            >
+              {/* Placeholder Grid item to occupy the space on larger screens */}
+            </Grid>
+            <Grid item xs={12} className="animate-fade-in">
+              <Button type="submit" variant="contained" color="inherit" fullWidth>
+                {languages[currentLanguage].contactanos.send}
+              </Button>
+            </Grid>
           </Grid>
-          <Grid item xs={12} sm={6}>
-            <TextField
-              fullWidth
-              label="Dirección"
-              name="address"
-              value={formData.address}
-              onChange={handleInputChange}
-              required
-            />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <TextField
-              fullWidth
-              label="Email"
-              name="email"
-              type="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <TextField
-              fullWidth
-              label="Número de teléfono"
-              name="phoneNumber"
-              value={formData.phoneNumber}
-              onChange={handleInputChange}
-              required
-            />
-          </Grid>
-          <Grid item xs={12}>
-            <TextField
-              fullWidth
-              label="Descripción del problema legal"
-              name="legalProblem"
-              multiline
-              rows={4}
-              value={formData.legalProblem}
-              onChange={handleInputChange}
-              required
-            />
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={6}
-            sx={{ display: { xs: "none", sm: "none", md: "block" } }}
-          >
-            {/* Placeholder Grid item to occupy the space on larger screens */}
-          </Grid>
-          <Grid item xs={12}>
-            <Button type="submit" variant="contained" color="inherit" fullWidth>
-              Enviar
-            </Button>
-          </Grid>
-        </Grid>
-      </form>
+        </form>
+      </Box>
     </Box>
   );
 };

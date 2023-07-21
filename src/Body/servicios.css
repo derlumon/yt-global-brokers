@@ -1,29 +1,22 @@
-@keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translate3d(0, 100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      transform: none;
-    }
+/* servicios.css */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
   }
-  
-  .servicios.animate {
-    animation: fadeInUp 2s;
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
-  @media (max-width: 1024px) {
-    .servicios .MuiTypography-h2 {
-      font-size: 36px !important;
-    }
-  
-    .servicios .MuiGrid-spacing-xs-4 > .MuiGrid-item {
-      padding: 8px !important;
-    }
-  
-    .servicios .MuiGrid-container {
-      padding: 8px !important;
-    }
-  }
-  
+}
+
+.servicios {
+  opacity: 0; /* Establecemos la opacidad inicial en 0 */
+}
+
+.servicios-visible {
+  animation: slideInFromRight 3s ease-out;
+  opacity: 1; /* Cuando el componente sea visible, restablecemos la opacidad a 1 */
+}
+/* servicios.css */
+

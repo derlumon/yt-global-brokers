@@ -1,51 +1,131 @@
-import React from 'react';
-import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
-import './ComponenteConsulta.css';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import ButtonBase from '@mui/material/ButtonBase';
+import Typography from '@mui/material/Typography';
+import { languages } from "../Languages/languages";
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
+import { Link } from "react-router-dom";
 
-const ComponenteConsulta = () => {
+export default function ButtonBaseDemo() {
+  const { currentLanguage } = useContext(LanguageContext);
+  const images = [
+    {
+      url: 'https://www.gruporedes.com.mx/wp-content/uploads/2018/07/4-abogado.jpg',
+      title: languages[currentLanguage].consulta.image1,
+      width: '33.33%',
+      to:'/practiceArea/legalOptions'
+    },
+    {
+      url: 'https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_640.jpg',
+      title: languages[currentLanguage].consulta.image2,
+      width: '33.33%',
+      to:'/practiceArea/accountingOptions'
+    },
+    {
+      url: 'https://www.activa.cl/wp-content/uploads/2020/11/Administracion-de-propiedades.jpg',
+      title: languages[currentLanguage].consulta.image3,
+      width: '33.33%',
+      to:'/practiceArea/administrativeOptions'
+    },
+  ];
+  
+  const ImageButton = styled(ButtonBase)(({ theme }) => ({
+    position: 'relative',
+    height: 200,
+    [theme.breakpoints.down('sm')]: {
+      width: '100% !important',
+      height: 150,
+      maxWidth: '100%',
+    },
+    '&:hover, &.Mui-focusVisible': {
+      zIndex: 1,
+      '& .MuiImageBackdrop-root': {
+        opacity: 0.15,
+      },
+      '& .MuiImageMarked-root': {
+        opacity: 0,
+      },
+      '& .MuiTypography-root': {
+        border: '2px solid currentColor',
+      },
+    },
+  }));
+  
+  const ImageSrc = styled('span')({
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center 40%',
+  });
+  
+  const Image = styled('span')(({ theme }) => ({
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: theme.palette.common.white,
+  }));
+  
+  const ImageBackdrop = styled('span')(({ theme }) => ({
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    backgroundColor: theme.palette.common.black,
+    opacity: 0.4,
+    transition: theme.transitions.create('opacity'),
+  }));
+  
+  const ImageMarked = styled('span')(({ theme }) => ({
+    
+    backgroundColor: theme.palette.common.white,
+  
+    transition: theme.transitions.create('opacity'),
+  }));
   return (
-    <Box className="componente-consulta">
-      <div className="columna animate">
-        <img
-          src="https://static.wixstatic.com/media/72c81fa1cf5c343bb7b80ea53eac2eb9.jpg/v1/fill/w_461,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/72c81fa1cf5c343bb7b80ea53eac2eb9.jpg"
-          alt="Imagen izquierda arriba"
-          className="imagen"
-        />
-        <Card className="card" style={{ backgroundColor: '#343434' }}>
-          <CardContent>
-            <Typography variant="h4" className="card-title" style={{ margin: '15px' }}>
-              Consultation for Legal Entities Formation in China
-            </Typography>
-            <Typography variant="body1" className="card-contact-us" style={{ marginTop: '60px', marginLeft: '15px' }}>
-              Contact Us
-            </Typography>
-          </CardContent>
-        </Card>
-      </div>
-      <div className="columna animate">
-        <Card className="card" style={{ backgroundColor: '#535353' }}>
-          <CardContent>
-            <Typography variant="h4" className="card-title" style={{ margin: '15px' }}>
-              Legal Consultation for International Trade Issues
-            </Typography>
-            <Typography variant="body1" className="card-contact-us" style={{ marginTop: '90px', marginLeft: '15px' }}>
-              Contact Us
-            </Typography>
-          </CardContent>
-        </Card>
-        <img
-          src="https://static.wixstatic.com/media/28d63b431eff4c7b82da1b3913cab749.jpg/v1/fill/w_461,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/28d63b431eff4c7b82da1b3913cab749.jpg"
-          alt="Imagen derecha abajo"
-          className="imagen"
-        />
-      </div>
-      <img
-        src="https://static.wixstatic.com/media/b4ab2e3cb4704a6b8d16f28e49bd2b01.jpg/v1/fill/w_722,h_440,fp_0.36_0.33,q_80,usm_0.66_1.00_0.01,enc_auto/b4ab2e3cb4704a6b8d16f28e49bd2b01.jpg"
-        alt="Imagen derecha"
-        className="imagen-ocultar-en-tablet"
-      />
+    <Box display={"flex"} justifyContent="center" alignItems="center " sx={{width:"100%"}}>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', width: '100%' ,alignItems:"center",justifyContent:"center"}}>
+        {images.map((image) => (
+          <ImageButton
+            component={Link}
+            to={image.to} 
+            focusRipple
+            key={image.title}
+            style={{
+              width: image.width,
+            }}
+          >
+            <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
+            <ImageBackdrop className="MuiImageBackdrop-root" />
+            <Image>
+              <Typography
+                component="span"
+                variant="h4"
+                align='center'
+                color="inherit"
+                alignItems={"center"}
+                sx={{
+                  position: 'relative',
+                  paddingX: "1rem",
+                  pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                }}
+              >
+                {image.title}
+                <ImageMarked className="MuiImageMarked-root" />
+              </Typography>
+            </Image>
+          </ImageButton>
+        ))}
+      </Box>
     </Box>
   );
-};
-
-export default ComponenteConsulta;
+}
