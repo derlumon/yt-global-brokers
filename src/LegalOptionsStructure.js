@@ -29,87 +29,83 @@ function LegalOptionsEstructure() {
   const buttons = [
     {
       icon: <PiNotePencilThin />,
-      title: languages[currentLanguage].legalOptionStructure.ButtonTitle1,
-      additionaltitle:"title",
-      additionalInfo:"This is additional information for the button." ,
+      title: languages[currentLanguage].service.Advisor.title,
+      additionaltitle: languages[currentLanguage].service.Advisor.title,
+      additionalInfo: languages[currentLanguage].service.Advisor.description ,
     },
     {
       icon: <PiHandshakeThin />,
-      title: languages[currentLanguage].legalOptionStructure.ButtonTitle2,
-      additionaltitle:"title",
-      additionalInfo:"This is additional information for the button."
+      title: languages[currentLanguage].service.Enter_into_negotiation_or_mediation.title,
+      additionaltitle: languages[currentLanguage].service.Enter_into_negotiation_or_mediation.title,
+      additionalInfo: languages[currentLanguage].service.Enter_into_negotiation_or_mediation.description ,
     },
     {
       icon: <PiScalesThin />,
-      title: languages[currentLanguage].legalOptionStructure.ButtonTitle3,
-    
+      title: languages[currentLanguage].service.Court_and_itigation_services.title,
+      additionaltitle: languages[currentLanguage].service.Court_and_itigation_services.title,
+      additionalInfo: languages[currentLanguage].service.Court_and_itigation_services.description ,
     },
     {
       icon: <PiGearSixThin />,
-      title: languages[currentLanguage].legalOptionStructure.ButtonTitle4,
+      title: languages[currentLanguage].service.Administrative_Agencies.title,
+      additionaltitle: languages[currentLanguage].service.Administrative_Agencies.title,
+      additionalInfo: languages[currentLanguage].service.Administrative_Agencies.description ,
     
     },
     {
       icon: <PiAirplaneLandingThin />,
-      title: languages[currentLanguage].legalOptionStructure.ButtonTitle5,
+      title: languages[currentLanguage].service.Migration.title,
+      additionaltitle: languages[currentLanguage].service.Migration.title,
+      additionalInfo: languages[currentLanguage].service.Migration.description ,
     
     },
     {
       icon: <PiCurrencyCircleDollarThin />,
-      title: languages[currentLanguage].legalOptionStructure.ButtonTitle6,
-    
+      title: languages[currentLanguage].service.Taxes_and_Contributions.title,
+      additionaltitle: languages[currentLanguage].service.Taxes_and_Contributions.title,
+      additionalInfo: languages[currentLanguage].service.Taxes_and_Contributions.description ,
     },
     {
         icon: <PiChartBarThin />,
-        title: languages[currentLanguage].legalOptionStructure.ButtonTitle7,
-        lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
-        ],
+        title: languages[currentLanguage].service.Internal_Organizational_Control_Plans.title,
+        additionaltitle: languages[currentLanguage].service.Internal_Organizational_Control_Plans.title,
+        additionalInfo: languages[currentLanguage].service.Internal_Organizational_Control_Plans.description ,
       },
       {
         icon: <PiIdentificationCardThin />,
-        title: languages[currentLanguage].legalOptionStructure.ButtonTitle8,
-        lists: [
-          languages[currentLanguage].service.Internal_Organizational_Control_Plans.miniDescription,
-        ],
+        title: languages[currentLanguage].service.Your_Compliance_Officer.title,
+        additionaltitle: languages[currentLanguage].service.Your_Compliance_Officer.title,
+        additionalInfo: languages[currentLanguage].service.Your_Compliance_Officer.description ,
       },
       {
         icon: <PiStorefrontThin />,
-        title: languages[currentLanguage].legalOptionStructure.ButtonTitle9,
-        lists: [
-          languages[currentLanguage].service.Your_Compliance_Officer.miniDescription,
-        ],
+        title: languages[currentLanguage].service.Form_your_Company_in_Mexico.title,
+        additionaltitle: languages[currentLanguage].service.Form_your_Company_in_Mexico.title,
+        additionalInfo: languages[currentLanguage].service.Form_your_Company_in_Mexico.description ,
       },
       {
         icon: <CiCoins1 />,
-        title: languages[currentLanguage].legalOptionStructure.ButtonTitle10,
-        lists: [
-          languages[currentLanguage].service.Form_your_Company_in_Mexico.miniDescription,
-        ],
+        title: languages[currentLanguage].service.Small_and_medium_businesses.title,
+        additionaltitle: languages[currentLanguage].service.Small_and_medium_businesses.title,
+        additionalInfo: languages[currentLanguage].service.Small_and_medium_businesses.description ,
       },
       {
         icon: <PiUsersThin />,
-        title:languages[currentLanguage].legalOptionStructure.ButtonTitle11,
-        lists: [
-          languages[currentLanguage].service.Small_and_medium_businesses.miniDescription,
-        ],
+        title: languages[currentLanguage].service.Representation.title,
+        additionaltitle: languages[currentLanguage].service.Representation.title,
+        additionalInfo: languages[currentLanguage].service.Representation.description ,
       },
       {
         icon: <PiSignatureThin />,
-        title: languages[currentLanguage].legalOptionStructure.ButtonTitle12,
-        lists: [
-          languages[currentLanguage].service.Representation.miniDescription,
-        ],
+        title: languages[currentLanguage].service.Contract_drafting.title,
+        additionaltitle: languages[currentLanguage].service.Contract_drafting.title,
+        additionalInfo: languages[currentLanguage].service.Contract_drafting.description ,
       },
       {
-        icon: <PiNotebookThin />,
-        title: languages[currentLanguage].legalOptionStructure.ButtonTitle13,
-        lists: [
-          languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.miniDescription,
-        ],
+        icon: <PiSignatureThin />,
+        title: languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.title,
+        additionaltitle: languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.title,
+        additionalInfo: languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.description ,
       },
   ];
 

@@ -3,13 +3,15 @@ import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import Typography from "@mui/material/Typography";
+import Logo from "../../img/Logo/YTBrokersLogoSuperiorIzquierda.png"
+import '../Start.css';
 
 export default function InfoDialog({ open, onClose, additionalInfo,additionaltitle }) {
   return (
-    <Dialog open={open} onClose={onClose}>
-      <DialogTitle>{additionaltitle}</DialogTitle>
+    <Dialog open={open} onClose={onClose} >
+      <DialogTitle fontSize={"2rem"} >{additionaltitle}</DialogTitle>
       <DialogContent>
-        <Typography>{additionalInfo}</Typography>
+        <Typography fontSize={"1.5rem"} >{additionalInfo}</Typography>
       </DialogContent>
     </Dialog>
   );
