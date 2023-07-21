@@ -3,12 +3,14 @@ import React from "react";
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-
+import './introduccion.css'
 export default function Introduccion() {
    const { currentLanguage } = useContext(LanguageContext);
    return (
     <Box
+    
       sx={{
+
         backgroundColor: "#DFDFDF",
         textAlign: "center",
         width: "fullWidth",
