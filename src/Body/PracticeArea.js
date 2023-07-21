@@ -23,7 +23,7 @@ export default function PracticeArea(props) {
         {props.title}
       </Typography>
       <Typography
-        variant="h4"
+        variant="h5"
         align="center"
         gutterBottom
         sx={{ marginBottom: "30px" }}

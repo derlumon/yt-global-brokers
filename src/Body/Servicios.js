@@ -17,13 +17,14 @@ export default function Servicios({ buttons, title }) {
       >
         {title}
       </Typography>
-      <Grid container sx={{ paddingX: { xs: "5%", md: "10%" }, paddingY: "5%" }}>
+      <Grid container sx={{ paddingX: { xs: "5%",sm:"7%", md: "10%" }, paddingY: "5%" }}>
         {buttons.map((button, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Button
               icon={button.icon}
               title={button.title}
               lists={button.lists}
+              link={button.link}
             />
           </Grid>
         ))}

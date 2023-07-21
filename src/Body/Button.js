@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography } from "@mui/material";
 import "./button.css";
+import { Link } from "react-router-dom";
 
 export default function Button(props) {
   const [showMore, setShowMore] = useState(false);
@@ -24,20 +25,23 @@ export default function Button(props) {
           m: { xs: "6px", sm: "6px" },
           width: { md: "350px", xs: "330px" },
           height: { md: "290px", xs: "270px" },
+          paddingTop:"1.5rem"
         }}
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
         className={`highlighted-card ${showMore ? "show-more" : ""}`}
         elevation={showMore ? 3 : 1}
         onClick={handleClick}
+        
       >
-        <CardContent>
+        <CardContent component={Link}
+        to={props.link}>
           {props.icon &&
             React.cloneElement(props.icon, {
               className: `icon ${showMore ? "show-more" : ""} ${
                 showMore ? "fade-out" : ""
               }`,
-              style: { fontSize: "3rem", marginLeft: "-210px" },
+              style: { fontSize: "3rem", marginLeft: "-210px" ,color:"black"},
             })}
 
           <div className={`title ${showMore ? "show-more" : ""}`}>
@@ -54,10 +58,11 @@ export default function Button(props) {
 
           <Typography
             sx={{
+             
               fontSize: "1rem",
               marginLeft: "-150px",
             
-              marginTop: "-30px",
+              marginTop: "30px",
             }}
             variant="body2"
             className={`show-more-text ${showMore ? "show-more" : ""}`}

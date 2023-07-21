@@ -17,146 +17,108 @@ import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
 
-function LegalOptionsEstructure() {
-  const buttons = [
+function LegalOptionsEstructure(props) {
+    const { currentLanguage } = useContext(LanguageContext);
+    const buttons = [
     {
       icon: <PiPenThin />,
-      title: "Servicios Personalizados",
+      title: languages[currentLanguage].service.Advisor.title,
       lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
+        languages[currentLanguage].service.Advisor.miniDescription,
       ],
     },
     {
       icon: <PiScalesThin />,
-      title: "Entabla una negociación o mediación. ",
+      title: languages[currentLanguage].service.Enter_into_negotiation_or_mediation.title,
       lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
+        languages[currentLanguage].service.Enter_into_negotiation_or_mediation.miniDescription,
       ],
     },
     {
       icon: <PiChartLineUpThin />,
-      title: "Servicios en Corte y litigación",
+      title: languages[currentLanguage].service.Court_and_itigation_services.title,
       lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
+        languages[currentLanguage].service.Court_and_itigation_services.miniDescription,
       ],
     },
     {
-      icon: <PiBooksThin />,
-      title: "Gestorías Administrativas",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Administrative_Agencies.title,
+        lists: [
+          languages[currentLanguage].service.Administrative_Agencies.miniDescription,
+        ],
     },
     {
-      icon: <PiWarehouseThin />,
-      title: "Migración",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Migration.title,
+        lists: [
+          languages[currentLanguage].service.Migration.miniDescription,
+        ],
     },
     {
-      icon: <PiStorefrontThin />,
-      title: "Impuestos y Contribuciones",
-      lists: [
-        "Sales & Purchase Agreement (SPA)",
-        "Non-Disclosure Agreement (NDA)",
-        "Manufacturing Agreement (NNN)",
-        "Supplier OEM Agreement (OEM)",
-      ],
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Taxes_and_Contributions.title,
+        lists: [
+          languages[currentLanguage].service.Taxes_and_Contributions.miniDescription,
+        ],
     },
     {
-        icon: <PiStorefrontThin />,
-        title: "Planes Internos de Control Organizacional",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Internal_Organizational_Control_Plans.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Internal_Organizational_Control_Plans.miniDescription,
         ],
       },
       {
-        icon: <PiStorefrontThin />,
-        title: "Tú Oficial de Cumplimiento",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Your_Compliance_Officer.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Your_Compliance_Officer.miniDescription,
         ],
       },
       {
-        icon: <PiStorefrontThin />,
-        title: "Forma tú Empresa en México",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Form_your_Company_in_Mexico.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Form_your_Company_in_Mexico.miniDescription,
         ],
       },
       {
-        icon: <PiStorefrontThin />,
-        title: "Pequeñas y Medianas Empresas",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Small_and_medium_businesses.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Small_and_medium_businesses.miniDescription,
         ],
       },
       {
-        icon: <PiStorefrontThin />,
-        title: "Representación ",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Representation.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Representation.miniDescription,
         ],
       },
       {
-        icon: <PiStorefrontThin />,
-        title: "Redacción de Contratos",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Contract_drafting.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Contract_drafting.miniDescription,
         ],
       },
       {
-        icon: <PiStorefrontThin />,
-        title: "Revisión e Interpretación de Contratos",
+        icon: <PiChartLineUpThin />,
+        title: languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.title,
         lists: [
-          "Sales & Purchase Agreement (SPA)",
-          "Non-Disclosure Agreement (NDA)",
-          "Manufacturing Agreement (NNN)",
-          "Supplier OEM Agreement (OEM)",
+          languages[currentLanguage].service.Review_and_Interpretation_of_Contracts.miniDescription,
         ],
       },
   ];
-  const { currentLanguage } = useContext(LanguageContext);
+  
   return (
     <>
-      <Start Fondo={Fondo1} title={languages[currentLanguage].hero.titleHero} subtitle={languages[currentLanguage].hero.subtitleHero}/>
-      <PracticeArea title={"Expertos en el Tema"} subtitle={"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda."}/>
+      <Start Fondo={Fondo1} title={props.title} subtitle={props.subtitle}/>
+      <PracticeArea title={props.body1} subtitle={props.body2}/>
       <ButtonBaseDemo/>
-      <Servicios buttons={buttons} title={"Opciones Legales"}/>
+      <Servicios buttons={buttons} title={props.title2}/>
       <Contactanos/>
     </>
   );
