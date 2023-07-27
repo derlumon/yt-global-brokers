@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { Box, Button, Menu, MenuItem } from "@mui/material";
+import { Box, Button, Menu, MenuItem, Tooltip } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { Link } from "react-router-dom";
+
 const DropdownMenu = (props) => {
   const { currentLanguage } = useContext(LanguageContext);
 
@@ -44,9 +45,21 @@ const DropdownMenu = (props) => {
           onMouseLeave: handleCloseMenu,
         }}
       >
-        <MenuItem onClick={handleCloseMenu} component={Link} to="/practiceArea/legalOptions">
-          {languages[currentLanguage].navbar.legal_options}
-        </MenuItem>
+       
+          <Tooltip
+            title={
+              <span style={{ fontSize: "18px" }}>
+                 {languages[currentLanguage].navbar.tooltip}
+              </span>
+            }
+            placement="left"
+            arrow
+          >
+            <MenuItem onClick={handleCloseMenu} component={Link} to="practiceArea/legalOptions">
+              {languages[currentLanguage].navbar.legal_options}
+            </MenuItem>
+          </Tooltip>
+      
         <MenuItem onClick={handleCloseMenu} component={Link} to="/practiceArea/accountingOptions">
           {languages[currentLanguage].navbar.Accounting_Options}
         </MenuItem>
