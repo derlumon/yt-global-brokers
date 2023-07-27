@@ -268,7 +268,7 @@ export const languages = {
 
     },
     ubicanos:{
-      locate:"Encuentra la sucursal más cercana para usted"
+      locate:"Ubícanos aquí"
     },
     introduccion:{
       title:"Quienes somos",
