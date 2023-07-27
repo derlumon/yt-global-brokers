@@ -1,16 +1,15 @@
+import React, { useState, useContext } from "react";
 import { Grid, Typography, Box } from "@mui/material";
-import React from "react";
 import { languages } from "../Languages/languages";
-import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-import './introduccion.css'
-export default function Introduccion() {
-   const { currentLanguage } = useContext(LanguageContext);
-   return (
-    <Box
-    
-      sx={{
 
+export default function Introduccion() {
+  const { currentLanguage } = useContext(LanguageContext);
+  const [showBody, setShowBody] = useState(false);
+
+  return (
+    <Box
+      sx={{
         backgroundColor: "#DFDFDF",
         textAlign: "center",
         width: "fullWidth",
@@ -24,7 +23,16 @@ export default function Introduccion() {
         gutterBottom
         fontFamily={"Rubik"}
         fontWeight={500}
-        sx={{ fontSize: { xs: "35px", sm: "35px", md: "40px" } }}
+        sx={{
+          fontSize: { xs: "35px", sm: "35px", md: "40px" },
+          cursor: "pointer",
+          textDecoration: "none", 
+          "&:hover": {
+            textDecoration: "underline", 
+          },
+        }}
+        onClick={() => setShowBody(!showBody)}
+        
       >
         {languages[currentLanguage].introduccion.title}
       </Typography>
@@ -38,24 +46,20 @@ export default function Introduccion() {
         {languages[currentLanguage].introduccion.subtitle}
       </Typography>
       <Grid container spacing={8}>
-        <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
-          <Typography
-            variant="h5"
-            align="justify"
-            fontFamily={"Rubik"}
-          >
-            {languages[currentLanguage].introduccion.body1}
-          </Typography>
-        </Grid>
-        <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
-          <Typography
-            variant="h5"
-            align="justify"
-            fontFamily={"Rubik"}
-          >
-            {languages[currentLanguage].introduccion.body2}
-          </Typography>
-        </Grid>
+        {showBody && (
+          <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
+            <Typography variant="h5" align="justify" fontFamily={"Rubik"}>
+              {languages[currentLanguage].introduccion.body1}
+            </Typography>
+          </Grid>
+        )}
+        {showBody && (
+          <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
+            <Typography variant="h5" align="justify" fontFamily={"Rubik"}>
+              {languages[currentLanguage].introduccion.body2}
+            </Typography>
+          </Grid>
+        )}
       </Grid>
     </Box>
   );

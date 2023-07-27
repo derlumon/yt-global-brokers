@@ -124,8 +124,10 @@ const Navbar = () => {
                 flexDirection: "row",
                 gap: "10px",
               }}
-            >
-              <img src={logo} style={{ width: "60px", height: "60px" }} alt="hi"/>
+            > 
+            <a href="/">
+              <img    src={logo} style={{ width: "60px", height: "60px" }} alt="hi"/>
+              </a>
               <Typography
                ref={(el) => (animatedTextRef.current[0] = el)}
                className="animated-text"

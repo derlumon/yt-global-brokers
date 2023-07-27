@@ -36,9 +36,9 @@ export const languages = {
 
     },
     consulta:{
-      image1:"Legal Options in Mexico",
-      image2:"Accounting Options in Mexico",
-      image3:"Real Estate Management Options in Mexico"
+      image1:"Legal Office in Mexico",
+      image2:"Accounting Firm in Mexico",
+      image3:"Administrative Office in Mexico"
 
     },
     ubicanos:{
@@ -91,9 +91,9 @@ export const languages = {
       
     },
     hero: {
-      titleHero: "LEGAL OPTIONS IN MEXICO",
+      titleHero: "Law firm in Mexico",
       subtitleHero:
-        "Over the years, we have gained the experience necessary to make this process as easy as possible. We will set your goals and adjust expectations. Contact us if you have any questions.",
+        "We are a law firm in Mexico, which provides legal advice to the private sector in different branches of immigration, administrative, real estate and accounting law.",
     },
     practiceArea: {
       title:"PRACTICE AREA",
@@ -217,11 +217,11 @@ export const languages = {
     },
     AdministrativeOptions:{
       search_for_commercial:{
-        title:"Search for commercial and industrial real estate",
+        title:"Purchase, sale and rental of commercial and industrial real estate",
         description:"Searching for commercial and industrial real estate can be a complex and demanding process, especially when looking for a space that meets the specific needs of a company. We understand the challenges involved in finding the right location, with the right features, dimensions and conditions for the success of your business.\n\nOur Commercial and Industrial Property Search services include the analysis of your requirements and objectives, the identification of potential options in the market, the conduct of visits and evaluations of properties, and the negotiation of lease or purchase-sale contracts."
       },
       search_for_residential:{
-        title:"Search for residential properties",
+        title:"Purchase for residential properties",
         description:"Searching for a home can be an exciting process, but it can also be overwhelming due to the variety of options available on the market. We understand that finding the right home takes time, research, and experience in the real estate market, and we're here to make that process easier and more successful.\n\nOur Housing Real Estate Search services include the evaluation of your needs and preferences, the identification of housing options that meet your criteria, the scheduling of visits and advice on the negotiation of lease or purchase-sale contracts."
       },
       orientation_as_a_leasing:{
@@ -257,8 +257,8 @@ export const languages = {
       tooltip:" La cultura de la legalidad no se reduce al resultado que dicten las cortes sino al conjunto de conductas cotidianas que permiten a las personas y a las colectividades convivir en pro de sus valores e intereses.La apertura del cliente sobre su situación particular o eventualidad, en nuestro experiencia, es la mejor forma para que nuestros consejos tengan el resultado,  lo que en nuestro prudente criterio  implicaría evitar muchos inconvenientes burocráticos u otras mermas de capitales.Es un servicio que no debería utilizarse pero es indispensable contar con él"
     },
     contactanos:{
-      title:"Conozca más de nuestros servicios. ¡Contáctenos ahora y!",
-      subtitle:"Contéctenos",
+      title:"Conozca más de nuestros servicios. ¡Contáctenos ahora!",
+      subtitle:" Contáctenos",
       name:"Nombre",
       direction:"Dirección",
       email:"Correo electrónico",
@@ -278,7 +278,7 @@ export const languages = {
     },
     footer:{
       service:"SERVICIOS",
-      legal_options:"  Opciones Legales ",
+      legal_options:"  Opciones Administrativas ",
       Accounting_options:"Opciones contables",
       Administrative_options:"Opciones administrativa",
       links:"LINKS",
@@ -294,9 +294,9 @@ export const languages = {
       body2:"A lo largo de los años, adquirimos experiencia que nos permite posicionarnos en los problemas de nuestros clientes y proponer una solución efectiva. Así, para que este proceso sea lo más sencillo posible; estableceremos de la mano de nuestros clientes objetivos claros y ajustaremos las expectativas. Sí cuenta usted con  duda respecto a cómo usted podría utilizar nuestro servicio o como podríamos ayudarlos, Contáctenos. ",
     },
     consulta:{
-      image1:"Opciones Legales en México",
-      image2:"Opciones Contables en México",
-      image3:"Opciones Administración Inmobiliaria en México"
+      image1:"Despacho Jurídico en México",
+      image2:"Despacho Contable en México",
+      image3:"Despacho  Administrativo en México"
 
     },
     buttonDial:{
@@ -309,7 +309,7 @@ export const languages = {
     legalOptionStructure:{
       title:"Expertos en el Tema",
       subtitle:"A lo largo de los años, hemos adquirido la experiencia que necesitamos para que el producto que usted elija sea lo más sencillo posible y sin provocarle más gravámenes. Para ese efecto, establecemos objetivos  claros y posibles para así ajustaremos a las expectativas. Contáctenos si tiene usted alguna duda.",
-      serviceTitle:"Opciones Legales",
+      serviceTitle:"Opciones Administrativas",
       ButtonTitle1:"Servicios Personalizados",
       ButtonTitle2:"Entabla una negociación o mediación.",
       ButtonTitle3:"Servicios en Corte y Litigación",
@@ -327,9 +327,9 @@ export const languages = {
 
     },
     hero: {
-      titleHero: "OPCIONES LEGALES EN MEXICO",
+      titleHero: "Despacho de abogados en México",
       subtitleHero:
-        "A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda.",
+        "Somos un firma de abogados en México, que brinda asesoría legal al sector privado en diferentes ramas del derecho migratorio, administrativo, inmobiliario y contable.",
     },
     practiceArea: {
       title:"AREA DE PRACTICA",
@@ -464,15 +464,15 @@ export const languages = {
     },
     AdministrativeOptions:{
       search_for_commercial:{
-        title:"Búsqueda de inmuebles comerciales e industriales  ",
+        title:"Compra venta y renta de inmuebles comerciales e industriales  ",
         description:"La búsqueda de inmuebles comerciales e industriales puede ser un proceso complejo y exigente, especialmente cuando se busca un espacio que se ajuste a las necesidades específicas de una empresa. Comprendemos los desafíos que implica encontrar la ubicación adecuada, con las características, dimensiones y condiciones adecuadas para el éxito de su negocio.\n\nNuestros servicios de Búsqueda de Inmuebles Comerciales e Industriales incluyen el análisis de sus requerimientos y objetivos, la identificación de opciones potenciales en el mercado, la realización de visitas y evaluaciones de propiedades, y la negociación de contratos de arrendamiento o compra-venta."
       },
       search_for_residential:{
-        title:"Busqueda de inmuebles habitacionales ",
+        title:"Compra de inmuebles habitacionales ",
         description:"La búsqueda de un inmueble habitacional puede ser un proceso emocionante, pero también puede resultar abrumador debido a la variedad de opciones disponibles en el mercado. Comprendemos que encontrar el hogar adecuado requiere tiempo, investigación y experiencia en el mercado inmobiliario, y estamos aquí para hacer que ese proceso sea más fácil y exitoso.\n\nNuestros servicios de Búsqueda de Inmuebles Habitacionales incluyen la evaluación de sus necesidades y preferencias, la identificación de opciones de vivienda que cumplan con sus criterios, la programación de visitas y la asesoría en la negociación de contratos de arrendamiento o compra-venta."
       },
       orientation_as_a_leasing:{
-        title:"Orientacion como Arrendatorio ",
+        title:"Orientación como Arrendatorio ",
         description:"Alquilar una propiedad puede implicar una serie de desafíos y decisiones importantes. Comprendemos que encontrar el lugar adecuado para vivir o establecer su negocio es una tarea crucial, y estamos aquí para ayudarlo a navegar por el proceso de alquiler de manera efectiva.\n\nNuestros servicios de Orientación como Arrendatario incluyen la evaluación de sus necesidades y preferencias, la búsqueda de propiedades que cumplan con sus criterios, la revisión de contratos de arrendamiento, la asesoría en la negociación de términos y condiciones, y la resolución de cualquier inquietud o problema que pueda surgir durante el proceso de alquiler."
       },
       areas_of_interest:{
@@ -540,9 +540,9 @@ export const languages = {
       body2:"我们的目标始终是建立基于积极和切实成果的高效关系。我们共同努力，为您或您的组织制定个性化的行动计划。请联系我们，详细了解我们的服务愿景以及产品和服务的方法。",
     },
     consulta:{
-      image1:"墨西哥的法律选择",
-      image2:"墨西哥的会计选项",
-      image3:"墨西哥的房地产管理选项"
+      image1:"墨西哥法律办公室",
+      image2:"墨西哥会计师事务所",
+      image3:"墨西哥行政办公室"
 
     },
     buttonDial:{
@@ -573,9 +573,9 @@ export const languages = {
 
     },
     hero: {
-      titleHero: "墨西哥的法律选择",
+      titleHero: "墨西哥律师事务所",
       subtitleHero:
-        "多年来，我们已经获得了使这一过程尽可能简单的必要经验。我们将设定您的目标并调整期望。如有任何问题，请联系我们。",
+        "我们是墨西哥的一家律师事务所，为移民、行政、房地产和会计法等不同领域的私营部门提供法律咨询。",
     },
     practiceArea: {
       title:"实践领域",
@@ -699,11 +699,11 @@ export const languages = {
     },
     AdministrativeOptions:{
       search_for_commercial:{
-        title:"寻找商业和工业房地产",
+        title:"商业和工业房地产的购买、销售和租赁",
         description:"寻找商业和工业房地产可能是一个复杂而艰巨的过程，尤其是在寻找满足公司特定需求的空间时。我们了解为您的业务成功寻找具有合适功能、规模和条件的合适地点所面临的挑战。\n\n我们的商业和工业产权搜索服务包括分析您的要求和目标、识别市场上的潜在选择、进行财产参观和评估以及租赁或买卖合同的谈判。"
       },
       search_for_residential:{
-        title:"搜寻住宅物业",
+        title:"购买住宅房地产",
         description:"寻找房屋可能是一个令人兴奋的过程，但由于市场上有各种各样的选择，它也可能令人不知所措。我们知道，找到合适的房子需要时间、研究和房地产市场的经验，我们致力于让这个过程变得更容易、更成功。\n\n我们的住房房地产搜索服务包括评估您的需求和偏好、确定符合您标准的住房选择、安排访问以及就租赁或买卖合同谈判提供建议。"
       },
       orientation_as_a_leasing:{

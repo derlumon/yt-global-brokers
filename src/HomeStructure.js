@@ -22,24 +22,8 @@ function HomeStructure() {
   
     const buttons = [
     {
-        icon: <PiHouseLight />,
-        title: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
-        additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
-        additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_commercial.description ,
-      },
-      {
-        icon: <PiWarehouseDuotone />,
-        title: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
-        additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
-        additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_residential.description ,
-      },
-      {
-        icon: <PiMedal />,
-        title: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.title,
-        additionaltitle: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.title,
-        additionalInfo: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.description ,
-      },
-      {
+        
+      
         icon: <PiGearSixThin />,
         title: languages[currentLanguage].service.Administrative_Agencies.title,
         additionaltitle: languages[currentLanguage].service.Administrative_Agencies.title,
@@ -58,6 +42,24 @@ function HomeStructure() {
         title: languages[currentLanguage].service.Taxes_and_Contributions.title,
         additionaltitle: languages[currentLanguage].service.Taxes_and_Contributions.title,
         additionalInfo: languages[currentLanguage].service.Taxes_and_Contributions.description ,
+      },
+      {
+      icon: <PiHouseLight />,
+        title: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
+        additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
+        additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_commercial.description ,
+      },
+      {
+        icon: <PiWarehouseDuotone />,
+        title: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
+        additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
+        additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_residential.description ,
+      },
+      {
+        icon: <PiMedal />,
+        title: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.title,
+        additionaltitle: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.title,
+        additionalInfo: languages[currentLanguage].AdministrativeOptions.orientation_as_a_leasing.description ,
       },
       
     
