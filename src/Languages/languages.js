@@ -246,8 +246,8 @@ export const languages = {
     navbar: {
       home: "INICIO",
       aboutUs: "SOBRE NOSOTROS",
-      practiceArea: "AREAS DE PRACTICA",
-      contactUs: "CONTACTANOS",
+      practiceArea: "ÁREAS DE PRACTICA",
+      contactUs: "CONTÁCTANOS",
       legalResources: "RECURSOS LEGALES",
       locate_us:"Ubicanos",
       legal_options:"Opciónes Legales ",
@@ -255,28 +255,28 @@ export const languages = {
       Real_Estate_Management_Options:"Opciónes Administracion Inmobiliaria"
     },
     contactanos:{
-      title:"¡Contáctenos ahora y conozca más de nuestros servicios!",
-      subtitle:"Contactanos",
+      title:"Conozca más de nuestros servicios. ¡Contáctenos ahora y!",
+      subtitle:"Contéctenos",
       name:"Nombre",
       direction:"Dirección",
-      email:"Email",
+      email:"Correo electrónico",
       numberphone:"Número de teléfono",
       description:"Descripción del problema legal",
       send:"enviar"
 
     },
     ubicanos:{
-      locate:"Ubicanos"
+      locate:"Encuentra la sucursal más cercana para usted"
     },
     introduccion:{
       title:"Quienes somos",
-      subtitle:"Despacho contable, jurídico y administrativo",
-      body1:"Proporcionamos servicios profesionales en administración, auditorias, derecho fiscal, laboral, contabilidad para personas físicas o morales  a clientes en la Republica mexicana desde 2010. Somos un despacho contable, legal fiscal, que en base a la investigación y la planeación estratégica damos soluciones satisfactorias. ",
-      body2:"Nuestro objetivo es siempre el construir una relación eficiente basada en resultados positivos y tangibles. Trabajando nuestras áreas en conjunto para crear un plan de acción personalizado para usted o su organización. Póngase en contacto para saber más de nuestra visión de servicio y enfoque de nuestros productos y servicios.",
+      subtitle:"Despacho jurídico y correcto control organizacional",
+      body1:" Con miras a ser la consultoría de referencia en las relaciones, y operaciones, entre México y China y sus nacionales, iniciamos nuestras operaciones en la Ciudad de México en el 2010 para brindar nuestros servicios en toda la Republica Mexicana. Elaboramos, aplicamos y supervisamos estrategias con la Hacienda Mexicana y programas de correcto control organizacional para las empresas y personas fisicas con o sin actividad comercial. Mismos que desarrollamos con la finalidad de alcanzar soluciones que satisfagan a nuestros clientes; bajo un estricto y profesional planeación con apego al Derecho Civil, Mercantil, Físcal, Laboral, Transporte Terrestre, Aereo y Maritimo, Vía; y en Fintechs",
+      body2:" Nuestro objetivo siempre será: construir una relación firme y eficiente con nuestros clientes, que tenga como semiento nuestros resultados positivos y tangibles. Trabajamos de forma coordinada y en conjunto con profesionales en otras áreas del conocimiento para crear para usted una solución, a la medida de sus necesidades, u organización que requiera de uno o algunos de nuestros servicios. Para que usted pueda ver materializado nuestros resultados, pónganse en contacto con nosotros.",
     },
     footer:{
       service:"SERVICIOS",
-      legal_options:"  Opciones Legales",
+      legal_options:"  Opciones Legales ",
       Accounting_options:"Opciones contables",
       Administrative_options:"Opciones administrativa",
       links:"LINKS",
@@ -287,32 +287,32 @@ export const languages = {
     },
     legal:{
       title:"OPCIONES LEGALES",
-      subtitle:"La cultura de la legalidad no se reduce al resultado que dicten las cortes sino al conjunto de conductas cotidianas que permiten a las personas y a las colectividades convivir en pro de sus valores e intereses.",
+      subtitle:" Considerar las implicaciones de nuestras actos y conductas es un ejercicio de primer orden, que muchas de las veces en México es tomada a la ligera. Sin embargo, este caminó lleva a que el Derecho sea visto como un sistema para resolver un problema o para mitigar, suavizar o atenuar consecuencias perjudiciales. Por otra parte, si compartimos la visión de este departamente y se enfoca al derecho como una herramienta para evitar inconvenientes permite que sea una inverción. Una inversión que es mejor tenerla al principio, ya que de su voz se asegura que la consecuencia que nuestro actuar persiga sea la que se consiga.",
       body1:"Expertos en el Tema",
-      body2:"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda.",
+      body2:"A lo largo de los años, adquirimos experiencia que nos permite posicionarnos en los problemas de nuestros clientes y proponer una solución efectiva. Así, para que este proceso sea lo más sencillo posible; estableceremos de la mano de nuestros clientes objetivos claros y ajustaremos las expectativas. Sí cuenta usted con  duda respecto a cómo usted podría utilizar nuestro servicio o como podríamos ayudarlos, Contáctenos. ",
     },
     consulta:{
-      image1:"Opciones Legales en Mexico",
-      image2:"Opciones Contables en Mexico",
-      image3:"Opciones Admnistracion Inmobiliaria en Mexico"
+      image1:"Opciones Legales en México",
+      image2:"Opciones Contables en México",
+      image3:"Opciones Administración Inmobiliaria en México"
 
     },
     buttonDial:{
       wechatC:"WeChat(Chino)",
       wechatE:"WeChat(Español)",
       email:"Email",
-      telefono:"Telefono",
-      learn:"Ver mas"
+      telefono:"Teléfono",
+      learn:"Ver más"
     },
     legalOptionStructure:{
       title:"Expertos en el Tema",
-      subtitle:"A lo largo de los años, hemos adquirido la experiencia necesaria para que este proceso sea lo más sencillo posible. Estableceremos sus objetivos y ajustaremos las expectativas. Contáctenos si tiene alguna duda.",
+      subtitle:"A lo largo de los años, hemos adquirido la experiencia que necesitamos para que el producto que usted elija sea lo más sencillo posible y sin provocarle más gravámenes. Para ese efecto, establecemos objetivos  claros y posibles para así ajustaremos a las expectativas. Contáctenos si tiene usted alguna duda.",
       serviceTitle:"Opciones Legales",
       ButtonTitle1:"Servicios Personalizados",
       ButtonTitle2:"Entabla una negociación o mediación.",
-      ButtonTitle3:"Servicios en Corte y litigación",
+      ButtonTitle3:"Servicios en Corte y Litigación",
       ButtonTitle4:"Gestorías Administrativas",
-      ButtonTitle5:"Migracion",
+      ButtonTitle5:"Migración",
       ButtonTitle6:"Impuestos y Contribuciones",
       ButtonTitle7:"Planes Internos de Control Organizacional",
       ButtonTitle8:"Tú Oficial de Cumplimiento",
@@ -344,7 +344,7 @@ export const languages = {
       title:"SOBRE NOSOTROS",
       subtitle:"Ofrecemos el respaldo profesional contable, administrativo y jurídico necesarios en cualquier actividad en la cual usted como persona física o moral se desarrolle. Nuestras áreas contables, administrativas, jurídico fiscales y migratorias ofrecen confianza y seguridad con la cual  estará en cualquier caso legal o fiscal protegido. ",
       about_the_office:"SOBRE EL DESPACHO",
-      phrase:"TY GLOBAL BROKER'S ha prestado servicios en México, España Brasil,Colombia desde el año 2000 con un éxito considerable. Nosenorgullece nuestra tradición de excelencia, que garantiza unservicio de la más alta calidad. Entendemos los desafíos y lapresión que conlleva cada caso y estamos para usted, acompañándolo en cada paso del camino. Nuestro equipo de profesionales jurídicos se distingue por su profesionalismo y por aportar un toque personal a su trato con los clientes, además de dar siempre la atención que cada caso amerita. Contáctenos hoy mismo."
+      phrase:"TY GLOBAL BROKER'S ha prestado servicios en México, España, Brasil,Colombia desde el año 2000 con un éxito considerable. Nos enorgullece nuestra tradición de excelencia, que garantiza unservicio de la más alta calidad. Entendemos los desafíos y lapresión que conlleva cada caso y estamos para usted, acompañándolo en cada paso del camino. Nuestro equipo de profesionales jurídicos se distingue por su profesionalismo y por aportar un toque personal a su trato con los clientes, además de dar siempre la atención que cada caso amerita. Contáctenos hoy mismo."
 
 
     },
@@ -362,38 +362,36 @@ export const languages = {
       Enter_into_negotiation_or_mediation: {
         title: "Entabla una negociación o mediación. ",
         description:
-          "Entre las partes las diferencias y los conflictos pueden existir; y si bien, la normalidad es que cada individuo cumpla con sus deberes en la forma en que se comprometió, la posibilidad de disconformidades siempre está presente, y es un acertó, comprender que entre más extensa sea la organización o la operación la aparición irregularidades aparecen con mayor frecuencia.Ante este panorama la solución de conflictos a través de medios diversos a las sentencias dictadas por los órganos jurisdiccionales son una opción altamente recomendada, ya que, además de permitir solidificar una buena imagen corporativa es una opción rápida y que principia de las mutuas concesiones.",
-        miniDescription:"Entre las partes las diferencias y los conflictos pueden existir; y si bien, la normalidad es que cada individuo cumpla con sus deberes en la forma en que se comprometió..."
+          "Entre las partes las diferencias y los conflictos pueden existir; y si bien, la normalidad es que cada individuo cumpla con sus deberes en la forma en que se comprometió, la posibilidad de disconformidades siempre está presente, y es un acertó, comprender que entre más extensa sea la organización o la operación, la aparición de irregularidades aparecen con mayor frecuencia. Ante este panorama la solución de conflictos a través de medios diversos a las sentencias dictadas por los órganos jurisdiccionales son una opción altamente recomendada, ya que, además de permitir solidificar una buena imagen corporativa es una opción rápida que principia de las mutuas concesiones.",
+        miniDescription:" La solución de conflictos a través de medios diversos a las sentencias dictadas por los órganos jurisdiccionales son una opción altamente recomendada, ya que, además de permitir solidificar una buena imagen corporativa..."
       },
       Court_and_itigation_services: {
         title: "Servicios en Corte y litigación",
-        description:
-          "Acudir ante un Juzgador como actor o demandado representa la actividad más desafiante para los operadores jurisdiccionales, Toda vez que representa una pugna entre dos o más a través de un procedimiento estricto y formal que es seguido en forma de juicio, en el cual, el animo del cliente para resolver su problema debe desplegarse de tal forma que se lleve de la mano al Juez en todas las etapas y se supervisen para tener una sentencia que favorezca a los intereses del representado; y si bien, las promesas de resultados no son éticas, lo cierto es que el criterio judicial que este departamento se ha encargado de formar permite que sí este en aptitud de advertir el resultado y hasta proponer una solución extraordinario.Es útil hacer ver que los resultados desfavorables suceden cuando los clientes, por indecisión, contratan un servicio ajeno que tienen un desempeño procesal pobre en contra de los intereses del que representan y a la falta de preparación del juicio. Situaciones que contravienen y no se comparten comparta la profesionalidad de este departamento y sus demandas.Con lo anterior se sostiene que este servicio es la expertise debido a la formación profesional de los integrantes del departamento y a sus conexiones, ya que enrolados encontramos jurisconsultos tanto en ámbitos del derecho privado como en contra del Estado Mexicano y otras naciones. Sin que lo anterior signifique que deberá optarse en toda situación al confrontamiento, ya que deberá atenderse a los intereses y al caso particular. ",
-        miniDescription:"Acudir ante un Juzgador como actor o demandado representa la actividad más desafiante para los operadores jurisdiccionales, Toda vez que representa una pugna entre dos o más..."  
+        description:"Acudir ante un Juzgador como actor o demandado representa la actividad más desafiante para los operadores jurisdiccionales; toda vez que, significa un combate entre dos o más a través de un procedimiento estricto y formal, que es seguido en forma de juicio, en el cual, el animo del cliente para resolver su problema debe ser patente y desplegarse de tal forma que se lleve de la mano al Juez en todas las etapas, y sobre todo se supervise su actuar, ya que sólo en esas condiciones, es posible que se obtenga una sentencia que favorezca a los intereses del representado; y si bien, las promesas de obtención de un resultado no son ético, lo cierto es que el criterio judicial que este departamento se ha encargado de formar permite que sí este en aptitud de advertir el resultado y hasta proponer una solución extraordinario. Es útil adelantar a usted que los resultados desfavorables toman lugar, en el mayor de los casos, cuando los clientes contratan un servicio ajeno, considerando el monto del honorario como factor principal para tomar la decisión; los cuales generalmente tienen un desempeño procesal pobre, que se aleja de la profesionalidad, y obra en contra de los intereses del que representan; ya que , la falta de preparación del juicio y de seguimiento en los juzgados son situaciones que contravienen los valores profesionales que este departamento tiene y demanda Con lo anterior se sostiene que este servicio es expertise, debido a la formación de los integrantes del departamento y a sus conexiones; ya que, enrolados en la estructura de la prestadora de servicios, encontramos jurisconsultos tanto en ámbitos del derecho entre los particulares como en contra del Estado Mexicano y otras naciones. Sin que lo anterior signifique que deberá optarse en toda situación al confrontamiento, ya que deberá atenderse a los intereses y al caso particular. ",
+        miniDescription:" este servicio es expertise, debido a la formación de los integrantes del departamento y a sus conexiones; ya que enrolados en la estructura prestadora de servicios, encontramos jurisconsultos tanto en ámbitos del derecho entre los particulares como en contra del Estado Mexicano y otras naciones. Sin que lo anterior signifique que deberá optarse en toda situación al confrontamiento, ya que deberá atenderse a los intereses y al caso particular..."  
       },
       Administrative_Agencies: {
         title: "Gestorías Administrativas",
         description:
-          "La nación Mexicana es soberana y cuenta con múltiples cuerpos normativo propios para su funcionamiento.La extensión de las conductas individuales es semejante a los reglamentos y disposiciones que en México se tienen para regularlas. En algunos casos, si no es que, en su mayoría, se requieren tramites ante las mismas dependencias y es obligaciones de las personas solicitar al Estado, en cualquiera de sus esferas, autorización o autorizaciones para el legal despliegue de la actividad comercial que tenga el cliente o bien, para la Hacienda, el simple acceso al territorio nacional, portación de armas, exportación o importación, inscripción a registros nacionales,  etc. ",
-        miniDescription:"La nación Mexicana es soberana y cuenta con múltiples cuerpos normativo propios para su funcionamiento." 
+          "La nación Mexicana es soberana y cuenta con múltiples cuerpos normativo propios para su funcionamiento, así como entidades y oficinas para atender a las necesidades de la población. La extensión de las conductas individuales es proporcional a los reglamentos y disposiciones que en México se tienen para regularlas. En algunos casos, si no es que, en su mayoría, se requieren trámites ante las mismas dependencias para solicitar al Estado, en cualquiera de sus esferas, autorización o autorizaciones para el legal despliegue de la actividad comercial que tenga el cliente o bien, para la Hacienda, el simple acceso al territorio nacional, portación de armas, exportación o importación, inscripción a registros nacionales, etc. Tramites que es obligaciones de las personas realizar. En esas condiciones, sí te encuentras frente a un requerimiento de la autoridad o tramite pendiente, permítenos ayudarte con nuestro servició de gestoría y nuestras conexiones con el Estado Mexicano",
+        miniDescription:" En algunos casos, si no es que, en su mayoría, se requieren trámites ante las mismas dependencias para solicitar al Estado, en cualquiera de sus esferas , autorización o autorizaciones para el legal despliegue de la actividad comercial… sí te encuentras frente a un requerimiento de la autoridad o tramite pendiente, permítenos ayudarte con nuestro servició de gestoría y nuestras conexiones con el Estado Mexicano." 
       },
       Migration: {
         title: "Migración",
         description:
-          "México es un país con proyección mundial y economía creciente. La entrada a este territorio está bajo la supervisión del estado y cuenta con plenitud para negar la entrada a las personas que no cumplan con los criterios nacionales e internacionales. Sí es tú plan cambiar de centro principal de vida podrás contar con nuestro consejo y asesoría para que esta nación sea tú nuevo hogar y residencia.",
-        miniDescription:"México es un país con proyección mundial y economía creciente. La entrada a este territorio está bajo la supervisión del estado y cuenta con plenitud para negar la entrada..."
+          "México es un país con proyección mundial y economía creciente. La entrada a este territorio está bajo la supervisión del estado y éste cuenta con plenitud para negar la entrada a las personas que no cumplan con los criterios nacionales e internacionales. Sí es tú plan cambiar de centro principal de vida podrás contar con nuestro consejo y asesoría para que esta nación sea tú nuevo hogar y residencia.",
+        miniDescription:" Sí es tú plan cambiar de centro principal de vida podrás contar con nuestro consejo y asesoría para que esta nación sea tú nuevo hogar y residencia...."
       },
       Taxes_and_Contributions: {
         title: "Impuestos y Contribuciones",
-        description:
-          "La Hacienda Mexicana es una institución que cuenta con todas las herramientas y recursos para hacer efectiva y aplicar sus sanciones y castigos a todos aquellos agentes comerciales que decidan no apegarse y omitir el pago de las contribuciones que les corresponde. Al margen de la Constitución de 1917 el Estado tiene como política la autodeterminación del monto del impuesto que se pague, sin que esto signifique que no cuente con facultades de comprobación de las operaciones y que ante una irregularidad efectúe las medidas de seguridad necesarias, como el congelamiento total de las cuentas bancarias o en la peor de las situaciones, que es adentrarnos al territorio de la ilicitud, la defraudación fiscal. Ante este panorama, siempre deberá contarse con consejo respecto a la planeación tributaria, ya que sólo así podrá el cliente tener plena tranquilidad con el Estado y en efecto, aportar lo que le corresponde. ",
-        miniDescription:"La Hacienda Mexicana es una institución que cuenta con todas las herramientas y recursos para hacer efectiva y aplicar sus sanciones y castigos a todos aquellos agentes comerciales..."
+        description: "La Hacienda Mexicana es una institución que cuenta con todas las herramientas y recursos para hacer efectiva su ley, y aplicar sus sanciones y castigos a todos aquellos agentes comerciales que decidan no apegarse y omitir el pago de las contribuciones que les corresponde. Al margen de la Constitución de 1917 el Estado tiene como política la autodeterminación del monto del impuesto, sin que esto signifique que no cuente la Hacienda con procedimientos y facultades de comprobación de las operaciones. De las cuales si la Hacienda detecta una irregularidad , pueden derivar la aplicación de las medidas de seguridad necesarias, como el congelamiento total de las cuentas bancarias o en la peor de las situaciones, que es adentrarnos al territorio de la ilicitud, el fincamiento de la pena por la defraudación fiscal. Ante este panorama, siempre deberá contarse con consejo respecto a la planeación tributaria, ya que sólo así podrá el cliente tener plena tranquilidad con el Estado y en efecto, aportar lo que le corresponde. ",
+        miniDescription:"Permítenos entender tu actividad económica y planear a tú lado tu estrategia fiscal que te permita como cliente tener plena tranquilidad con el Estado Mexicano; y sobre todo, aporta lo que te corresponde a la Hacienda. "
       },
       Internal_Organizational_Control_Plans: {
         title: "Planes Internos de Control Organizacional",
         description:
-          "La responsabilidad Penal, Administrativa y Civil es existente para las personas colectivas también conocidas como personas morales, empresas o en ingles individuals. La ciencia y dogmática jurídica a propuesto como solución para mediar las responsabilidades entre el administrador único, gerentes, accionistas y trabajadores por ser los integrantes de la sociedad a través programas de cumplimiento también conocidos como compliance program.Esta Tarea no es cosa menor, sino que por el contrario, es un servicio desafiante, porque significa advertir riesgos y conocer la totalidad de la conducta empresarial, y complejo, porque necesita de otros profesionales, como contadores, administradores, matemáticos, biólogos, actuario; para que se tenga un autentico y correcto control organizacional el cual reduzca las irregularidades y antijuridicidades, y principalmente las sanciones que estas conducen como la disolución de la empresa y penas de prisión.En otras palabras, el compliance tambien puede entenderse como un adelantamiento de la barrera de protección por parte de una empresa, el cual de su correcta formación, uso, mantenimiento y actualización permitiría a los jueces no fincar responsabilidades penales, administrativas o civiles a la empresa o a sus beneficiarios y directivos. ",
-        miniDescription:"La responsabilidad Penal, Administrativa y Civil es existente para las personas colectivas también conocidas como personas morales, empresas o en ingles individuals."
+          "La responsabilidad Penal, Administrativa y Civil existe para las personas colectivas también conocidas como personas morales, empresas o en ingles individuals. La ciencia y dogmática jurídica a propuesto como solución para mediar las responsabilidades entre el administrador único, gerentes, accionistas y trabajadores, por ser todos estos integrantes de la empresa, los programas de cumplimiento también conocidos como compliance programs. Esta tarea no es cosa menor, sino que por el contrario, es un servicio desafiante, porque significa adentrarnos a las operaciones de los clientes para conocer la totalidad de la conducta empresarial y advertir riesgos que esta genere. Es complejo, porque necesita de otros profesionales, como contadores, administradores, matemáticos, biólogos, actuarios; para que se genere y tenga un correcto control organizacional el cual reduzca las irregularidades y antijuridicidades. En otras palabras, el compliance puede entenderse como un adelantamiento de la barrera de protección por parte de una empresa, el cual de su correcta formación, uso, mantenimiento y actualización permitiría a los jueces no fincar responsabilidades penales, que van desde  penas privativas hasta la disolución de la compañía; administrativas como lo son multas o civiles a la empresa o a sus beneficiarios y directivos. ",
+        miniDescription:"La responsabilidad Penal, Administrativa y Civil existe para las empresas. La ciencia y dogmática jurídica a propuesto como solución para mediar las responsabilidades entre el administrador único, gerentes, accionistas y trabajadores, por ser todos estos integrantes de la empresa, los programas de cumplimiento también conocidos como compliance programs..."
       },
       Your_Compliance_Officer: {
         title: "Tú Oficial de Cumplimiento",
@@ -410,26 +408,26 @@ export const languages = {
       Small_and_medium_businesses: {
         title: "Pequeñas y Medianas Empresas ",
         description:
-          "¿Ya tienes una empresa en México y es escalable? Sí la respuesta al interrogante es Sí. Tal vez en tú panorama encuentras algunas dificultades para dar el siguiente paso, tal vez estas apunto de hacerlo y no encuentras la manera. Permítenos a través de nuestros vínculos con la mayoría de las entidades bancarias mexicanas darte ese empujón. ¿Cuentas con un crédito con una entidad y quieres negociar con ella para mejorar las condiciones que tienes?Contamos con experiencia para la reconfiguración de deuda, acércate con nosotros y te asesoraremos de forma integral a tú situación. Sólo que conviene considerar que el tiempo apremia más cuando se tratan de deudas con intereses moratorios.  ",
-        miniDescription:"¿Ya tienes una empresa en México y es escalable? \n\n Sí la respuesta al interrogante es Sí. Tal vez en tú panorama encuentras algunas dificultades para dar el siguiente paso"  
+          "¿Ya tienes una empresa en México y es escalable? Sí la respuesta al interrogante es Sí. Tal vez en tú panorama encuentras algunas dificultades para dar el siguiente paso, tal vez estas apunto de hacerlo y no encuentras la manera. Permítenos a través de nuestros vínculos con la mayoría de las entidades bancarias mexicanas darte ese empujón que necesitas. ¿Cuentas con un crédito con una entidad y quieres negociar con ella para mejorar las condiciones que tienes?Contamos con experiencia para la reconfiguración de deuda, acércate con nosotros y te asesoraremos de forma integral a tú situación. Sólo que conviene considerar que el tiempo apremia más cuando se tratan de deudas con intereses moratorios.  ",
+        miniDescription:"¿Ya tienes una empresa en México y es escalable? \n\n Sí la respuesta al interrogante es Sí. Permítenos a través de nuestros vínculos con la mayoría de las entidades bancarias mexicanas darte ese empujón que necesitas. "  
       },
       Representation: {
         title: "Representación ",
         description:
           "Las empresas son entes que necesitan materializarse en una persona para celebrar sus actos. Encuentras dificultad para realizarlo o quieres que una persona sólo haga determinada conducta, nosotros conocemos cual es la solución para ti.",
-        miniDescription:"Las empresas son entes que necesitan materializarse en una persona para celebrar sus actos"  
+        miniDescription:"Las empresas son entes que necesitan materializarse en una persona para celebrar sus actos, sí cuentas con alguna dificultad para lograrlo contactanos "  
       },
       Contract_drafting: {
         title: "Redacción de Contratos",
         description:
-          "La palabra contrato es tan común en nuestro lenguaje cotidiano que pocas veces solemos reparar en ella y en su significado. En términos generales, el contrato es un acuerdo de voluntades, donde una o varias personas consienten en obligarse respecto de otra a dar alguna cosa o prestar un servicio. Dicho de otro modo, es un acuerdo voluntario que genera derechos y obligaciones.Así, ponernos de acuerdo es indispensable y redactar los términos en lo que lo hicimos lo es aún más, toda vez que, sólo así estaríamos en aptitud para poder exigir que nos cumplan y nosotros satisfacer nuestros deberes. Como forma de trabajo este departamento comparte que es insostenible aceptar formatos de contratos; toda vez que cada uno debe hacerse individualmente para que represente los intereses del cliente.",
-        miniDescription:"La palabra contrato es tan común en nuestro lenguaje cotidiano que pocas veces solemos reparar en ella y en su significado."  
+          "La palabra contrato es tan común en nuestro lenguaje cotidiano que pocas veces solemos reparar en ella y en su significado. En términos generales, el contrato es un acuerdo de voluntades, donde una o varias personas consienten en obligarse respecto de otra a dar alguna cosa o prestar un servicio. Dicho de otro modo, es un acuerdo voluntario que genera derechos y obligaciones. Así, ponernos de acuerdo es indispensable y redactar los términos en lo que lo hicimos lo es aún más, toda vez que, sólo así estaríamos en aptitud para poder exigir que nos cumplan y nosotros satisfacer nuestros deberes. Como forma de trabajo este departamento comparte que es insostenible aceptar formatos de contratos; toda vez que cada uno debe hacerse individualmente para que represente los intereses del cliente.",
+        miniDescription:" El contrato es un acuerdo de voluntades, donde una o varias personas consienten en obligarse respecto de otra a dar alguna cosa o prestar un servicio, por lo anterior la forma en que contratamos es una actividad que debe de hacerse  de la mano de un abogado para que el acuerdo en efecto produzca las consecuencias que desean los contratantes."  
       },
       Review_and_Interpretation_of_Contracts: {
         title: "Revisión e Interpretación de Contratos",
         description:
-          "El cliente pretende celebrar un contrato que fue escrito por su contraparte, debe considerarse que las actas que firmemos nos obligan en esos términos por lo que antes de firmar es necesario consultar para tener pleno conocimiento de cuáles son las obligaciones que asumiremos y los derechos que tendremos.En este punto las partes muchas de las veces suelen acordar puntos que son contrarios a la ley, por lo que también la consulta permite identificar estas particularidades para que el cliente sepa su panorama real y no el que pretenden imponerle. ",
-        miniDescription:"El cliente pretende celebrar un contrato que fue escrito por su contraparte, debe considerarse que las actas que firmemos nos obligan en esos términos por lo que antes de firmar es necesario consultar para tener pleno conocimiento"  
+          "Los términos y condiciones en que celebramos los contratos son fundamentales para que los contratantes tengan pleno conocimiento de cuáles son las obligaciones que asumiran y los derechos que tendrán, y así, se pueda dar satisfacción al objeto del contrato. Sin embargo, en algunas ocasiones, las actas que se firman no contienen los requisitos o elementos que la ley demanda, o en algunas otras, contiene cláusulas que contravienen los intereses del signante o bien a la misma naturaleza del contrato. Ante esta circunstancia antes de que celebres un contrato es necesario consultar con abogados, ya que de hacerlo, adquirías certeza sobre el panorama jurídico del acto que celebrarás y sus consecuencias. ",
+        miniDescription:" Es tu deseo contratar  con alguien y el contrato fue formulado por tú contraparte, considera que antes de firmar es indispensable revisar los términos del contrato para que materialmente tenga las consecuencias que pretendes."
       },
     },
     AccountingOptions:{

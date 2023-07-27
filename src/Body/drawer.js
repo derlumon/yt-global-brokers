@@ -13,7 +13,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import BookIcon from "@mui/icons-material/Book";
 import ChatIcon from "@mui/icons-material/Chat";
-import DownloadIcon from "@mui/icons-material/Download";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import china from "../img/language/china.png";
 import eua from "../img/language/eua.png";
@@ -100,16 +99,6 @@ export default function SwipeableTemporaryDrawer() {
               </ListItemIcon>
               <ListItemText
                 primary={languages[currentLanguage].navbar.contactUs}
-              />
-            </ListItemButton>
-          </ListItem>
-          <ListItem key={"LegalResources"} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                <DownloadIcon />
-              </ListItemIcon>
-              <ListItemText
-                primary={languages[currentLanguage].navbar.legalResources}
               />
             </ListItemButton>
           </ListItem>
