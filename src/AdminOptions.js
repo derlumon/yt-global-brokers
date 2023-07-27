@@ -10,7 +10,7 @@ import Servicios from "./Body/Servicios";
 import Contactanos from "./Body/Contactanos";
 import PracticeArea from "./Body/PracticeArea";
 import ButtonBaseDemo from "./Body/Consulta";
-import Fondo1 from "./img/Hero11.png";
+import Fondo1 from "./img/Hero11-min.webp";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";

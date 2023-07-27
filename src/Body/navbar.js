@@ -194,9 +194,6 @@ const Navbar = () => {
               >
                 {languages[currentLanguage].navbar.contactUs}
               </Button>
-              <Button >
-                {languages[currentLanguage].navbar.legalResources}
-              </Button>
               <Box>
                 <Tooltip title="Open settings">
                   <IconButton onClick={handleOpenUserMenu}>

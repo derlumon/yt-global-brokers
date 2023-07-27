@@ -12,7 +12,7 @@ import Ubicanos from "./Body/Ubicanos";
 import Contactanos from "./Body/Contactanos";
 import Introduccion from "./Body/Introduccion";
 import ButtonBaseDemo from "./Body/Consulta";
-import Fondo1 from "./img/Hero1.png";
+import Fondo1 from "./img/Hero1.webp";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
