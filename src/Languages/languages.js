@@ -13,7 +13,8 @@ export const languages = {
       legalResources: "LEGAL RESOURCES",
       legal_options:"Legal Options",
       Accounting_Options:" Accounting Options",
-      Real_Estate_Management_Options:"Real Estate Management Options"
+      Real_Estate_Management_Options:"Real Estate Management Options",
+      tooltip:"The culture of legality is not reduced to the result dictated by the courts but to the set of daily behaviors that allow people and communities to coexist in favor of their values ​​and interests. The opening of the client about their particular situation or eventuality, in our experience, is the best way for our advice to have the result, which in our prudent judgment would imply avoiding many bureaucratic inconveniences or other losses of capital. It is a service that should not be used but it is essential to have it"
     },
     introduccion:{
       title:"About us",
@@ -252,7 +253,8 @@ export const languages = {
       locate_us:"Ubicanos",
       legal_options:"Opciónes Legales ",
       Accounting_Options:" Opciónes Contables",
-      Real_Estate_Management_Options:"Opciónes Administracion Inmobiliaria"
+      Real_Estate_Management_Options:"Opciónes Administracion Inmobiliaria",
+      tooltip:" La cultura de la legalidad no se reduce al resultado que dicten las cortes sino al conjunto de conductas cotidianas que permiten a las personas y a las colectividades convivir en pro de sus valores e intereses.La apertura del cliente sobre su situación particular o eventualidad, en nuestro experiencia, es la mejor forma para que nuestros consejos tengan el resultado,  lo que en nuestro prudente criterio  implicaría evitar muchos inconvenientes burocráticos u otras mermas de capitales.Es un servicio que no debería utilizarse pero es indispensable contar con él"
     },
     contactanos:{
       title:"Conozca más de nuestros servicios. ¡Contáctenos ahora y!",
@@ -497,7 +499,8 @@ export const languages = {
       legalResources: "法律资源",
       legal_options:"法律选择",
       Accounting_Options:" 会计选项",
-      Real_Estate_Management_Options:"房地产管理选项"
+      Real_Estate_Management_Options:"房地产管理选项",
+      tooltip:" 合法性文化并没有简化为法院规定的结果，而是简化为允许人们和社区以有利于他们的价值观和利益的方式共存的一系列日常行为。客户对他们的特殊情况或可能性的开放，根据我们的经验，这是我们的建议取得结果的最佳方式，根据我们的审慎判断，这意味着避免许多官僚主义的不便或其他资本损失。这是一项不应该使用的服务，但必须拥有它"
     },
     contactanos:{
       title:"立即联系我们，了解更多有关我们服务的信息！",
