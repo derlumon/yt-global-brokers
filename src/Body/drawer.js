@@ -1,4 +1,4 @@
-import React, { useContext,useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import List from "@mui/material/List";
@@ -21,6 +21,7 @@ import Avatar from "@mui/material/Avatar";
 import { LanguageContext } from "../Context/LanguageContext";
 import { languages } from "../Languages/languages";
 import { Link } from "react-router-dom";
+import Sound from "../img/sound.mp3";
 
 const theme = createTheme({
   components: {
@@ -50,10 +51,14 @@ export default function SwipeableTemporaryDrawer() {
   };
 
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
-  useEffect(()=>{
-    console.log(currentLanguage)
-  },[currentLanguage])
-  
+  useEffect(() => {
+    console.log(currentLanguage);
+  }, [currentLanguage]);
+
+  const playSound = () => {
+    const audio = new Audio(Sound);
+    audio.play();
+  };
 
   const list = (anchor) => (
     <ThemeProvider theme={theme}>
@@ -65,7 +70,7 @@ export default function SwipeableTemporaryDrawer() {
       >
         <List>
           <ListItem key={"Home"} disablePadding>
-            <ListItemButton component={Link} to="/">
+            <ListItemButton component={Link} to="/" onClick={playSound}>
               <ListItemIcon>
                 <HomeIcon />
               </ListItemIcon>
@@ -73,7 +78,7 @@ export default function SwipeableTemporaryDrawer() {
             </ListItemButton>
           </ListItem>
           <ListItem key={"AboutUs"} disablePadding>
-            <ListItemButton component={Link} to="/about">
+            <ListItemButton component={Link} to="/about" onClick={playSound}>
               <ListItemIcon>
                 <SupervisorAccountIcon />
               </ListItemIcon>
@@ -82,7 +87,7 @@ export default function SwipeableTemporaryDrawer() {
               />
             </ListItemButton>
           </ListItem>
-          <ListItem key={"PracticeArea"} disablePadding>
+          <ListItem key={"PracticeArea"} disablePadding onClick={playSound}>
             <ListItemButton component={Link} to="/practiceArea">
               <ListItemIcon>
                 <BookIcon />
@@ -92,7 +97,7 @@ export default function SwipeableTemporaryDrawer() {
               />
             </ListItemButton>
           </ListItem>
-          <ListItem key={"Contact"} disablePadding>
+          <ListItem key={"Contact"} disablePadding onClick={playSound}>
             <ListItemButton component={Link} to="/contact">
               <ListItemIcon>
                 <ChatIcon />
@@ -107,32 +112,41 @@ export default function SwipeableTemporaryDrawer() {
         <List>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={()=>{handleLanguageChange("es")}}
+            onClick={() => {
+              handleLanguageChange("es");
+              playSound();
+            }}
           >
             <ListItemIcon>
-                <Avatar alt="Remy Sharp" src={mexico} />
+              <Avatar alt="Remy Sharp" src={mexico} />
             </ListItemIcon>
-            <ListItemText 
+            <ListItemText
               primary={languages[currentLanguage].lenguage.spanish}
             />
           </ListItemButton>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={()=>{handleLanguageChange("en")}}
+            onClick={() => {
+              handleLanguageChange("en");
+              playSound();
+            }}
           >
             <ListItemIcon>
-                <Avatar alt="Remy Sharp" src={eua} />
+              <Avatar alt="Remy Sharp" src={eua} />
             </ListItemIcon>
-            <ListItemText 
+            <ListItemText
               primary={languages[currentLanguage].lenguage.english}
             />
           </ListItemButton>
           <ListItemButton
             sx={{ gap: "20px" }}
-            onClick={()=>{handleLanguageChange("chi")}}
+            onClick={() => {
+              handleLanguageChange("chi");
+              playSound();
+            }}
           >
-            <ListItemIcon >
-                <Avatar alt="Remy Sharp" src={china} />
+            <ListItemIcon>
+              <Avatar alt="Remy Sharp" src={china} />
             </ListItemIcon>
             <ListItemText
               primary={languages[currentLanguage].lenguage.chinese}

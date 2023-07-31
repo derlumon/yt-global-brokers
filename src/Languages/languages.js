@@ -327,7 +327,7 @@ export const languages = {
 
     },
     hero: {
-      titleHero: "Despacho de abogados en México",
+      titleHero: "DESPACHO DE ABOGADOS EN MEXICO",
       subtitleHero:
         "Somos un firma de abogados en México, que brinda asesoría legal al sector privado en diferentes ramas del derecho migratorio, administrativo, inmobiliario y contable.",
     },

@@ -18,6 +18,7 @@ import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { languages } from "../Languages/languages";
 import { Link } from "react-router-dom";
+import Sound from "../img/sound.mp3";
 
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
   transition: theme.transitions.create(
@@ -59,8 +60,6 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
 }));
 
 const Navbar = () => {
- 
-
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
 
   const [isTransparent, setIsTransparent] = useState(true);
@@ -68,9 +67,10 @@ const Navbar = () => {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [lenguage, setLenguage] = useState(mexico);
 
- 
-
-
+  const playSound = () => {
+    const audio = new Audio(Sound);
+    audio.play();
+  };
 
   const theme = createTheme();
 
@@ -124,13 +124,17 @@ const Navbar = () => {
                 flexDirection: "row",
                 gap: "10px",
               }}
-            > 
-            <a href="/">
-              <img    src={logo} style={{ width: "60px", height: "60px" }} alt="hi"/>
+            >
+              <a href="/">
+                <img
+                  src={logo}
+                  style={{ width: "60px", height: "60px" }}
+                  alt="hi"
+                />
               </a>
               <Typography
-               ref={(el) => (animatedTextRef.current[0] = el)}
-               className="animated-text"
+                ref={(el) => (animatedTextRef.current[0] = el)}
+                className="animated-text"
                 variant="h6"
                 color="inherit"
                 sx={{
@@ -139,7 +143,6 @@ const Navbar = () => {
                   fontFamily: "Sweet Sans Pro",
                   fontWeight: 500,
                   fontSize: { xs: "1rem", md: "1.3rem" },
-                  
                 }}
               >
                 YT, GLOBAL BROKER'S
@@ -170,6 +173,7 @@ const Navbar = () => {
                   fontSize: ".8rem",
                   color: "inherit",
                 }}
+                onClick={playSound}
               >
                 {languages[currentLanguage].navbar.home}
               </Button>
@@ -181,10 +185,11 @@ const Navbar = () => {
                 }}
                 component={Link}
                 to="/about"
+                onClick={playSound}
               >
                 {languages[currentLanguage].navbar.aboutUs}
               </Button>
-              <DropdownMenu size=".8rem"/>
+              <DropdownMenu size=".8rem" />
               <Button
                 sx={{
                   fontFamily: "Sweet Sans Pro",
@@ -193,6 +198,7 @@ const Navbar = () => {
                 }}
                 component={Link}
                 to="/contact"
+                onClick={playSound}
               >
                 {languages[currentLanguage].navbar.contactUs}
               </Button>
@@ -223,12 +229,18 @@ const Navbar = () => {
                       handleCloseUserMenu();
                       setLenguage(china);
                       handleLanguageChange("chi");
+                      playSound();
                     }}
                   >
                     <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={china} />
                     </IconButton>
-                    <Typography    ref={(el) => (animatedTextRef.current[0] = el)}className="animated-text"textAlign="center" fontFamily={"Rubik"}>
+                    <Typography
+                      ref={(el) => (animatedTextRef.current[0] = el)}
+                      className="animated-text"
+                      textAlign="center"
+                      fontFamily={"Rubik"}
+                    >
                       {languages[currentLanguage].lenguage.chinese}
                     </Typography>
                   </MenuItem>
@@ -237,12 +249,18 @@ const Navbar = () => {
                       handleCloseUserMenu();
                       setLenguage(eua);
                       handleLanguageChange("en");
+                      playSound();
                     }}
                   >
                     <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={eua} />
                     </IconButton>
-                    <Typography  ref={(el) => (animatedTextRef.current[0] = el)}className="animated-text"textAlign="center" fontFamily={"Rubik"}>
+                    <Typography
+                      ref={(el) => (animatedTextRef.current[0] = el)}
+                      className="animated-text"
+                      textAlign="center"
+                      fontFamily={"Rubik"}
+                    >
                       {languages[currentLanguage].lenguage.english}
                     </Typography>
                   </MenuItem>
@@ -251,12 +269,18 @@ const Navbar = () => {
                       handleCloseUserMenu();
                       setLenguage(mexico);
                       handleLanguageChange("es");
+                      playSound();
                     }}
                   >
                     <IconButton sx={{ padding: "0", paddingRight: "20px" }}>
                       <Avatar alt="Remy Sharp" src={mexico} />
                     </IconButton>
-                    <Typography  ref={(el) => (animatedTextRef.current[0] = el)} className="animated-text"textAlign="center" fontFamily={"Rubik"}>
+                    <Typography
+                      ref={(el) => (animatedTextRef.current[0] = el)}
+                      className="animated-text"
+                      textAlign="center"
+                      fontFamily={"Rubik"}
+                    >
                       {languages[currentLanguage].lenguage.spanish}
                     </Typography>
                   </MenuItem>
