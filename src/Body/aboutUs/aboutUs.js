@@ -47,7 +47,6 @@ const AboutUs = () => {
             variant="h3"
             gutterBottom
             fontWeight={600}
-            fontFamily={"Rubik"}
           >
             {languages[currentLanguage].aboutUs.about_the_office}
           </Typography>
@@ -56,7 +55,6 @@ const AboutUs = () => {
             variant="h5"
             gutterBottom
             fontWeight={500}
-            fontFamily={"Rubik"}
           >
       {languages[currentLanguage].aboutUs.phrase}
           </Typography>

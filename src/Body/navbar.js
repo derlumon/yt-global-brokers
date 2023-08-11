@@ -239,7 +239,6 @@ const Navbar = () => {
                       ref={(el) => (animatedTextRef.current[0] = el)}
                       className="animated-text"
                       textAlign="center"
-                      fontFamily={"Rubik"}
                     >
                       {languages[currentLanguage].lenguage.chinese}
                     </Typography>
@@ -259,7 +258,6 @@ const Navbar = () => {
                       ref={(el) => (animatedTextRef.current[0] = el)}
                       className="animated-text"
                       textAlign="center"
-                      fontFamily={"Rubik"}
                     >
                       {languages[currentLanguage].lenguage.english}
                     </Typography>
@@ -279,7 +277,6 @@ const Navbar = () => {
                       ref={(el) => (animatedTextRef.current[0] = el)}
                       className="animated-text"
                       textAlign="center"
-                      fontFamily={"Rubik"}
                     >
                       {languages[currentLanguage].lenguage.spanish}
                     </Typography>

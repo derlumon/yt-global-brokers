@@ -45,7 +45,6 @@ export default function Servicios({ buttons, title }) {
           paddingTop: "5%",
           fontWeight: 500,
         }}
-        fontFamily={"Rubik"}
       >
         {title}
       </Typography>
