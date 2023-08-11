@@ -11,7 +11,7 @@ export default function InfoDialog({ open, onClose, additionalInfo, additionalti
         <div className="info-dialog-overlay" /> {/* Overlay with background image */}
         <DialogTitle fontSize={"2rem"}>{additionaltitle}</DialogTitle>
         <DialogContent>
-          <Typography fontSize={"1.5rem"}>{additionalInfo}</Typography>
+          <Typography fontSize={"1.5rem"} textAlign={"justify"}>{additionalInfo}</Typography>
         </DialogContent>
       </Dialog>
     );

@@ -217,15 +217,15 @@ export const languages = {
     },
     AdministrativeOptions:{
       search_for_commercial:{
-        title:"Purchase, sale and rental of commercial and industrial real estate",
+        title:"Rent of commercial premises, warehouses and land",
         description:"Searching for commercial and industrial real estate can be a complex and demanding process, especially when looking for a space that meets the specific needs of a company. We understand the challenges involved in finding the right location, with the right features, dimensions and conditions for the success of your business.\n\nOur Commercial and Industrial Property Search services include the analysis of your requirements and objectives, the identification of potential options in the market, the conduct of visits and evaluations of properties, and the negotiation of lease or purchase-sale contracts."
       },
       search_for_residential:{
-        title:"Purchase for residential properties",
+        title:"Endorsements, guarantors, joint debtor and sureties",
         description:"Searching for a home can be an exciting process, but it can also be overwhelming due to the variety of options available on the market. We understand that finding the right home takes time, research, and experience in the real estate market, and we're here to make that process easier and more successful.\n\nOur Housing Real Estate Search services include the evaluation of your needs and preferences, the identification of housing options that meet your criteria, the scheduling of visits and advice on the negotiation of lease or purchase-sale contracts."
       },
       orientation_as_a_leasing:{
-        title:"Orientation as a leasing",
+        title:"Lease Solutions",
         description:"Renting a property can involve a series of challenges and important decisions. We understand that finding the right place to live or establish your business is a crucial task, and we are here to help you navigate the rental process effectively.\n\nOur Tenant Orientation services include the evaluation of your needs and preferences, the search for properties that meet your criteria, the review of lease agreements, advice on the negotiation of terms and conditions, and the resolution of any concerns or problems. that may arise during the rental process."
       },
       areas_of_interest:{
@@ -272,7 +272,7 @@ export const languages = {
     },
     introduccion:{
       title:"Quienes somos",
-      subtitle:"Despacho jurídico y correcto control organizacional",
+      subtitle:"Despacho jurídico, administrativo y contable",
       body1:" Con miras a ser la consultoría de referencia en las relaciones, y operaciones, entre México y China y sus nacionales, iniciamos nuestras operaciones en la Ciudad de México en el 2010 para brindar nuestros servicios en toda la Republica Mexicana. Elaboramos, aplicamos y supervisamos estrategias con la Hacienda Mexicana y programas de correcto control organizacional para las empresas y personas fisicas con o sin actividad comercial. Mismos que desarrollamos con la finalidad de alcanzar soluciones que satisfagan a nuestros clientes; bajo un estricto y profesional planeación con apego al Derecho Civil, Mercantil, Físcal, Laboral, Transporte Terrestre, Aereo y Maritimo, Vía; y en Fintechs",
       body2:" Nuestro objetivo siempre será: construir una relación firme y eficiente con nuestros clientes, que tenga como semiento nuestros resultados positivos y tangibles. Trabajamos de forma coordinada y en conjunto con profesionales en otras áreas del conocimiento para crear para usted una solución, a la medida de sus necesidades, u organización que requiera de uno o algunos de nuestros servicios. Para que usted pueda ver materializado nuestros resultados, pónganse en contacto con nosotros.",
     },
@@ -327,9 +327,9 @@ export const languages = {
 
     },
     hero: {
-      titleHero: "DESPACHO DE ABOGADOS EN MEXICO",
+      titleHero: "DESPACHO DE ABOGADOS Y CONTADORES EN MEXICO",
       subtitleHero:
-        "Somos un firma de abogados en México, que brinda asesoría legal al sector privado en diferentes ramas del derecho migratorio, administrativo, inmobiliario y contable.",
+        "Somos un firma  en México, que da asesoría y soluciones integrales a persomnas o negocios en la área administrativa, migratoria, contable e inmobiliaria ",
     },
     practiceArea: {
       title:"AREA DE PRACTICA",
@@ -464,15 +464,15 @@ export const languages = {
     },
     AdministrativeOptions:{
       search_for_commercial:{
-        title:"Compra venta y renta de inmuebles comerciales e industriales  ",
+        title:"Renta de locales comerciales, bodegas y terrenos",
         description:"La búsqueda de inmuebles comerciales e industriales puede ser un proceso complejo y exigente, especialmente cuando se busca un espacio que se ajuste a las necesidades específicas de una empresa. Comprendemos los desafíos que implica encontrar la ubicación adecuada, con las características, dimensiones y condiciones adecuadas para el éxito de su negocio.\n\nNuestros servicios de Búsqueda de Inmuebles Comerciales e Industriales incluyen el análisis de sus requerimientos y objetivos, la identificación de opciones potenciales en el mercado, la realización de visitas y evaluaciones de propiedades, y la negociación de contratos de arrendamiento o compra-venta."
       },
       search_for_residential:{
-        title:"Compra de inmuebles habitacionales ",
+        title:"Avales, fiadores, deudor solidario y fianzas",
         description:"La búsqueda de un inmueble habitacional puede ser un proceso emocionante, pero también puede resultar abrumador debido a la variedad de opciones disponibles en el mercado. Comprendemos que encontrar el hogar adecuado requiere tiempo, investigación y experiencia en el mercado inmobiliario, y estamos aquí para hacer que ese proceso sea más fácil y exitoso.\n\nNuestros servicios de Búsqueda de Inmuebles Habitacionales incluyen la evaluación de sus necesidades y preferencias, la identificación de opciones de vivienda que cumplan con sus criterios, la programación de visitas y la asesoría en la negociación de contratos de arrendamiento o compra-venta."
       },
       orientation_as_a_leasing:{
-        title:"Orientación como Arrendatorio ",
+        title:"Soluciones del Arrendamiento",
         description:"Alquilar una propiedad puede implicar una serie de desafíos y decisiones importantes. Comprendemos que encontrar el lugar adecuado para vivir o establecer su negocio es una tarea crucial, y estamos aquí para ayudarlo a navegar por el proceso de alquiler de manera efectiva.\n\nNuestros servicios de Orientación como Arrendatario incluyen la evaluación de sus necesidades y preferencias, la búsqueda de propiedades que cumplan con sus criterios, la revisión de contratos de arrendamiento, la asesoría en la negociación de términos y condiciones, y la resolución de cualquier inquietud o problema que pueda surgir durante el proceso de alquiler."
       },
       areas_of_interest:{
@@ -699,15 +699,15 @@ export const languages = {
     },
     AdministrativeOptions:{
       search_for_commercial:{
-        title:"商业和工业房地产的购买、销售和租赁",
+        title:"商业用房、仓库及土地的租金",
         description:"寻找商业和工业房地产可能是一个复杂而艰巨的过程，尤其是在寻找满足公司特定需求的空间时。我们了解为您的业务成功寻找具有合适功能、规模和条件的合适地点所面临的挑战。\n\n我们的商业和工业产权搜索服务包括分析您的要求和目标、识别市场上的潜在选择、进行财产参观和评估以及租赁或买卖合同的谈判。"
       },
       search_for_residential:{
-        title:"购买住宅房地产",
+        title:"背書、擔保人、連帶債務人和擔保人",
         description:"寻找房屋可能是一个令人兴奋的过程，但由于市场上有各种各样的选择，它也可能令人不知所措。我们知道，找到合适的房子需要时间、研究和房地产市场的经验，我们致力于让这个过程变得更容易、更成功。\n\n我们的住房房地产搜索服务包括评估您的需求和偏好、确定符合您标准的住房选择、安排访问以及就租赁或买卖合同谈判提供建议。"
       },
       orientation_as_a_leasing:{
-        title:"作为租户的定位",
+        title:"租赁解决方案",
         description:"租赁房产可能涉及一系列挑战和重要决定。我们知道，找到合适的居住地点或开展业务是一项至关重要的任务，我们将随时帮助您有效地完成租赁流程。\n\n我们的租户导向服务包括评估您的需求和偏好、寻找符合您标准的房产、审查租赁协议、就条款和条件谈判提供建议以及解决租客期间可能出现的任何疑虑或问题。租赁过程。"
       },
       areas_of_interest:{

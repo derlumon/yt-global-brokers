@@ -1,18 +1,17 @@
 import Start from "./Body/start";
 import {
-    PiHouseLight,
-    PiWarehouseDuotone,
     PiMedal,
     PiGearSixThin,
     PiAirplaneLandingThin,
     PiCurrencyCircleDollarThin,
 } from "react-icons/pi";
+import { LiaIndustrySolid, LiaHandshakeSolid } from "react-icons/lia";
 import Servicios from "./Body/Servicios";
 import Ubicanos from "./Body/Ubicanos";
 import Contactanos from "./Body/Contactanos";
 import Introduccion from "./Body/Introduccion";
 import ButtonBaseDemo from "./Body/Consulta";
-import Fondo1 from "./img/Hero1.webp";
+import Fondo1 from "./img/Hero2-min.webp";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
@@ -44,13 +43,13 @@ function HomeStructure() {
         additionalInfo: languages[currentLanguage].service.Taxes_and_Contributions.description ,
       },
       {
-      icon: <PiHouseLight />,
+      icon: <LiaIndustrySolid />,
         title: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
         additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_commercial.title,
         additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_commercial.description ,
       },
       {
-        icon: <PiWarehouseDuotone />,
+        icon: <LiaHandshakeSolid />,
         title: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
         additionaltitle: languages[currentLanguage].AdministrativeOptions.search_for_residential.title,
         additionalInfo: languages[currentLanguage].AdministrativeOptions.search_for_residential.description ,

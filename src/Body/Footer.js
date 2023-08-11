@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Grid, Typography, Link } from '@mui/material';
-import logo from '../img/Logo/YTBrokersLogoGrisClaro.png'
+import logo from '../img/Logo/YTBrokersLogoGrisClaro.webp'
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";

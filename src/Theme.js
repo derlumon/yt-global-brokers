@@ -30,7 +30,7 @@ export const theme = createTheme({
   },
   spacing: 4,
   typography: {
-    fontFamily: "Rubik",
+    fontFamily: "Sweet Sans Pro",
   },
   components: {
     MenuItem: {
@@ -38,7 +38,7 @@ export const theme = createTheme({
     },
     MuiListItemText: {
       defaultProps: {
-        fontFamily: "Rubik",
+        fontFamily: "Sweet Sans Pro",
         fontWeight: 600,
       },
     },
