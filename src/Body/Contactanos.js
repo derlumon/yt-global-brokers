@@ -83,7 +83,6 @@ const ContactForm = () => {
           variant="h4"
           gutterBottom
           color="white"
-          fontFamily="Rubik "
           alignContent="center"
           sx={{ padding: { md: "3rem", xs: "2rem" } }}
         >

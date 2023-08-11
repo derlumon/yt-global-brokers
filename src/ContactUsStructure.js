@@ -1,7 +1,7 @@
 import Start from "./Body/start";
 import Contactanos from "./Body/Contactanos";
 import ButtonBaseDemo from "./Body/Consulta";
-import Fondo from "./img/Hero2-min.webp";
+import Fondo from "./img/Hero1.webp";
 import Ubicanos from "./Body/Ubicanos";
 import { languages } from "./Languages/languages";
 import { useContext } from "react";

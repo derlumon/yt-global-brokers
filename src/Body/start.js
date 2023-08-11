@@ -1,6 +1,6 @@
 import React from "react";
 import "./Start.css";
-import Logo1 from "../img/Logo/YTBrokersLogoSuperiorDerechaNegro.png";
+import Logo1 from "../img/Logo/YTBrokersLogoSuperiorDerechaNegro.webp";
 import { Box, Typography, Button } from "@mui/material";
 import {
   createTheme,
@@ -35,26 +35,37 @@ const Start = (props) => {
           <img className="foreground-image" src={Logo1} alt="Image2" />
           <Box
             sx={{
+              display:"flex",
+              flexDirection:"column",
               top: "35%",
               left: { xs: "5%", md: "8%" },
               right: { xs: "5%", md: "8%" },
+              alignItems:"center"
             }}
             position="absolute"
+      
           >
             <Typography
+              width={"70%"}
               variant="h3"
               gutterBottom
               color={"white"}
               fontWeight={700}
+              textAlign={"center"}
+              fontFamily={"Sweet Sans Pro"}
+              
             >
               {props.title}
             </Typography>
             <Typography
+              width={"75%"}
               variant="h5"
               gutterBottom
               color={"white"}
               fontWeight={500}
               paddingBottom="1.5rem"
+              textAlign={"justify"}
+              fontFamily={"Sweet Sans Pro"}
             >
               {props.subtitle}
             </Typography>
@@ -65,6 +76,7 @@ const Start = (props) => {
               component={Link}
               to="/contact"
               sx={{ fontWeight: 600, borderWidth: "2.5px" }}
+              fontFamily={"Sweet Sans Pro"}
             >
               {languages[currentLanguage].navbar.contactUs}
             </Button>

@@ -6,6 +6,8 @@ import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { Link } from "react-router-dom";
+import hero from "../img/Hero13.webp";
+import hero1 from "../img/Hero14.webp";
 
 export default function ButtonBaseDemo() {
   const { currentLanguage } = useContext(LanguageContext);
@@ -17,13 +19,13 @@ export default function ButtonBaseDemo() {
       to:'/practiceArea/legalOptions'
     },
     {
-      url: 'https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_640.jpg',
+      url: hero,
       title: languages[currentLanguage].consulta.image2,
       width: '33.33%',
       to:'/practiceArea/accountingOptions'
     },
     {
-      url: 'https://www.activa.cl/wp-content/uploads/2020/11/Administracion-de-propiedades.jpg',
+      url: hero1,
       title: languages[currentLanguage].consulta.image3,
       width: '33.33%',
       to:'/practiceArea/administrativeOptions'

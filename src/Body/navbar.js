@@ -1,14 +1,14 @@
 import { Box, Button } from "@mui/material";
-import Logo1 from "../img/Logo/YTBrokersLogoGrisClaro.png";
-import Logo2 from "../img/Logo/YTBrokersLogoSinFondo.png";
+import Logo1 from "../img/Logo/YTBrokersLogoGrisClaro.webp";
+import Logo2 from "../img/Logo/YTBrokersLogoSinFondo.webp";
 import DropdownMenu from "./menu";
 import SwipeableTemporaryDrawer from "./drawer";
 import React, { useEffect, useRef, useState } from "react";
 import { AppBar, Toolbar, Typography, useScrollTrigger } from "@mui/material";
 import { ThemeProvider, createTheme, styled } from "@mui/material/styles";
-import china from "../img/language/china.png";
-import eua from "../img/language/eua.png";
-import mexico from "../img/language/mexico.png";
+import china from "../img/language/china.webp";
+import eua from "../img/language/eua.webp";
+import mexico from "../img/language/mexico.webp";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
@@ -239,7 +239,6 @@ const Navbar = () => {
                       ref={(el) => (animatedTextRef.current[0] = el)}
                       className="animated-text"
                       textAlign="center"
-                      fontFamily={"Rubik"}
                     >
                       {languages[currentLanguage].lenguage.chinese}
                     </Typography>
@@ -259,7 +258,6 @@ const Navbar = () => {
                       ref={(el) => (animatedTextRef.current[0] = el)}
                       className="animated-text"
                       textAlign="center"
-                      fontFamily={"Rubik"}
                     >
                       {languages[currentLanguage].lenguage.english}
                     </Typography>
@@ -279,7 +277,6 @@ const Navbar = () => {
                       ref={(el) => (animatedTextRef.current[0] = el)}
                       className="animated-text"
                       textAlign="center"
-                      fontFamily={"Rubik"}
                     >
                       {languages[currentLanguage].lenguage.spanish}
                     </Typography>

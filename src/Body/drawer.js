@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import List from "@mui/material/List";
@@ -14,9 +14,9 @@ import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import BookIcon from "@mui/icons-material/Book";
 import ChatIcon from "@mui/icons-material/Chat";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import china from "../img/language/china.png";
-import eua from "../img/language/eua.png";
-import mexico from "../img/language/mexico.png";
+import china from "../img/language/china.webp";
+import eua from "../img/language/eua.webp";
+import mexico from "../img/language/mexico.webp";
 import Avatar from "@mui/material/Avatar";
 import { LanguageContext } from "../Context/LanguageContext";
 import { languages } from "../Languages/languages";
@@ -51,9 +51,6 @@ export default function SwipeableTemporaryDrawer() {
   };
 
   const { currentLanguage, handleLanguageChange } = useContext(LanguageContext);
-  useEffect(() => {
-    console.log(currentLanguage);
-  }, [currentLanguage]);
 
   const playSound = () => {
     const audio = new Audio(Sound);

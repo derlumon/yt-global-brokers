@@ -53,7 +53,6 @@ export default function PracticeArea(props) {
         align="center"
         gutterBottom
         sx={{ marginBottom: "30px" }}
-        fontFamily={"Rubik"}
       >
         {props.subtitle}
       </Typography>

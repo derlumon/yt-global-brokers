@@ -21,7 +21,6 @@ export default function Introduccion() {
         variant="h3"
         align="center"
         gutterBottom
-        fontFamily={"Rubik"}
         fontWeight={500}
         sx={{
           fontSize: { xs: "35px", sm: "35px", md: "40px" },
@@ -41,21 +40,20 @@ export default function Introduccion() {
         align="center"
         gutterBottom
         sx={{ marginBottom: "30px" }}
-        fontFamily={"Rubik"}
       >
         {languages[currentLanguage].introduccion.subtitle}
       </Typography>
       <Grid container spacing={8}>
         {showBody && (
           <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
-            <Typography variant="h5" align="justify" fontFamily={"Rubik"}>
+            <Typography variant="h5" align="justify">
               {languages[currentLanguage].introduccion.body1}
             </Typography>
           </Grid>
         )}
         {showBody && (
           <Grid item xs={12} sm={6} style={{ textAlign: "center" }}>
-            <Typography variant="h5" align="justify" fontFamily={"Rubik"}>
+            <Typography variant="h5" align="justify">
               {languages[currentLanguage].introduccion.body2}
             </Typography>
           </Grid>
