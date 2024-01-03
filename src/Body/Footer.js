@@ -4,6 +4,7 @@ import logo from '../img/Logo/YTBrokersLogoGrisClaro.webp'
 import { languages } from "../Languages/languages";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import pdfUrl from "../img/pdf/Aviso.pdf";
 export default function Footer() {
   const { currentLanguage } = useContext(LanguageContext);
   const footerStyle = {
@@ -59,6 +60,9 @@ export default function Footer() {
               <Link href="#" color="inherit" sx={{ display: 'block', mb: 1 }}>
               {languages[currentLanguage].footer.practice_area}
               </Link>
+              <Link href={pdfUrl} target="_blank" rel="noopener noreferrer" sx={{ display: 'block', mb: 1 }}>
+              {languages[currentLanguage].footer.terminos}
+              </Link>
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -85,7 +89,7 @@ export default function Footer() {
         <Grid container justifyContent="center" sx={{ pt: 4 }}>
           <Typography variant="body2" color="inherit">
             © {new Date().getFullYear()}{' '}
-            <Link href="https://mdbootstrap.com/" color="inherit" sx={{ fontWeight: 'bold' }}>
+            <Link href="#" color="inherit" sx={{ fontWeight: 'bold' }}>
               Yt, GLOBAL BROKERS
             </Link>
           </Typography>

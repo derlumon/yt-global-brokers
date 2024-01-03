@@ -27,15 +27,15 @@ const ContactForm = () => {
 
     // Construct the email content
     const emailContent = `
-      Name: ${formData.name}
-      Address: ${formData.address}
+      Nombre: ${formData.name}
+      Dirección: ${formData.address}
       Email: ${formData.email}
-      Phone Number: ${formData.phoneNumber}
-      Legal Problem: ${formData.legalProblem}
+      Numero Telefónico: ${formData.phoneNumber}
+      Problema Legal: ${formData.legalProblem}
     `;
 
     // Send the email
-    window.location.href = `mailto:contacto@yt-global-brokers.com?subject=Contact Form Submission&body=${encodeURIComponent(
+    window.location.href = `mailto:contacto@yt-global-brokers.com?subject=Problema Legal&body=${encodeURIComponent(
       emailContent
     )}`;
   };

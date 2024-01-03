@@ -53,7 +53,8 @@ export const languages = {
       home:"Home",
       legal_service:"Legal Service",
       practice_area:"Practice Area",
-      contact:"CONTACT"
+      contact:"CONTACT",
+      terminos:"Privacy Notice"
     },
     legal:{
       title:"LEGAL OPTIONS",
@@ -241,58 +242,58 @@ export const languages = {
   es: {
     lenguage: {
       spanish: "ESPAÑOL",
-      english: "INGLES",
+      english: "INGLÉS",
       chinese: "CHINO",
-    },
-    navbar: {
+  },
+  navbar: {
       home: "INICIO",
       aboutUs: "SOBRE NOSOTROS",
-      practiceArea: "ÁREAS DE PRACTICA",
+      practiceArea: "ÁREAS DE PRÁCTICA",
       contactUs: "CONTÁCTANOS",
       legalResources: "RECURSOS LEGALES",
-      locate_us:"Ubicanos",
-      legal_options:"Opciónes Legales ",
-      Accounting_Options:" Opciónes Contables",
-      Real_Estate_Management_Options:"Opciónes Administracion Inmobiliaria",
-      tooltip:" La cultura de la legalidad no se reduce al resultado que dicten las cortes sino al conjunto de conductas cotidianas que permiten a las personas y a las colectividades convivir en pro de sus valores e intereses.La apertura del cliente sobre su situación particular o eventualidad, en nuestro experiencia, es la mejor forma para que nuestros consejos tengan el resultado,  lo que en nuestro prudente criterio  implicaría evitar muchos inconvenientes burocráticos u otras mermas de capitales.Es un servicio que no debería utilizarse pero es indispensable contar con él"
-    },
-    contactanos:{
-      title:"Conozca más de nuestros servicios. ¡Contáctenos ahora!",
-      subtitle:" Contáctenos",
-      name:"Nombre",
-      direction:"Dirección",
-      email:"Correo electrónico",
-      numberphone:"Número de teléfono",
-      description:"Descripción del problema legal",
-      send:"enviar"
-
-    },
-    ubicanos:{
-      locate:"Ubícanos aquí"
-    },
-    introduccion:{
-      title:"Quienes somos",
-      subtitle:"Despacho jurídico, administrativo y contable",
-      body1:" Con miras a ser la consultoría de referencia en las relaciones, y operaciones, entre México y China y sus nacionales, iniciamos nuestras operaciones en la Ciudad de México en el 2010 para brindar nuestros servicios en toda la Republica Mexicana. Elaboramos, aplicamos y supervisamos estrategias con la Hacienda Mexicana y programas de correcto control organizacional para las empresas y personas fisicas con o sin actividad comercial. Mismos que desarrollamos con la finalidad de alcanzar soluciones que satisfagan a nuestros clientes; bajo un estricto y profesional planeación con apego al Derecho Civil, Mercantil, Físcal, Laboral, Transporte Terrestre, Aereo y Maritimo, Vía; y en Fintechs",
-      body2:" Nuestro objetivo siempre será: construir una relación firme y eficiente con nuestros clientes, que tenga como semiento nuestros resultados positivos y tangibles. Trabajamos de forma coordinada y en conjunto con profesionales en otras áreas del conocimiento para crear para usted una solución, a la medida de sus necesidades, u organización que requiera de uno o algunos de nuestros servicios. Para que usted pueda ver materializado nuestros resultados, pónganse en contacto con nosotros.",
-    },
-    footer:{
-      service:"SERVICIOS",
-      legal_options:"  Opciones Administrativas ",
-      Accounting_options:"Opciones contables",
-      Administrative_options:"Opciones administrativa",
-      links:"LINKS",
-      home:"Inicio",
-      legal_service:" Servicios Legales",
-      practice_area:"Areas de practica",
-      contact:"CONTACTO"
-    },
-    legal:{
-      title:"OPCIONES LEGALES",
-      subtitle:" Considerar las implicaciones de nuestras actos y conductas es un ejercicio de primer orden, que muchas de las veces en México es tomada a la ligera. Sin embargo, este caminó lleva a que el Derecho sea visto como un sistema para resolver un problema o para mitigar, suavizar o atenuar consecuencias perjudiciales. Por otra parte, si compartimos la visión de este departamente y se enfoca al derecho como una herramienta para evitar inconvenientes permite que sea una inverción. Una inversión que es mejor tenerla al principio, ya que de su voz se asegura que la consecuencia que nuestro actuar persiga sea la que se consiga.",
-      body1:"Expertos en el Tema",
-      body2:"A lo largo de los años, adquirimos experiencia que nos permite posicionarnos en los problemas de nuestros clientes y proponer una solución efectiva. Así, para que este proceso sea lo más sencillo posible; estableceremos de la mano de nuestros clientes objetivos claros y ajustaremos las expectativas. Sí cuenta usted con  duda respecto a cómo usted podría utilizar nuestro servicio o como podríamos ayudarlos, Contáctenos. ",
-    },
+      locate_us: "Ubícanos",
+      legal_options: "Opciones Legales",
+      Accounting_Options: "Opciones Contables",
+      Real_Estate_Management_Options: "Opciones Administración Inmobiliaria",
+      tooltip: "La cultura de la legalidad no se reduce al resultado que dicten las cortes sino al conjunto de conductas cotidianas que permiten a las personas y a las colectividades convivir en pro de sus valores e intereses. La apertura del cliente sobre su situación particular o eventualidad, en nuestra experiencia, es la mejor forma para que nuestros consejos tengan el resultado, lo que en nuestro prudente criterio implicaría evitar muchos inconvenientes burocráticos u otras mermas de capitales. Es un servicio que no debería utilizarse pero es indispensable contar con él"
+  },
+  contactanos: {
+      title: "¡Contáctenos ahora y conozca más sobre nuestros servicios!",
+      subtitle: "Contáctenos",
+      name: "Nombre",
+      direction: "Dirección",
+      email: "Correo electrónico",
+      numberphone: "Número de teléfono",
+      description: "Descripción del problema legal",
+      send: "enviar"
+  },
+  ubicanos: {
+      locate: "Ubícanos aquí"
+  },
+  introduccion: {
+      title: "Quiénes somos",
+      subtitle: "Despacho jurídico, administrativo y contable",
+      body1: "Con miras a ser la consultoría de referencia en las relaciones y operaciones entre México y China y sus nacionales, iniciamos nuestras operaciones en la Ciudad de México en 2010 para brindar nuestros servicios en toda la República Mexicana. Elaboramos, aplicamos y supervisamos estrategias con la Hacienda Mexicana y programas de correcto control organizacional para las empresas y personas físicas con o sin actividad comercial. Mismos que desarrollamos con la finalidad de alcanzar soluciones que satisfagan a nuestros clientes; bajo una estricta y profesional planificación con apego al Derecho Civil, Mercantil, Fiscal, Laboral, Transporte Terrestre, Aéreo y Marítimo, y en Fintechs.",
+      body2: "Nuestro objetivo siempre será construir una relación firme y eficiente con nuestros clientes, que tenga como semiento nuestros resultados positivos y tangibles. Trabajamos de forma coordinada y en conjunto con profesionales en otras áreas del conocimiento para crear para usted una solución, a la medida de sus necesidades, u organización que requiera de uno o algunos de nuestros servicios. Para que usted pueda ver materializado nuestros resultados, pónganse en contacto con nosotros."
+  },
+  footer: {
+      service: "SERVICIOS",
+      legal_options: "Opciones Administrativas",
+      Accounting_options: "Opciones contables",
+      Administrative_options: "Opciones administrativas",
+      links: "ENLACES",
+      home: "Inicio",
+      legal_service: "Servicios Legales",
+      practice_area: "Áreas de práctica",
+      contact: "CONTACTO",
+      terminos: "Aviso de Privacidad"
+  },
+  legal: {
+      title: "OPCIONES LEGALES",
+      subtitle: "Considerar las implicaciones de nuestros actos y conductas es un ejercicio de primer orden, que muchas de las veces en México se toma a la ligera. Sin embargo, este camino lleva a que el Derecho sea visto como un sistema para resolver un problema o para mitigar, suavizar o atenuar consecuencias perjudiciales. Por otra parte, si compartimos la visión de este departamento y se enfoca el derecho como una herramienta para evitar inconvenientes, permite que sea una inversión. Una inversión que es mejor tener al principio, ya que de su voz se asegura que la consecuencia que nuestro actuar persiga sea la que se consiga.",
+      body1: "Expertos en el Tema",
+      body2: "A lo largo de los años, adquirimos experiencia que nos permite posicionarnos en los problemas de nuestros clientes y proponer una solución efectiva. Así, para que este proceso sea lo más sencillo posible, estableceremos de la mano de nuestros clientes objetivos claros y ajustaremos las expectativas. Si cuenta usted con dudas respecto a cómo podría utilizar nuestro servicio o cómo podríamos ayudarlos, Contáctenos."
+  },
     consulta:{
       image1:"Despacho Jurídico en México",
       image2:"Despacho Contable en México",
@@ -309,7 +310,7 @@ export const languages = {
     legalOptionStructure:{
       title:"Expertos en el Tema",
       subtitle:"A lo largo de los años, hemos adquirido la experiencia que necesitamos para que el producto que usted elija sea lo más sencillo posible y sin provocarle más gravámenes. Para ese efecto, establecemos objetivos  claros y posibles para así ajustaremos a las expectativas. Contáctenos si tiene usted alguna duda.",
-      serviceTitle:"Opciones Administrativas",
+      serviceTitle:"Opciones Jurídicas",
       ButtonTitle1:"Servicios Personalizados",
       ButtonTitle2:"Entabla una negociación o mediación.",
       ButtonTitle3:"Servicios en Corte y Litigación",
@@ -329,7 +330,7 @@ export const languages = {
     hero: {
       titleHero: "DESPACHO DE ABOGADOS Y CONTADORES EN MEXICO",
       subtitleHero:
-        "Somos un firma  en México, que da asesoría y soluciones integrales a persomnas o negocios en la área administrativa, migratoria, contable e inmobiliaria ",
+        "Somos un firma  en México, que da asesoría y soluciones integrales a personas o negocios en la área administrativa, migratoria, contable e inmobiliaria ",
     },
     practiceArea: {
       title:"AREA DE PRACTICA",
@@ -356,134 +357,136 @@ export const languages = {
     },
     service: {
       Advisor: {
-        title: "Consigliere",
+        title: "Asesoramiento",
         description:
-          "El asesoramiento antes de celebrar cualquier acto es un punto neurológico en el mundo de las Leyes del hombre. México es una nación democrática que se mantiene al margen de las operaciones entre los individuos, pero sí garantiza y brinda protección tan amplia como todas las conductas empresariales",
-        miniDescription:"El asesoramiento antes de celebrar cualquier acto es un punto neurológico en el mundo de las Leyes del hombre. ",
-        },
+          "El asesoramiento antes de celebrar cualquier acto es un punto neurálgico en el mundo de las leyes del hombre. México es una nación democrática que se mantiene al margen de las operaciones entre individuos, pero garantiza y brinda protección amplia a todas las conductas empresariales.",
+        miniDescription: "El asesoramiento antes de celebrar cualquier acto es un punto neurálgico en el mundo de las leyes del hombre.",
+      },
       Enter_into_negotiation_or_mediation: {
-        title: "Entabla una negociación o mediación. ",
+        title: "Entabla una negociación o mediación.",
         description:
-          "Entre las partes las diferencias y los conflictos pueden existir; y si bien, la normalidad es que cada individuo cumpla con sus deberes en la forma en que se comprometió, la posibilidad de disconformidades siempre está presente, y es un acertó, comprender que entre más extensa sea la organización o la operación, la aparición de irregularidades aparecen con mayor frecuencia. Ante este panorama la solución de conflictos a través de medios diversos a las sentencias dictadas por los órganos jurisdiccionales son una opción altamente recomendada, ya que, además de permitir solidificar una buena imagen corporativa es una opción rápida que principia de las mutuas concesiones.",
-        miniDescription:" La solución de conflictos a través de medios diversos a las sentencias dictadas por los órganos jurisdiccionales son una opción altamente recomendada, ya que, además de permitir solidificar una buena imagen corporativa..."
+          "Entre las partes pueden existir diferencias y conflictos; y aunque lo normal es que cada individuo cumpla con sus deberes según lo acordado, la posibilidad de desacuerdos siempre está presente. En este contexto, la solución de conflictos a través de medios distintos a las sentencias dictadas por los órganos jurisdiccionales es una opción recomendada, permitiendo una resolución rápida mediante concesiones mutuas.",
+        miniDescription: "La solución de conflictos a través de medios distintos a las sentencias dictadas por los órganos jurisdiccionales es una opción altamente recomendada.",
       },
       Court_and_itigation_services: {
         title: "Servicios en Corte y litigación",
-        description:"Acudir ante un Juzgador como actor o demandado representa la actividad más desafiante para los operadores jurisdiccionales; toda vez que, significa un combate entre dos o más a través de un procedimiento estricto y formal, que es seguido en forma de juicio, en el cual, el animo del cliente para resolver su problema debe ser patente y desplegarse de tal forma que se lleve de la mano al Juez en todas las etapas, y sobre todo se supervise su actuar, ya que sólo en esas condiciones, es posible que se obtenga una sentencia que favorezca a los intereses del representado; y si bien, las promesas de obtención de un resultado no son ético, lo cierto es que el criterio judicial que este departamento se ha encargado de formar permite que sí este en aptitud de advertir el resultado y hasta proponer una solución extraordinario. Es útil adelantar a usted que los resultados desfavorables toman lugar, en el mayor de los casos, cuando los clientes contratan un servicio ajeno, considerando el monto del honorario como factor principal para tomar la decisión; los cuales generalmente tienen un desempeño procesal pobre, que se aleja de la profesionalidad, y obra en contra de los intereses del que representan; ya que , la falta de preparación del juicio y de seguimiento en los juzgados son situaciones que contravienen los valores profesionales que este departamento tiene y demanda Con lo anterior se sostiene que este servicio es expertise, debido a la formación de los integrantes del departamento y a sus conexiones; ya que, enrolados en la estructura de la prestadora de servicios, encontramos jurisconsultos tanto en ámbitos del derecho entre los particulares como en contra del Estado Mexicano y otras naciones. Sin que lo anterior signifique que deberá optarse en toda situación al confrontamiento, ya que deberá atenderse a los intereses y al caso particular. ",
-        miniDescription:" este servicio es expertise, debido a la formación de los integrantes del departamento y a sus conexiones; ya que enrolados en la estructura prestadora de servicios, encontramos jurisconsultos tanto en ámbitos del derecho entre los particulares como en contra del Estado Mexicano y otras naciones. Sin que lo anterior signifique que deberá optarse en toda situación al confrontamiento, ya que deberá atenderse a los intereses y al caso particular..."  
+        description:
+          "Comparecer ante un Juzgador como actor o demandado representa la actividad más desafiante para los operadores jurisdiccionales. Significa un enfrentamiento entre dos o más partes a través de un procedimiento estricto y formal, seguido en forma de juicio. Una supervisión constante y un enfoque profesional son esenciales para obtener resultados favorables.",
+        miniDescription: "Este servicio es experto debido a la formación de los integrantes del departamento y a sus conexiones.",
       },
       Administrative_Agencies: {
         title: "Gestorías Administrativas",
         description:
-          "La nación Mexicana es soberana y cuenta con múltiples cuerpos normativo propios para su funcionamiento, así como entidades y oficinas para atender a las necesidades de la población. La extensión de las conductas individuales es proporcional a los reglamentos y disposiciones que en México se tienen para regularlas. En algunos casos, si no es que, en su mayoría, se requieren trámites ante las mismas dependencias para solicitar al Estado, en cualquiera de sus esferas, autorización o autorizaciones para el legal despliegue de la actividad comercial que tenga el cliente o bien, para la Hacienda, el simple acceso al territorio nacional, portación de armas, exportación o importación, inscripción a registros nacionales, etc. Tramites que es obligaciones de las personas realizar. En esas condiciones, sí te encuentras frente a un requerimiento de la autoridad o tramite pendiente, permítenos ayudarte con nuestro servició de gestoría y nuestras conexiones con el Estado Mexicano",
-        miniDescription:" En algunos casos, si no es que, en su mayoría, se requieren trámites ante las mismas dependencias para solicitar al Estado, en cualquiera de sus esferas , autorización o autorizaciones para el legal despliegue de la actividad comercial… sí te encuentras frente a un requerimiento de la autoridad o tramite pendiente, permítenos ayudarte con nuestro servició de gestoría y nuestras conexiones con el Estado Mexicano." 
+          "La nación Mexicana tiene cuerpos normativos propios para su funcionamiento, así como entidades y oficinas para atender a las necesidades de la población. En muchos casos, se requieren trámites ante estas dependencias para solicitar autorizaciones. Si enfrentas un requerimiento de la autoridad o un trámite pendiente, permítenos ayudarte con nuestro servicio de gestoría y nuestras conexiones con el Estado Mexicano.",
+        miniDescription: "En algunos casos, se requieren trámites ante dependencias para solicitar autorizaciones. Permítenos ayudarte con nuestro servicio de gestoría.",
       },
       Migration: {
         title: "Migración",
         description:
-          "México es un país con proyección mundial y economía creciente. La entrada a este territorio está bajo la supervisión del estado y éste cuenta con plenitud para negar la entrada a las personas que no cumplan con los criterios nacionales e internacionales. Sí es tú plan cambiar de centro principal de vida podrás contar con nuestro consejo y asesoría para que esta nación sea tú nuevo hogar y residencia.",
-        miniDescription:" Sí es tú plan cambiar de centro principal de vida podrás contar con nuestro consejo y asesoría para que esta nación sea tú nuevo hogar y residencia...."
+          "México es un país con proyección mundial y economía creciente. Si planeas cambiar de centro principal de vida, podemos ofrecerte consejo y asesoría para que esta nación sea tu nuevo hogar y residencia.",
+        miniDescription: "Si planeas cambiar de centro principal de vida, podemos ofrecerte consejo y asesoría para que esta nación sea tu nuevo hogar y residencia.",
       },
       Taxes_and_Contributions: {
         title: "Impuestos y Contribuciones",
-        description: "La Hacienda Mexicana es una institución que cuenta con todas las herramientas y recursos para hacer efectiva su ley, y aplicar sus sanciones y castigos a todos aquellos agentes comerciales que decidan no apegarse y omitir el pago de las contribuciones que les corresponde. Al margen de la Constitución de 1917 el Estado tiene como política la autodeterminación del monto del impuesto, sin que esto signifique que no cuente la Hacienda con procedimientos y facultades de comprobación de las operaciones. De las cuales si la Hacienda detecta una irregularidad , pueden derivar la aplicación de las medidas de seguridad necesarias, como el congelamiento total de las cuentas bancarias o en la peor de las situaciones, que es adentrarnos al territorio de la ilicitud, el fincamiento de la pena por la defraudación fiscal. Ante este panorama, siempre deberá contarse con consejo respecto a la planeación tributaria, ya que sólo así podrá el cliente tener plena tranquilidad con el Estado y en efecto, aportar lo que le corresponde. ",
-        miniDescription:"Permítenos entender tu actividad económica y planear a tú lado tu estrategia fiscal que te permita como cliente tener plena tranquilidad con el Estado Mexicano; y sobre todo, aporta lo que te corresponde a la Hacienda. "
+        description:
+          "La Hacienda Mexicana cuenta con las herramientas para hacer efectiva su ley y aplicar sanciones a quienes no cumplan con sus obligaciones fiscales. La planeación tributaria es esencial para tener tranquilidad con el Estado y cumplir con lo que corresponde.",
+        miniDescription: "Entendemos tu actividad económica y planeamos contigo tu estrategia fiscal para que tengas tranquilidad con el Estado Mexicano.",
       },
       Internal_Organizational_Control_Plans: {
         title: "Planes Internos de Control Organizacional",
         description:
-          "La responsabilidad Penal, Administrativa y Civil existe para las personas colectivas también conocidas como personas morales, empresas o en ingles individuals. La ciencia y dogmática jurídica a propuesto como solución para mediar las responsabilidades entre el administrador único, gerentes, accionistas y trabajadores, por ser todos estos integrantes de la empresa, los programas de cumplimiento también conocidos como compliance programs. Esta tarea no es cosa menor, sino que por el contrario, es un servicio desafiante, porque significa adentrarnos a las operaciones de los clientes para conocer la totalidad de la conducta empresarial y advertir riesgos que esta genere. Es complejo, porque necesita de otros profesionales, como contadores, administradores, matemáticos, biólogos, actuarios; para que se genere y tenga un correcto control organizacional el cual reduzca las irregularidades y antijuridicidades. En otras palabras, el compliance puede entenderse como un adelantamiento de la barrera de protección por parte de una empresa, el cual de su correcta formación, uso, mantenimiento y actualización permitiría a los jueces no fincar responsabilidades penales, que van desde  penas privativas hasta la disolución de la compañía; administrativas como lo son multas o civiles a la empresa o a sus beneficiarios y directivos. ",
-        miniDescription:"La responsabilidad Penal, Administrativa y Civil existe para las empresas. La ciencia y dogmática jurídica a propuesto como solución para mediar las responsabilidades entre el administrador único, gerentes, accionistas y trabajadores, por ser todos estos integrantes de la empresa, los programas de cumplimiento también conocidos como compliance programs..."
+          "Los programas de cumplimiento son soluciones para mediar responsabilidades en empresas. Reducen riesgos y antijuridicidades. La formación, uso y actualización correctos permiten evitar responsabilidades legales, administrativas y civiles.",
+        miniDescription: "Los programas de cumplimiento son soluciones para mediar responsabilidades en empresas.",
       },
       Your_Compliance_Officer: {
-        title: "Tú Oficial de Cumplimiento",
+        title: "Tu Oficial de Cumplimiento",
         description:
-          "La existencia del programa de cumplimiento organizacional puede utilizar de un oficial de cumplimiento, el cual, en su calidad de garante, tiene el deber de supervisar que el conjunto de disposiciones que se adopataron por la empresa se verifiquen orgánicamente. El agente si bien puede formar parte del organigrama de la organización es recomendable que este sea externo ya que así se garantiza su objetividad y compromiso con el programa. La presencia de este agente debe ser continua.   ",
-        miniDescription:"La existencia del programa de cumplimiento organizacional puede utilizar de un oficial de cumplimiento, el cual, en su calidad de garante, tiene el deber de supervisar que el conjunto de disposiciones"  
+          "Un oficial de cumplimiento supervisa que las disposiciones de un programa de cumplimiento organizacional se cumplan correctamente. Su presencia continua y objetividad garantizan el funcionamiento efectivo del programa.",
+        miniDescription: "Un oficial de cumplimiento supervisa que las disposiciones de un programa de cumplimiento organizacional se cumplan correctamente.",
       },
       Form_your_Company_in_Mexico: {
-        title: "Forma tú Empresa en México",
+        title: "Forma tu Empresa en México",
         description:
-          "Emprender y encontrar un nicho comercial no es tarea fácil, menos aún sí lo pretendes hacer en un lugar donde desconoces sus reglas. La asesoría para que formes de forma adecuada, y de acuerdo a tus posibilidades e intenciones es primordial y trascendente para operar en el Territorio Mexicano. La libre asociación es garantía pero esta deberá de hacerse de forma informada y consciente, ya que, en caso de irregularidad se pone el riesgo la integridad de los socios y la sociedad por las sanciones gubernamentales.Los regímenes son herramientas a nuestro Favor, que tiene implicaciones tanto en la Hacienda como en los deberes que la Ley Mercantil Ordena.  Sí eres extranjero y quieres una empresa en México Infórmate con Nosotros para hacerlo realidad.",
-        miniDescription:"Emprender y encontrar un nicho comercial no es tarea fácil, menos aún sí lo pretendes hacer en un lugar donde desconoces sus reglas."  
+          "Emprender en un lugar desconocido requiere asesoría adecuada para formar una empresa y cumplir con las regulaciones mexicanas. La libre asociación es garantizada, pero es importante hacerlo informado y consciente de las implicaciones legales y fiscales.",
+        miniDescription: "Emprender en un lugar desconocido requiere asesoría adecuada para formar una empresa y cumplir con las regulaciones mexicanas.",
       },
       Small_and_medium_businesses: {
-        title: "Pequeñas y Medianas Empresas ",
+        title: "Pequeñas y Medianas Empresas",
         description:
-          "¿Ya tienes una empresa en México y es escalable? Sí la respuesta al interrogante es Sí. Tal vez en tú panorama encuentras algunas dificultades para dar el siguiente paso, tal vez estas apunto de hacerlo y no encuentras la manera. Permítenos a través de nuestros vínculos con la mayoría de las entidades bancarias mexicanas darte ese empujón que necesitas. ¿Cuentas con un crédito con una entidad y quieres negociar con ella para mejorar las condiciones que tienes?Contamos con experiencia para la reconfiguración de deuda, acércate con nosotros y te asesoraremos de forma integral a tú situación. Sólo que conviene considerar que el tiempo apremia más cuando se tratan de deudas con intereses moratorios.  ",
-        miniDescription:"¿Ya tienes una empresa en México y es escalable? \n\n Sí la respuesta al interrogante es Sí. Permítenos a través de nuestros vínculos con la mayoría de las entidades bancarias mexicanas darte ese empujón que necesitas. "  
+          "Si tienes una empresa en México y es escalable, te proporcionamos el empujón necesario a través de nuestros vínculos con entidades bancarias mexicanas. Si cuentas con deudas o deseas mejorar condiciones de crédito, te ofrecemos asesoría integral para reconfiguración de deuda.",
+        miniDescription: "Si tienes una empresa en México y es escalable, te proporcionamos el empujón necesario a través de nuestros vínculos con entidades bancarias mexicanas.",
       },
       Representation: {
-        title: "Representación ",
+        title: "Representación",
         description:
-          "Las empresas son entes que necesitan materializarse en una persona para celebrar sus actos. Encuentras dificultad para realizarlo o quieres que una persona sólo haga determinada conducta, nosotros conocemos cual es la solución para ti.",
-        miniDescription:"Las empresas son entes que necesitan materializarse en una persona para celebrar sus actos, sí cuentas con alguna dificultad para lograrlo contactanos "  
+          "Las empresas necesitan representación para celebrar actos. Si encuentras dificultades o necesitas una persona para actuar en tu nombre, te ofrecemos soluciones adecuadas.",
+        miniDescription: "Las empresas necesitan representación para celebrar actos. Si encuentras dificultades, te ofrecemos soluciones adecuadas.",
       },
       Contract_drafting: {
         title: "Redacción de Contratos",
         description:
-          "La palabra contrato es tan común en nuestro lenguaje cotidiano que pocas veces solemos reparar en ella y en su significado. En términos generales, el contrato es un acuerdo de voluntades, donde una o varias personas consienten en obligarse respecto de otra a dar alguna cosa o prestar un servicio. Dicho de otro modo, es un acuerdo voluntario que genera derechos y obligaciones. Así, ponernos de acuerdo es indispensable y redactar los términos en lo que lo hicimos lo es aún más, toda vez que, sólo así estaríamos en aptitud para poder exigir que nos cumplan y nosotros satisfacer nuestros deberes. Como forma de trabajo este departamento comparte que es insostenible aceptar formatos de contratos; toda vez que cada uno debe hacerse individualmente para que represente los intereses del cliente.",
-        miniDescription:" El contrato es un acuerdo de voluntades, donde una o varias personas consienten en obligarse respecto de otra a dar alguna cosa o prestar un servicio, por lo anterior la forma en que contratamos es una actividad que debe de hacerse  de la mano de un abogado para que el acuerdo en efecto produzca las consecuencias que desean los contratantes."  
+          "El contrato es un acuerdo de voluntades que genera derechos y obligaciones. Redactar términos precisos es esencial para asegurar que las partes cumplan con sus deberes y derechos. Cada contrato debe hacerse individualmente para representar los intereses del cliente.",
+        miniDescription: "El contrato es un acuerdo de voluntades que genera derechos y obligaciones. Cada contrato debe hacerse individualmente para representar los intereses del cliente.",
       },
       Review_and_Interpretation_of_Contracts: {
         title: "Revisión e Interpretación de Contratos",
         description:
-          "Los términos y condiciones en que celebramos los contratos son fundamentales para que los contratantes tengan pleno conocimiento de cuáles son las obligaciones que asumiran y los derechos que tendrán, y así, se pueda dar satisfacción al objeto del contrato. Sin embargo, en algunas ocasiones, las actas que se firman no contienen los requisitos o elementos que la ley demanda, o en algunas otras, contiene cláusulas que contravienen los intereses del signante o bien a la misma naturaleza del contrato. Ante esta circunstancia antes de que celebres un contrato es necesario consultar con abogados, ya que de hacerlo, adquirías certeza sobre el panorama jurídico del acto que celebrarás y sus consecuencias. ",
-        miniDescription:" Es tu deseo contratar  con alguien y el contrato fue formulado por tú contraparte, considera que antes de firmar es indispensable revisar los términos del contrato para que materialmente tenga las consecuencias que pretendes."
+          "Revisar y entender los términos de un contrato antes de firmar es esencial para evitar problemas futuros. Consulta con abogados antes de comprometerte para asegurarte de que el contrato sea sólido y se ajuste a tus necesidades.",
+        miniDescription: "Revisar y entender los términos de un contrato antes de firmar es esencial para evitar problemas futuros.",
       },
     },
-    AccountingOptions:{
-      business_accounting:{
-        title:"Contabilidad Empresarial",
-        description:"La contabilidad empresarial desempeña un papel fundamental en la gestión financiera de una empresa. Comprendemos la importancia de contar con información financiera confiable y oportuna para tomar decisiones estratégicas y cumplir con los requisitos legales y fiscales. \n\n Nuestros servicios de Contabilidad Empresarial abarcan una amplia gama de áreas, incluyendo la gestión de libros contables, la elaboración de estados financieros, la presentación de informes fiscales, el análisis de costos y presupuestos, y la asesoría en temas contables y financieros."
+    AccountingOptions: {
+      business_accounting: {
+        title: "Contabilidad Empresarial",
+        description: "La contabilidad empresarial desempeña un papel fundamental en la gestión financiera de una empresa. Comprendemos la importancia de contar con información financiera confiable y oportuna para tomar decisiones estratégicas y cumplir con los requisitos legales y fiscales.\n\nNuestros servicios de Contabilidad Empresarial abarcan una amplia gama de áreas, incluyendo la gestión de libros contables, la elaboración de estados financieros, la presentación de informes fiscales, el análisis de costos y presupuestos, y la asesoría en temas contables y financieros."
       },
-      personal_Accounting:{
-        title:"Contabilidad Personal",
-        description:"La contabilidad personal es esencial para mantener un equilibrio financiero y tomar decisiones informadas sobre cómo manejar sus recursos económicos. Comprendemos la importancia de una gestión financiera sólida y estamos aquí para brindarle la orientación necesaria. \n\n Nuestros servicios de Contabilidad Personal abarcan una amplia gama de áreas, incluyendo el seguimiento y categorización de ingresos y gastos, la elaboración de presupuestos personales, el asesoramiento en estrategias de ahorro e inversión, la planificación de jubilación, la gestión de deudas y la optimización de su situación fiscal personal."
+      personal_Accounting: {
+        title: "Contabilidad Personal",
+        description: "La contabilidad personal es esencial para mantener un equilibrio financiero y tomar decisiones informadas sobre cómo manejar tus recursos económicos. Comprendemos la importancia de una gestión financiera sólida y estamos aquí para brindarte la orientación necesaria.\n\nNuestros servicios de Contabilidad Personal abarcan una amplia gama de áreas, incluyendo el seguimiento y categorización de ingresos y gastos, la elaboración de presupuestos personales, el asesoramiento en estrategias de ahorro e inversión, la planificación de jubilación, la gestión de deudas y la optimización de tu situación fiscal personal."
       },
-      billing:{
-        title:"Facturacion",
-        description:"La facturación es un componente fundamental de la gestión financiera de cualquier negocio. Comprendemos la importancia de contar con un sistema de facturación eficiente y confiable, que garantice la generación adecuada de documentos fiscales y el seguimiento preciso de los ingresos generados. \n\n Nuestros servicios de Facturación abarcan una amplia gama de áreas, incluyendo la configuración y gestión de sistemas de facturación electrónica, la elaboración y envío de facturas a clientes, el registro y seguimiento de pagos, la gestión de cuentas por cobrar y la generación de informes financieros relacionados con la facturación."
+      billing: {
+        title: "Facturación",
+        description: "La facturación es un componente fundamental de la gestión financiera de cualquier negocio. Comprendemos la importancia de contar con un sistema de facturación eficiente y confiable, que garantice la generación adecuada de documentos fiscales y el seguimiento preciso de los ingresos generados.\n\nNuestros servicios de Facturación abarcan una amplia gama de áreas, incluyendo la configuración y gestión de sistemas de facturación electrónica, la elaboración y envío de facturas a clientes, el registro y seguimiento de pagos, la gestión de cuentas por cobrar y la generación de informes financieros relacionados con la facturación."
       },
-      statement:{
-        title:"Declaracion",
-        description:"La presentación de declaraciones fiscales es un proceso complejo y crucial para cualquier entidad o individuo. Comprendemos la importancia de cumplir con las obligaciones tributarias y asegurar que se realicen de manera correcta y oportuna.\n\nNuestros servicios de Declaración abarcan una amplia gama de áreas, incluyendo la preparación y presentación de declaraciones de impuestos sobre la renta, el IVA, los impuestos locales y otros impuestos aplicables según la legislación fiscal vigente."
+      statement: {
+        title: "Declaración",
+        description: "La presentación de declaraciones fiscales es un proceso complejo y crucial para cualquier entidad o individuo. Comprendemos la importancia de cumplir con las obligaciones tributarias y asegurar que se realicen de manera correcta y oportuna.\n\nNuestros servicios de Declaración abarcan una amplia gama de áreas, incluyendo la preparación y presentación de declaraciones de impuestos sobre la renta, el IVA, los impuestos locales y otros impuestos aplicables según la legislación fiscal vigente."
       },
-      audit:{
-        title:"Auditoria",
-        description:"La auditoría es un proceso crítico para evaluar la salud financiera de una empresa y proporcionar una garantía objetiva sobre la exactitud y confiabilidad de sus estados financieros. Comprendemos la importancia de una auditoría independiente y estamos comprometidos en brindar un enfoque riguroso y basado en las mejores prácticas.\n\nNuestros servicios de Auditoría cubren una amplia gama de áreas, incluyendo la revisión de estados financieros, la evaluación de los controles internos, la detección de fraudes y errores, y la emisión de informes independientes."
+      audit: {
+        title: "Auditoría",
+        description: "La auditoría es un proceso crítico para evaluar la salud financiera de una empresa y proporcionar una garantía objetiva sobre la exactitud y confiabilidad de sus estados financieros. Comprendemos la importancia de una auditoría independiente y estamos comprometidos en brindar un enfoque riguroso y basado en las mejores prácticas.\n\nNuestros servicios de Auditoría cubren una amplia gama de áreas, incluyendo la revisión de estados financieros, la evaluación de los controles internos, la detección de fraudes y errores, y la emisión de informes independientes."
       },
-      procedures_before_the_treasury:{
-        title:"Tramites ante hacienda ",
-        description:"Los trámites ante Hacienda pueden resultar complejos y requerir un conocimiento detallado de las leyes y regulaciones fiscales. Comprendemos que cumplir con estas obligaciones es fundamental para evitar sanciones y asegurar el cumplimiento normativo.\n\nNuestros servicios de Trámites ante Hacienda incluyen la presentación de declaraciones fiscales, la obtención de certificados y autorizaciones fiscales, la gestión de pagos y devoluciones, la resolución de requerimientos o discrepancias fiscales, y la representación ante la autoridad tributaria."
+      procedures_before_the_treasury: {
+        title: "Trámites ante Hacienda",
+        description: "Los trámites ante Hacienda pueden resultar complejos y requerir un conocimiento detallado de las leyes y regulaciones fiscales. Comprendemos que cumplir con estas obligaciones es fundamental para evitar sanciones y asegurar el cumplimiento normativo.\n\nNuestros servicios de Trámites ante Hacienda incluyen la presentación de declaraciones fiscales, la obtención de certificados y autorizaciones fiscales, la gestión de pagos y devoluciones, la resolución de requerimientos o discrepancias fiscales, y la representación ante la autoridad tributaria."
       },
-      deductions_and_accreditation:{
-        title:"Deducciones y acreditamiento",
-        description:"Las deducciones y acreditamientos fiscales son mecanismos legales que permiten reducir el monto de impuestos a pagar. Comprendemos la importancia de conocer y aplicar correctamente estas opciones para optimizar su situación fiscal y cumplir con sus obligaciones tributarias de manera adecuada.\n\nNuestros servicios de Deducciones y Acreditamiento abarcan una amplia gama de áreas, incluyendo la identificación de deducciones y acreditamientos aplicables a su situación específica, el análisis de la normativa fiscal vigente, y la asesoría en cuanto a los requisitos y procedimientos para solicitar y aplicar estas ventajas fiscales."
-      },
-    },
-    AdministrativeOptions:{
-      search_for_commercial:{
-        title:"Renta de locales comerciales, bodegas y terrenos",
-        description:"La búsqueda de inmuebles comerciales e industriales puede ser un proceso complejo y exigente, especialmente cuando se busca un espacio que se ajuste a las necesidades específicas de una empresa. Comprendemos los desafíos que implica encontrar la ubicación adecuada, con las características, dimensiones y condiciones adecuadas para el éxito de su negocio.\n\nNuestros servicios de Búsqueda de Inmuebles Comerciales e Industriales incluyen el análisis de sus requerimientos y objetivos, la identificación de opciones potenciales en el mercado, la realización de visitas y evaluaciones de propiedades, y la negociación de contratos de arrendamiento o compra-venta."
-      },
-      search_for_residential:{
-        title:"Avales, fiadores, deudor solidario y fianzas",
-        description:"La búsqueda de un inmueble habitacional puede ser un proceso emocionante, pero también puede resultar abrumador debido a la variedad de opciones disponibles en el mercado. Comprendemos que encontrar el hogar adecuado requiere tiempo, investigación y experiencia en el mercado inmobiliario, y estamos aquí para hacer que ese proceso sea más fácil y exitoso.\n\nNuestros servicios de Búsqueda de Inmuebles Habitacionales incluyen la evaluación de sus necesidades y preferencias, la identificación de opciones de vivienda que cumplan con sus criterios, la programación de visitas y la asesoría en la negociación de contratos de arrendamiento o compra-venta."
-      },
-      orientation_as_a_leasing:{
-        title:"Soluciones del Arrendamiento",
-        description:"Alquilar una propiedad puede implicar una serie de desafíos y decisiones importantes. Comprendemos que encontrar el lugar adecuado para vivir o establecer su negocio es una tarea crucial, y estamos aquí para ayudarlo a navegar por el proceso de alquiler de manera efectiva.\n\nNuestros servicios de Orientación como Arrendatario incluyen la evaluación de sus necesidades y preferencias, la búsqueda de propiedades que cumplan con sus criterios, la revisión de contratos de arrendamiento, la asesoría en la negociación de términos y condiciones, y la resolución de cualquier inquietud o problema que pueda surgir durante el proceso de alquiler."
-      },
-      areas_of_interest:{
-        title:"Zonas de interés",
-        description:"Las zonas de interés pueden variar según sus objetivos y necesidades particulares. Comprendemos que encontrar la ubicación adecuada es esencial para el éxito de sus proyectos y actividades. Estamos aquí para ayudarlo a evaluar las zonas que le interesan y proporcionarle información relevante sobre ellas.\n\nNuestros servicios de Orientación en Zonas de Interés incluyen la investigación y el análisis de áreas geográficas específicas, la evaluación de la infraestructura, el acceso a servicios, la demografía, las tendencias del mercado inmobiliario y otros factores clave que puedan influir en su decisión."
-      },
-      natural_covenants:{
-        title:"Convenios naturales",
-        description:"Los convenios naturales buscan encontrar soluciones que permitan el desarrollo económico y social, al tiempo que se protege y se conserva el medio ambiente. Comprendemos la importancia de encontrar un punto de equilibrio para garantizar un futuro sostenible para las generaciones presentes y futuras.\n\nNuestros servicios de Convenios Naturales incluyen la identificación de oportunidades de colaboración entre diferentes partes interesadas, el diseño y la facilitación de procesos de negociación y la elaboración de convenios que promuevan la sostenibilidad y la conservación de los recursos naturales."
+      deductions_and_accreditation: {
+        title: "Deducciones y Acreditamiento",
+        description: "Las deducciones y acreditamientos fiscales son mecanismos legales que permiten reducir el monto de impuestos a pagar. Comprendemos la importancia de conocer y aplicar correctamente estas opciones para optimizar tu situación fiscal y cumplir con tus obligaciones tributarias de manera adecuada.\n\nNuestros servicios de Deducciones y Acreditamiento abarcan una amplia gama de áreas, incluyendo la identificación de deducciones y acreditamientos aplicables a tu situación específica, el análisis de la normativa fiscal vigente, y la asesoría en cuanto a los requisitos y procedimientos para solicitar y aplicar estas ventajas fiscales."
       },
     },
+    AdministrativeOptions: {
+      search_for_commercial: {
+        title: "Renta de Locales Comerciales, Bodegas y Terrenos",
+        description: "La búsqueda de inmuebles comerciales e industriales puede ser un proceso complejo y exigente, especialmente cuando se busca un espacio que se ajuste a las necesidades específicas de una empresa. Comprendemos los desafíos que implica encontrar la ubicación adecuada, con las características, dimensiones y condiciones adecuadas para el éxito de su negocio.\n\nNuestros servicios de Búsqueda de Inmuebles Comerciales e Industriales incluyen el análisis de sus requerimientos y objetivos, la identificación de opciones potenciales en el mercado, la realización de visitas y evaluaciones de propiedades, y la negociación de contratos de arrendamiento o compra-venta."
+      },
+      search_for_residential: {
+        title: "Avales, Fiadores, Deudor Solidario y Fianzas",
+        description: "La búsqueda de un inmueble habitacional puede ser un proceso emocionante, pero también puede resultar abrumador debido a la variedad de opciones disponibles en el mercado. Comprendemos que encontrar el hogar adecuado requiere tiempo, investigación y experiencia en el mercado inmobiliario, y estamos aquí para hacer que ese proceso sea más fácil y exitoso.\n\nNuestros servicios de Búsqueda de Inmuebles Habitacionales incluyen la evaluación de sus necesidades y preferencias, la identificación de opciones de vivienda que cumplan con sus criterios, la programación de visitas y la asesoría en la negociación de contratos de arrendamiento o compra-venta."
+      },
+      orientation_as_a_leasing: {
+        title: "Soluciones del Arrendamiento",
+        description: "Alquilar una propiedad puede implicar una serie de desafíos y decisiones importantes. Comprendemos que encontrar el lugar adecuado para vivir o establecer su negocio es una tarea crucial, y estamos aquí para ayudarlo a navegar por el proceso de alquiler de manera efectiva.\n\nNuestros servicios de Orientación como Arrendatario incluyen la evaluación de sus necesidades y preferencias, la búsqueda de propiedades que cumplan con sus criterios, la revisión de contratos de arrendamiento, la asesoría en la negociación de términos y condiciones, y la resolución de cualquier inquietud o problema que pueda surgir durante el proceso de alquiler."
+      },
+      areas_of_interest: {
+        title: "Zonas de Interés",
+        description: "Las zonas de interés pueden variar según sus objetivos y necesidades particulares. Comprendemos que encontrar la ubicación adecuada es esencial para el éxito de sus proyectos y actividades. Estamos aquí para ayudarlo a evaluar las zonas que le interesan y proporcionarle información relevante sobre ellas.\n\nNuestros servicios de Orientación en Zonas de Interés incluyen la investigación y el análisis de áreas geográficas específicas, la evaluación de la infraestructura, el acceso a servicios, la demografía, las tendencias del mercado inmobiliario y otros factores clave que puedan influir en su decisión."
+      },
+      natural_covenants: {
+        title: "Convenios Naturales",
+        description: "Los convenios naturales buscan encontrar soluciones que permitan el desarrollo económico y social, al tiempo que se protege y se conserva el medio ambiente. Comprendemos la importancia de encontrar un punto de equilibrio para garantizar un futuro sostenible para las generaciones presentes y futuras.\n\nNuestros servicios de Convenios Naturales incluyen la identificación de oportunidades de colaboración entre diferentes partes interesadas, el diseño y la facilitación de procesos de negociación y la elaboración de convenios que promuevan la sostenibilidad y la conservación de los recursos naturales."
+      },
+    }
   },
   chi: {
     lenguage: {
@@ -525,7 +528,8 @@ export const languages = {
       home:"开始",
       legal_service:" 法律服务",
       practice_area:"执业领域",
-      contact:"接触"
+      contact:"接触",
+      terminos:"隐私声明"
     },
     legal:{
       title:"法律选项",

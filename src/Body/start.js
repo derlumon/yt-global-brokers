@@ -37,7 +37,7 @@ const Start = (props) => {
             sx={{
               display:"flex",
               flexDirection:"column",
-              top: "35%",
+              top: { xs: "20%", md: "30%" },
               left: { xs: "5%", md: "8%" },
               right: { xs: "5%", md: "8%" },
               alignItems:"center"
